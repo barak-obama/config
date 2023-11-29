@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # yabai -m window --swap east  2> /dev/null || ( yabai -m window --display east  && ( yabai -m display --focus east  ; ~/.config/yabai/move_to_left   ))
 
 dir=$1
