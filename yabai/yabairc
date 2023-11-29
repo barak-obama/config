@@ -1,0 +1,80 @@
+#!/usr/bin/env sh
+
+# the scripting-addition must be loaded manually if
+# you are running yabai on macOS Big Sur. Uncomment
+# the following line to have the injection performed
+# when the config is executed during startup.
+#
+# for this to work you must configure sudo such that
+# it will be able to run the command without password
+#
+# see this wiki page for information:
+#  - https://github.com/koekeishiya/yabai/wiki/Installing-yabai-(latest-release)
+#
+sudo yabai --load-sa
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+
+
+# global settings
+yabai -m config mouse_follows_focus          off         
+yabai -m config window_origin_display        focused
+yabai -m config window_placement             second_child
+yabai -m config window_topmost               off
+yabai -m config window_shadow                on
+yabai -m config window_opacity               off
+yabai -m config window_opacity_duration      0.0
+yabai -m config active_window_opacity        1.0
+yabai -m config normal_window_opacity        1.0
+yabai -m config window_border                off
+yabai -m config window_border_width          4
+yabai -m config active_window_border_color   0xff775759
+yabai -m config normal_window_border_color   0xff555555
+yabai -m config insert_feedback_color        0xffd75f5f
+yabai -m config split_ratio                  0.50
+yabai -m config auto_balance                 on
+yabai -m config mouse_modifier               fn
+yabai -m config mouse_action1                move
+yabai -m config mouse_action2                resize
+yabai -m config mouse_drop_action            swap
+
+# general space settings
+yabai -m config layout                       bsp
+yabai -m config top_padding                  7
+yabai -m config bottom_padding               7
+yabai -m config left_padding                 7
+yabai -m config right_padding                7
+yabai -m config window_gap                   6
+
+# yabai -m signal --add event=window_destroyed action="yabai -m query --windows --window &> /dev/null || yabai -m window --focus mouse"
+# yabai -m signal --add event=application_terminated action="yabai -m query --windows --window &> /dev/null || yabai -m window --focus mouse"
+
+yabai -m rule --add app="^choose.*$" sticky=on layer=above manage=off
+
+
+
+# If no window on the current space is focused after a window is destroyed or
+# minimized, or an application is hidden, focus the window under the cursor.
+
+yabai -m signal --add event=window_destroyed    action="/Users/obama/.config/yabai/focus_last_window"
+yabai -m signal --add event=window_minimized    action="/Users/obama/.config/yabai/focus_last_window"
+yabai -m signal --add event=application_hidden  action="/Users/obama/.config/yabai/focus_last_window"
+yabai -m signal --add event=window_focused       action="/Users/obama/.config/yabai/window_changed"
+yabai -m signal --add event=space_changed       action="/Users/obama/.config/yabai/space_changed"space_created
+yabai -m signal --add event=display_changed       action="/Users/obama/.config/yabai/space_changed"
+yabai -m signal --add event=window_resized       action="/Users/obama/.config/yabai/window_focused"
+
+MAC_MINI_MAC="00:8a:76:ed:14:14"
+
+MAC_ADRESSE=$(ifconfig en0 ether | grep ether | awk '{print $2}')
+
+if [ $MAC_ADRESSE = $MAC_MINI_MAC ] ; then
+    yabai -m rule --add app="Spotify" display="2" native-fullscreen="on"
+    yabai -m rule --add app="WhatsApp" display="2" native-fullscreen="on"
+    [ $( yabai -m query --windows | jq "map(select(.app | contains(\"Spotify\") ) ) | length == 0 " ) = "true" ] && open -a "Spotify"
+fi
+
+history_file="/tmp/yabai_focus_recorder"
+echo "[]" > $history_file
+
+
+echo "yabai configuration loaded.."

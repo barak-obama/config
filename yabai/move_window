@@ -1,0 +1,84 @@
+# yabai -m window --swap east  2> /dev/null || ( yabai -m window --display east  && ( yabai -m display --focus east  ; ~/.config/yabai/move_to_left   ))
+
+dir=$1
+
+if [ $dir = "east" ] ; then
+    comaper="min_by(.x).id"
+    insert_dir="west"
+elif [ $dir = "west" ] ; then
+    comaper="max_by(.x).id"
+    insert_dir="east"
+elif [ $dir = "north" ] ; then
+    comaper="max_by(.y).id"
+    insert_dir="south"
+elif [ $dir = "west" ] ; then
+    comaper="min_by(.y).id"
+    insert_dir="east"
+fi
+
+# set -e
+is_fullscreen=$(yabai -m query --windows --window | jq ".[\"is-native-fullscreen\"]")
+
+
+if $is_fullscreen ;
+then
+    yabai -m window --toggle native-fullscreen
+    non_fullscreen_display_id=$(yabai -m query --spaces --display $dir | jq 'map(select(."is-native-fullscreen" == false))[-1].index')
+    windows_id=$(yabai -m query --windows --window | jq ".id")
+    yabai -m window --space $non_fullscreen_display_id && yabai -m window --focus $windows_id && yabai -m window --toggle native-fullscreen
+    # >&2 echo "cant move fullscreen windows"
+    exit 0
+fi
+
+yabai -m query --windows --window $dir > /dev/null 2>&1 /dev/null  && { 
+    yabai -m window --swap $dir 
+} || {
+    yabai -m query --displays --display $dir 1> /dev/null || exit 1
+
+    space=$( yabai -m query --spaces --display $(yabai -m query --displays --display $dir | jq ".index" ) | jq ".[] | select(.[\"is-visible\"])" )
+    # spcae= $(yabai -m query --spaces --display $(yabai -m query --displays --display $dir | jq ".index" ) | jq ".[] | select(.[\"is-visible\"])")
+    
+    if $(echo $space | jq ".[\"is-native-fullscreen\"]") ; then
+
+        non_fullscreen_display_id=$(yabai -m query --spaces --display $dir | jq 'map(select(."is-native-fullscreen" == false))[-1].index')
+        windows_id=$(yabai -m query --windows --window | jq ".id")
+        yabai -m window --space $non_fullscreen_display_id && yabai -m window --focus $windows_id && yabai -m window --toggle native-fullscreen
+        # >&2 echo "can't move windows into fullscreen spaces"
+        # exit 1
+    else
+        space_index=$( echo $space | jq --jsonargs ".index")
+        possible_windows=$(yabai -m query --windows --space $space_index | jq '[.[] | select(."is-visible" == true) | { id , x: .frame.x , y: .frame.y, title, app}]' )
+        echo $possible_windows
+        warp_id=$(echo $possible_windows | jq "$comaper")
+        current_id=$(yabai -m query --windows --window | jq '.id')
+        echo $current_id
+
+        if [[ $possible_windows = "[]" ]]; then
+            yabai -m window --display $dir
+        else
+
+        yabai -m window $warp_id --insert $insert_dir
+        yabai -m window $current_id --warp $warp_id
+
+        fi
+        
+        yabai -m window $current_id --focus 
+    fi
+
+    echo 3
+} 
+
+
+
+# current_space=$(yabai -m query --spaces --space | jq '.index')
+# id=$(yabai -m query --windows --space $current_space | jq '[.[] | select(."is-visible" == true) | { id , x: .frame.x , y: .frame.y, title, app}] | min_by(-.x).id' )
+# max_x=$(yabai -m query --windows --space $current_space | jq '[.[] | select(."is-visible" == true) | { id , x: .frame.x , y: .frame.y, title, app}] | sort_by(-.x)[0] | .x' )
+# current_id=$(yabai -m query --windows --window | jq '.id')
+# current_x=$(yabai -m query --windows --window $current_id | jq '.frame.x')
+
+# if [ "$max_x" != "$current_x" ]
+# then 
+
+#     yabai -m window $id --insert north
+#     yabai -m window --warp $id
+# fi

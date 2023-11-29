@@ -1,0 +1,4 @@
+cp ./audio-switcher /usr/local/bin/audio-switcher
+cp ./wowfunhappy.audio-switcher.plist ~/Library/LaunchAgents/wowfunhappy.audio-switcher.plist
+
+echo "Logout Needed"

@@ -1,0 +1,34 @@
+#! /bin/bash
+RED='\033[0;31m'
+BLUE='\033[1;34m'
+GREEN='\033[1;32m'
+NC='\033[0m'
+
+
+base_url="/Users/obama/.config/Übersicht/widgets/xkcd.widget"
+
+curret_day=$(( ($(date +%s)+7200) / 86400 ))
+
+
+last_refresh_date=$(cat "${base_url}/last_day_refreshed" )
+
+c_date=$(date)
+
+echo "Last day of refresh: ${last_refresh_date}; Current day: ${curret_day}; Run at: ${c_date}"
+
+if [ "$curret_day" -gt "$last_refresh_date" ]; then
+    echo -e "\t Need Refreshing; Checking for Internet"
+    /opt/homebrew/bin/wget -q --spider http://google.com
+
+    if [ $? -eq 0 ]; then
+        printf "\t\t ${BLUE}Refreshing\n"
+        "${base_url}/random_xkcd" 
+        echo $curret_day > "${base_url}/last_day_refreshed"
+        
+    else
+        echo -e "\t\t ${RED}No Internet"
+    fi
+
+else 
+    printf  "\t ${BLUE} No Refresh Needed${NC}\n"
+fi

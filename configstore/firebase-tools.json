@@ -1,0 +1,55 @@
+{
+	"analytics-uuid": "7749ea8a-551e-4082-b13c-231b7b1a195a",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1647872070868
+	},
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "112207262545066174858",
+		"email": "barak.oh16@gmail.com",
+		"email_verified": true,
+		"at_hash": "HVqAdm1lkXN4gwgApZTpwA",
+		"iat": 1647880839,
+		"exp": 1647884439
+	},
+	"tokens": {
+		"expires_at": 1647939383367,
+		"refresh_token": "1//09KO4xkl9x0TCCgYIARAAGAkSNwF-L9IrT14Etr_pnqaVJk8EzpeVsl1TPDTz17E6dARhM8ug0gBdr3798NcCWrKWOIz2wzL5Ag4",
+		"scopes": [],
+		"access_token": "ya29.A0ARrdaM9aSbd9PrAe24UrQuMTg89m8wAI173d-chpYYyN-LWixQ1TKfVpM2C-GKyZmLftdyZqnpJWyrCQNZrrkIHDN6wPPkR1t2lsKQbkaswyyehFxe1wjGYu3w2rYt7Cazm4mdfFiqY_iVAhSrM7eCAwzbRw16vadvo7HQ",
+		"expires_in": 3599,
+		"scope": "openid https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjcyOTE4OTQ1MGQ0OTAyODU3MDQyNTI2NmYwM2U3MzdmNDVhZjI5MzIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEyMjA3MjYyNTQ1MDY2MTc0ODU4IiwiZW1haWwiOiJiYXJhay5vaDE2QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiSnBxeDlQSXJhbHNrcV9UWnU1MFZnUSIsImlhdCI6MTY0NzkzNTc4NCwiZXhwIjoxNjQ3OTM5Mzg0fQ.PoUQbcCb7lnUUhLBbRuMoTUbrZfsZHyY2_qd6mfXeFdKUH9x6WASnyIKvhegBWH65_kPRVMGRb6vyuseWpUZ0T7OkpMdHgrb7j9eV15bRnrxTqyfbqwVzqgLMxyha5DTrZsuYY_P4Idjf0KPWJ6dLWqM05P-o7C5oTqRrj7wbw4eIidPThf3s2aZBkaaoqpcg9DzXjkuGkCBKssGLcgkfDUMgLvri7x4w7HDUWDl1iHZSpwFoN4kd0e-WSmGbzMVfBP3F-bvOAKhpclXfVBbs0yjsa6x4w3le-FYyKm2iTECZpmvEw7-0gXyflBRwABLVKC3rO1cCByg4lIG_nZirg"
+	},
+	"adminsdkconfig": {
+		"ohbarak-42e3f": {
+			"projectId": "ohbarak-42e3f",
+			"databaseURL": "https://ohbarak-42e3f.firebaseio.com",
+			"storageBucket": "ohbarak-42e3f.appspot.com",
+			"locationId": "us-central"
+		}
+	},
+	"webconfig": {
+		"ohbarak-42e3f": {
+			"projectId": "ohbarak-42e3f",
+			"appId": "1:1065694035632:web:6300d3f59f8ebf21058575",
+			"databaseURL": "https://ohbarak-42e3f.firebaseio.com",
+			"storageBucket": "ohbarak-42e3f.appspot.com",
+			"locationId": "us-central",
+			"apiKey": "AIzaSyBn30tlLjzArieS5qcrTAKtEzgu1_K6BVI",
+			"authDomain": "ohbarak-42e3f.firebaseapp.com",
+			"messagingSenderId": "1065694035632"
+		}
+	}
+}

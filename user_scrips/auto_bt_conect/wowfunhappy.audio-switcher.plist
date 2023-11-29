@@ -1,0 +1,29 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>wowfunhappy.audio-switcher</string>
+
+        <key>ProgramArguments</key>
+        <array>
+            <string>/bin/sh</string>
+            <string>-c</string>
+            <string>/usr/local/bin/audio-switcher > /tmp/audio-switcher.std.log 2> /tmp/audio-switcher.err.log</string>
+        </array>
+
+        <key>LimitLoadToSessionType</key>
+        <array>
+            <string>Aqua</string>
+        </array>
+
+        <key>ProcessType</key>
+        <string>Background</string>
+
+        <key>RunAtLoad</key>
+        <true/>
+
+        <key>KeepAlive</key>
+        <true/>
+
+    </dict>
+</plist>

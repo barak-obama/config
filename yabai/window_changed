@@ -1,0 +1,13 @@
+#! /bin/bash
+
+index=$(yabai -m query --spaces --space )
+
+
+window=$(yabai -m query --windows --window)
+display=$(yabai -m query --displays --display)
+
+[[ $window == "" ]] && window="false"
+
+
+
+echo "{\"space\": $index, \"window\": $window, \"display\": $display }" | jq | ~/.config/yabai/history_register

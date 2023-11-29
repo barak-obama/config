@@ -1,0 +1,36 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass{Article (Standard Class with Multi Coloumns Enumerate)}
+#  \DeclareCategory{Articles}
+
+Format 66
+
+Input article.layout
+
+
+Style EnumerateWithColoumns
+    Category              List
+	Margin                Static
+	LatexType             Item_Environment
+	LatexName             AutoMultiColItemize
+	NextNoIndent          1
+	ToggleIndent          Never
+	LeftMargin            MMN
+	LabelSep              xx
+	ParSkip               0.0
+	ItemSep               0.2
+	TopSep                0.7
+	BottomSep             0.7
+	ParSep                0.3
+	Align                 Block
+	AlignPossible         Block, Left
+	LabelType             Enumerate
+	LabelCounter          "enum"
+	HTMLTag               ol
+	HTMLItem              li
+	HTMLLabel             NONE
+	RefPrefix             enu
+	Argument item:1
+		LabelString   "Custom Item|s"
+		Tooltip       "A customized item string"
+	EndArgument
+End

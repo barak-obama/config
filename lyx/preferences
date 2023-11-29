@@ -1,0 +1,101 @@
+# LyX 2.3.4.2 generated this file. If you want to make your own
+# modifications you should do them from inside LyX and save.
+
+Format 24
+
+
+#
+# MISC SECTION ######################################
+#
+
+\path_prefix "$LyXDir/bin;$LyXDir/Python;$LyXDir/Python/Lib;$LyXDir/Perl/bin;$LyXDir/imagemagick;C:/Users/Barak/Desktop/Working Programs/miktex/texmfs/install/miktex/bin/x64;C:/Users/Barak/Desktop/Working Programs/LyX2/ghostscript/bin"
+\ui_file "my_ui"
+\kbmap true
+\kbmap_primary "null"
+\kbmap_secondary "hebrew"
+\serverpipe "/Applications/LyX.app/Contents/Resources/lyxpipe"
+\user_name "Barak Obama"
+\user_email ""
+\preview_scale_factor 0.9
+\converter_cache_maxage 86400
+
+#
+# SCREEN & FONTS SECTION ############################
+#
+
+\scroll_below_document true
+\paragraph_markers true
+\screen_font_roman "Arial"
+\screen_font_typewriter ".AppleSystemUIFont"
+\screen_font_sizes 5 7 8 9 10 12 14.4 17.26 20.74 24.88
+\single_instance false
+\forward_search_pdf "/Applications/Skim.app/Contents/SharedSupport/displayline $$n $$o $$t"
+
+#
+# COLOR SECTION ###################################
+#
+
+\set_color "background" "#faf0e6"
+\set_color "graphicsbg" "#faf0e6"
+\set_color "mathbg" "#faf0e6"
+
+#
+# PRINTER SECTION ###################################
+#
+
+
+#
+# TEX SECTION #######################################
+#
+
+
+#
+# FILE SECTION ######################################
+#
+
+
+#
+# PLAIN TEXT EXPORT SECTION ##############################
+#
+
+
+#
+# SPELLCHECKER SECTION ##############################
+#
+
+
+#
+# LANGUAGE SUPPORT SECTION ##########################
+#
+
+\spellcheck_continuously true
+\visual_cursor true
+
+#
+# 2nd MISC SUPPORT SECTION ##########################
+#
+
+\gui_language english
+\export_overwrite all
+
+#
+# FORMATS SECTION ##########################
+#
+
+\format "bibtex" "bib" "BibTeX" "" "preview" "auto" "" "text/x-bibtex"
+\format "pdflatex" "tex" "LaTeX (pdflatex)" "" "open -a Preview" "auto" "document,menu=export" ""
+\format "xetex" "tex" "LaTeX (XeTeX)" "" "pre" "auto" "document,menu=export" ""
+\format "pdf2" "pdf" "PDF (pdflatex)" "F" "open -a Skim" "" "document,vector,menu=export" ""
+\format "pdf4" "pdf" "PDF (XeTeX)" "X" "open -a Skim.app $$i" "" "document,vector,menu=export" ""
+
+#
+# CONVERTERS SECTION ##########################
+#
+
+\converter "xetex" "pdf4" "xelatex $$i" "latex=xelatex,hyperref-driver=xetex,-synctex=1"
+\converter "lyxpreview" "png" "python -tt $$s/scripts/lyxpreview2bitmap.py -v --png" ""
+
+#
+# COPIERS SECTION ##########################
+#
+

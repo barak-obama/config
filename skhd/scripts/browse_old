@@ -1,0 +1,50 @@
+#!/bin/zsh
+
+cd "$1"
+
+exit_code="exit"
+back_code="⏎"
+
+filter() {
+        while read -r name; do
+                if [[ -z "${@:2} " || "$name" == *"/" ]]; then
+                        echo "$name"
+                elif [[ -z "${@:1}" ]]; then
+                        echo "$name"
+                else
+                        echo "$name" | grep ${@:1}
+                fi
+        done
+}
+# pwd
+
+#folder_options=$(ls -Hp | filter ${@:2}))
+
+
+folder_options=$( ls -Hp  | filter ${@:2} ; echo "${back_code}"; echo "${exit_code}")
+
+newpath=$( echo $folder_options | choose)
+
+check_executeable() {
+	if [[ "$1" == *task ]]; then
+		return 0
+	fi
+	return 1
+}
+
+if [[ "$newpath" == "${exit_code}" ]]; then
+    exit
+elif [[ "$newpath" == "${back_code}" ]]; then
+    cd ..
+    "${HOME}"/.config/skhd/scripts/browse "$(pwd)" "${@:2}"
+elif [[ -d $newpath ]]; then
+    cd "$newpath"
+    "${HOME}"/.config/skhd/scripts/browse "$(pwd)" "${@:2}"
+elif ( check_executeable "$newpath" ); then
+    "./$newpath"
+elif [[ -f "$newpath" ]]; then
+    open "$newpath"
+else
+    echo "$newpath is not valid"
+    exit 1
+fi

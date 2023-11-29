@@ -1,0 +1,19 @@
+# arrows
+\bind "M-a Right"              "math-insert \\rightarrow"
+\bind "M-a Up"              "math-insert \\uparrow"
+\bind "M-a Left"              "math-insert \\leftarrow"
+\bind "M-a Down"              "math-insert \\downarrow"
+
+# thick arrows
+\bind "C-s S-exclam"       "math-insert \\Rightarrow"
+\bind "C-s S-numbersign"   "math-insert \\Leftarrow"
+\bind "C-s S-at"           "math-insert \\Uparrow"
+\bind "C-s S-dollar"       "math-insert \\Downarrow"
+
+\bind "M-S-Right"          "math-insert \\Rightarrow"
+\bind "M-S-Up"             "math-insert \\Uparrow"
+\bind "M-S-Left"           "math-insert \\Leftarrow"
+\bind "M-S-Down"           "math-insert \\Downarrow"
+
+# Other arrows
+\bind "C-s C-equal"        "math-insert \\Longleftrightarrow"

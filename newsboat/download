@@ -1,0 +1,11 @@
+[ ! -d "/Users/obama/Movies/youtube/" ] && mkdir "/Users/obama/Movies/youtube/"
+
+
+yt-dlp  -S res,ext:mp4:m4a --recode mp4 --newline --all-subs --no-warnings  -o  '~/Movies/youtube/%(title)s-%(id)s.%(ext)s' $1 > /Users/obama/.newsboat/presetage.txt
+path=$(yt-dlp -q  --no-warnings --get-filename  -o  '~/Movies/youtube/%(title)s-%(id)s.%(ext)s' $1)
+filename=$(basename -- "$path")
+filename="${filename%-*}"
+#echo '' > /Users/obama/.newsboat/presetage.txt
+osascript << EOF
+	display notification "$filename" with title "Finished Downloading Youtube Video" sound name "Frog"
+EOF

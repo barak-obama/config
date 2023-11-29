@@ -1,0 +1,26 @@
+#!/usr/bin/env osascript
+
+on is_running(appName)
+	tell application "System Events" to (name of processes) contains appName
+	
+end is_running
+
+set safRunning to is_running("iTerm2")
+
+
+do shell script "python3 /Users/obama/.config/newsboat/refresh_newsboat.py"
+
+
+if safRunning then
+	tell application "iTerm"
+		launch API script named "newsboat"
+	end tell
+	
+	return "Running"
+else
+	tell application "iTerm"
+		activate
+		delay 0.1
+		launch API script named "newsboat_on_startup"
+	end tell
+end if

@@ -1,0 +1,56 @@
+\batchmode
+\def\jobname{newfile1}
+%% LyX 2.3.7 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\makeatletter
+\def\input@path{{/Users/obama/Documents/}}
+\makeatother
+\documentclass[oneside,english]{amsart}
+\usepackage{amsthm}
+\usepackage{fontspec}
+\setmainfont[Mapping=tex-text]{Times New Roman}
+\setsansfont[Mapping=tex-text]{Arial}
+\setmonofont{Marion}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{mdframed}
+
+
+\newmdenv[
+  topline=false,
+  bottomline=false,
+  skipabove=\topsep,
+  skipbelow=\topsep
+]{siderules}
+
+\usepackage{bbm}
+
+\makeatother
+
+
+    \usepackage{color}
+    \definecolor{lyxfg}{rgb}{0.000000,0.000000,0.000000}
+    \definecolor{lyxbg}{rgb}{0.980392,0.941176,0.901961}
+    \pagecolor{lyxbg}
+    \usepackage{polyglossia}
+    \setdefaultlanguage[variant=american]{english}
+
+\def\lyxlock{}
+
+
+
+\usepackage[active,delayed,showlabels,lyx,tightpage]{preview}
+\makeatletter
+\g@addto@macro\preview{\begingroup\color{lyxbg}\special{ps::clippath fill}\color{lyxfg}}
+\g@addto@macro\endpreview{\endgroup}
+\makeatother
+
+
+\begin{document}
+\ begin{preview}\pagecolor{lyxbg}
+$f$
+\end{preview}
+
+
+\end{document}

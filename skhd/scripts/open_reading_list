@@ -1,0 +1,1 @@
+"${HOME}"/.config/skhd/scripts/browse "$(cat "${HOME}"/.config/skhd/scripts/reading_dir)" || "${HOME}"/.config/skhd/scripts/browse.py "$(cat "${HOME}"/.config/skhd/scripts/reading_dir)" #-f ".*\.lyx$" -f ".*\.pdf$" -f ".*\.mp4$"

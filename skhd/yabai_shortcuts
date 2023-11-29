@@ -1,0 +1,126 @@
+###
+# yabai shortcuts - start
+###
+
+# focus window
+alt - left  : ~/.config/yabai/move_focus west
+alt - right : ~/.config/yabai/move_focus east 
+alt - up    : ~/.config/yabai/move_focus north
+alt - down  : ~/.config/yabai/move_focus south
+
+# swap managed window
+shift + alt - right : ~/.config/yabai/move_window east
+shift + alt - left  : ~/.config/yabai/move_window west
+shift + alt - up    : ~/.config/yabai/move_window north
+shift + alt - down  : ~/.config/yabai/move_window south
+
+
+# focus space
+ctrl - left  : [ $(yabai -m query --spaces --space prev | jq .display) = $(yabai -m query --spaces --space | jq .display) ] && yabai -m space --focus prev
+ctrl - right : [ $(yabai -m query --spaces --space next | jq .display) = $(yabai -m query --spaces --space | jq .display) ] && yabai -m space --focus next
+
+#create space
+
+ctrl + shift - 0x18   : yabai -m space --create
+
+
+# destroy space
+ctrl + shift - backspace  : yabai -m space --destroy
+
+
+
+# move managed window
+shift + alt + cmd - left : yabai -m window --warp west
+shift + alt + cmd - right : yabai -m window --warp east
+shift + alt + cmd - up : yabai -m window --warp north
+shift + alt + cmd - down : yabai -m window --warp south
+
+# toogle full screen
+alt - f : yabai -m window --toggle zoom-fullscreen
+alt + shift - f: yabai -m window --toggle native-fullscreen
+# move managed window
+# shift + cmd - h : yabai -m window --warp east
+
+# balance size of windows
+shift + alt - 0 : yabai -m space --balance
+
+# Enable / Disable gaps in current workspace
+# alt - g : yabai -m space --toggle padding; yabai -m space --toggle gap
+
+# Resize windows
+ctrl + cmd + alt - left : yabai -m window west --resize right:-20:0 2> /dev/null || yabai -m window --resize right:-20:0
+ctrl + cmd + alt - down : yabai -m window north --resize bottom:0:20 2> /dev/null || yabai -m window --resize bottom:0:20
+ctrl + cmd + alt - up : yabai -m window south --resize top:0:-20 2> /dev/null || yabai -m window --resize top:0:-20
+ctrl + cmd + alt - right : yabai -m window east --resize left:20:0 2> /dev/null || yabai -m window --resize left:20:0
+
+
+
+# Rotate windows clockwise and anticlockwise
+alt - r         : yabai -m space --rotate 270
+shift + alt - r : yabai -m space --rotate 90
+
+# make floating window fill screen
+shift + alt - p     : yabai -m window --grid 1:1:0:0:1:1
+
+# Rotate on X and Y Axis
+shift + alt - x : yabai -m space --mirror x-axis
+shift + alt - y : yabai -m space --mirror y-axis
+
+# Set insertion point for focused container
+alt + cmd - left : yabai -m window --insert west
+alt + cmd - down : yabai -m window --insert south
+alt + cmd - up : yabai -m window --insert north
+alt + cmd - right : yabai -m window --insert east
+
+
+shift + lctrl + alt - r : "${HOME}"/.config/skhd/scripts/yabai_restart ##FIX
+
+
+#optional shortcuts
+
+# make floating window fill left-half of screen
+# shift + alt - left   : yabai -m window --grid 1:2:0:0:1:1
+
+# create desktop, move window and follow focus - uses jq for parsing json (brew install jq)
+# shift + cmd - n : yabai -m space --create && \
+#                    index="$(yabai -m query --spaces --display | jq 'map(select(."is-native-fullscreen" == false))[-1].index')" && \
+#                    yabai -m window --space "${index}" && \
+#                    yabai -m space --focus "${index}"
+
+# fast focus desktop
+# cmd + alt - x : yabai -m space --focus recent
+# cmd + alt - 1 : yabai -m space --focus 1
+
+
+# focus monitor
+ctrl + alt - right  : yabai -m display --focus east
+ctrl + alt - left  : yabai -m display --focus west
+
+# move floating window
+# shift + ctrl - a : yabai -m window --move rel:-20:0
+# shift + ctrl - s : yabai -m window --move rel:0:20
+
+
+# set insertion point in focused container
+# ctrl + alt - h : yabai -m window --insert west
+
+# toggle window zoom
+# alt - d : yabai -m window --toggle zoom-parent
+# alt - f : yabai -m window --toggle zoom-fullscreen
+
+# toggle window split type
+# alt - e : yabai -m window --toggle split
+
+# float / unfloat window and center on screen
+# alt - t : yabai -m window --toggle float;\
+#           yabai -m window --grid 4:4:1:1:2:2
+
+# toggle sticky(+float), topmost, picture-in-picture
+# alt - p : yabai -m window --toggle sticky;\
+#           yabai -m window --toggle topmost;\
+#           yabai -m window --toggle pip
+
+
+###
+# yabai shortcuts - end
+###

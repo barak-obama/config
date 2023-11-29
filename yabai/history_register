@@ -1,0 +1,16 @@
+#! /bin/bash
+
+tmp_file="/tmp/yabai_focus_recorder"
+tmp2_file="/tmp/yabai_focus_recorder_tmp"
+input=`cat /dev/stdin`
+
+touch $tmp_file
+
+cat $tmp_file | jq  >> /dev/null 2>&1 || echo "[]" > $tmp_file
+
+cat $tmp_file
+
+cp $tmp_file $tmp2_file
+# jq ". += [$input]" $tmp2_file | jq ".[-10:]" > $tmp_file
+jq ". += [$input]" $tmp2_file > $tmp_file
+rm $tmp2_file

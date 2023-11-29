@@ -1,0 +1,1 @@
+/private/var/folders/6d/b2sl7lys2qzfz09q7h8rh93w0000gn/T/lyx_tmpdir.AsiuROqGjpEC/lyx_tmpbuf1/lyxpreviewesDNXp.tex --dpi 97 --fg 000000 --bg faf0e6 --latex=xelatex --bibtex=bibtex

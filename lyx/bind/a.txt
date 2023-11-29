@@ -1,0 +1,4241 @@
+['./latinkeys.bind', './backup/latinkeys.bind', './de/menus.bind']
+Duplicate bind found: nobreakspace
+    File: ./aqua.bind (Line 34)
+    File: ./emacs.bind (Line 234)
+    File: ./cua.bind (Line 231)
+    File: ./xemacs.bind (Line 231)
+    File: ./mac.bind (Line 355)
+    File: ./backup/mac.bind (Line 353)
+
+Duplicate bind found: C-~S-slash
+    File: ./aqua.bind (Line 35)
+    File: ./emacs.bind (Line 72)
+    File: ./cua.bind (Line 101)
+    File: ./xemacs.bind (Line 76)
+    File: ./mac.bind (Line 358)
+    File: ./backup/mac.bind (Line 356)
+
+Duplicate bind found: C-~S-at
+    File: ./emacs.bind (Line 30)
+    File: ./xemacs.bind (Line 32)
+
+Duplicate bind found: C-a
+    File: ./emacs.bind (Line 31)
+    File: ./sciword.bind (Line 116)
+    File: ./cua.bind (Line 91)
+    File: ./xemacs.bind (Line 33)
+    File: ./mac.bind (Line 128)
+    File: ./backup/math_sequences.bind (Line 49)
+    File: ./backup/mac.bind (Line 125)
+
+Duplicate bind found: C-b
+    File: ./emacs.bind (Line 32)
+    File: ./cua.bind (Line 63)
+    File: ./xemacs.bind (Line 34)
+    File: ./mac.bind (Line 131)
+    File: ./backup/math_sequences.bind (Line 50)
+    File: ./backup/mac.bind (Line 128)
+
+Duplicate bind found: C-d
+    File: ./emacs.bind (Line 34)
+    File: ./sciword.bind (Line 23)
+    File: ./cua.bind (Line 46)
+    File: ./xemacs.bind (Line 36)
+    File: ./mac.bind (Line 139)
+    File: ./backup/mac.bind (Line 136)
+
+Duplicate bind found: C-e
+    File: ./emacs.bind (Line 35)
+    File: ./cua.bind (Line 64)
+    File: ./xemacs.bind (Line 37)
+    File: ./mac.bind (Line 143)
+    File: ./backup/math_symboles.bind (Line 166)
+    File: ./backup/mac.bind (Line 140)
+
+Duplicate bind found: C-f
+    File: ./emacs.bind (Line 36)
+    File: ./sciword.bind (Line 27)
+    File: ./cua.bind (Line 75)
+    File: ./xemacs.bind (Line 38)
+    File: ./mac.bind (Line 145)
+    File: ./backup/mac.bind (Line 142)
+
+Duplicate bind found: C-g
+    File: ./emacs.bind (Line 37)
+    File: ./xemacs.bind (Line 39)
+    File: ./mac.bind (Line 149)
+    File: ./backup/mac.bind (Line 146)
+
+Duplicate bind found: C-h
+    File: ./emacs.bind (Line 40)
+    File: ./sciword.bind (Line 197)
+    File: ./xemacs.bind (Line 42)
+    File: ./backup/math_sequences.bind (Line 38)
+
+Duplicate bind found: C-i
+    File: ./emacs.bind (Line 41)
+    File: ./sciword.bind (Line 77)
+    File: ./cua.bind (Line 77)
+    File: ./xemacs.bind (Line 43)
+    File: ./mac.bind (Line 155)
+    File: ./backup/mac.bind (Line 152)
+
+Duplicate bind found: C-j
+    File: ./emacs.bind (Line 42)
+    File: ./sciword.bind (Line 82)
+
+Duplicate bind found: C-k
+    File: ./emacs.bind (Line 43)
+    File: ./sciword.bind (Line 81)
+    File: ./cua.bind (Line 229)
+    File: ./xemacs.bind (Line 45)
+    File: ./mac.bind (Line 159)
+    File: ./backup/mac.bind (Line 155)
+
+Duplicate bind found: C-l
+    File: ./emacs.bind (Line 44)
+    File: ./sciword.bind (Line 200)
+    File: ./cua.bind (Line 102)
+    File: ./xemacs.bind (Line 46)
+    File: ./mac.bind (Line 268)
+    File: ./backup/math_sequences.bind (Line 37)
+    File: ./backup/mac.bind (Line 267)
+
+Duplicate bind found: C-m
+    File: ./emacs.bind (Line 45)
+    File: ./sciword.bind (Line 86)
+    File: ./cua.bind (Line 71)
+    File: ./xemacs.bind (Line 47)
+    File: ./mac.bind (Line 162)
+    File: ./backup/mac.bind (Line 158)
+
+Duplicate bind found: C-n
+    File: ./emacs.bind (Line 46)
+    File: ./sciword.bind (Line 88)
+    File: ./sciword.bind (Line 112)
+    File: ./cua.bind (Line 39)
+    File: ./xemacs.bind (Line 48)
+    File: ./mac.bind (Line 166)
+    File: ./backup/math_sequences.bind (Line 56)
+    File: ./backup/math_sequences.bind (Line 184)
+    File: ./backup/mac.bind (Line 165)
+
+Duplicate bind found: C-o
+    File: ./emacs.bind (Line 47)
+    File: ./sciword.bind (Line 91)
+    File: ./cua.bind (Line 41)
+    File: ./xemacs.bind (Line 49)
+    File: ./mac.bind (Line 169)
+    File: ./backup/mac.bind (Line 168)
+
+Duplicate bind found: C-p
+    File: ./emacs.bind (Line 48)
+    File: ./xemacs.bind (Line 50)
+
+Duplicate bind found: C-q
+    File: ./emacs.bind (Line 51)
+    File: ./sciword.bind (Line 95)
+    File: ./cua.bind (Line 56)
+    File: ./xemacs.bind (Line 53)
+    File: ./mac.bind (Line 173)
+    File: ./backup/mac.bind (Line 172)
+
+Duplicate bind found: C-s
+    File: ./emacs.bind (Line 53)
+    File: ./cua.bind (Line 43)
+    File: ./xemacs.bind (Line 55)
+    File: ./mac.bind (Line 176)
+    File: ./backup/mac.bind (Line 175)
+
+Duplicate bind found: C-S-s
+    File: ./emacs.bind (Line 54)
+    File: ./xemacs.bind (Line 56)
+    File: ./backup/math_sequences.bind (Line 177)
+
+Duplicate bind found: M-~S-percent
+    File: ./emacs.bind (Line 55)
+    File: ./xemacs.bind (Line 57)
+
+Duplicate bind found: C-t
+    File: ./emacs.bind (Line 57)
+    File: ./sciword.bind (Line 105)
+    File: ./cua.bind (Line 47)
+    File: ./mac.bind (Line 180)
+    File: ./backup/mac.bind (Line 179)
+
+Duplicate bind found: C-u
+    File: ./emacs.bind (Line 60)
+    File: ./sciword.bind (Line 107)
+    File: ./cua.bind (Line 67)
+    File: ./xemacs.bind (Line 63)
+    File: ./mac.bind (Line 184)
+    File: ./backup/mac.bind (Line 183)
+
+Duplicate bind found: C-v
+    File: ./emacs.bind (Line 63)
+    File: ./sciword.bind (Line 108)
+    File: ./cua.bind (Line 82)
+    File: ./xemacs.bind (Line 66)
+    File: ./mac.bind (Line 186)
+    File: ./backup/mac.bind (Line 185)
+
+Duplicate bind found: C-w
+    File: ./emacs.bind (Line 65)
+    File: ./sciword.bind (Line 111)
+    File: ./cua.bind (Line 42)
+    File: ./xemacs.bind (Line 69)
+    File: ./mac.bind (Line 193)
+    File: ./backup/mac.bind (Line 192)
+
+Duplicate bind found: C-y
+    File: ./emacs.bind (Line 67)
+    File: ./cua.bind (Line 87)
+    File: ./xemacs.bind (Line 71)
+
+Duplicate bind found: C-~S-underscore
+    File: ./emacs.bind (Line 73)
+    File: ./xemacs.bind (Line 77)
+
+Duplicate bind found: ~S-M-quotedbl
+    File: ./emacs.bind (Line 75)
+    File: ./cua.bind (Line 94)
+    File: ./xemacs.bind (Line 79)
+    File: ./mac.bind (Line 262)
+    File: ./backup/mac.bind (Line 261)
+
+Duplicate bind found: ~S-C-quotedbl
+    File: ./emacs.bind (Line 76)
+    File: ./cua.bind (Line 95)
+    File: ./xemacs.bind (Line 80)
+    File: ./mac.bind (Line 263)
+    File: ./backup/mac.bind (Line 262)
+
+Duplicate bind found: C-x a
+    File: ./emacs.bind (Line 78)
+    File: ./xemacs.bind (Line 82)
+
+Duplicate bind found: C-x d
+    File: ./emacs.bind (Line 80)
+    File: ./xemacs.bind (Line 85)
+
+Duplicate bind found: C-x g
+    File: ./emacs.bind (Line 81)
+    File: ./xemacs.bind (Line 86)
+
+Duplicate bind found: C-x k
+    File: ./emacs.bind (Line 82)
+    File: ./xemacs.bind (Line 87)
+
+Duplicate bind found: C-x p
+    File: ./emacs.bind (Line 83)
+    File: ./xemacs.bind (Line 88)
+
+Duplicate bind found: C-x r
+    File: ./emacs.bind (Line 84)
+    File: ./xemacs.bind (Line 89)
+
+Duplicate bind found: C-x t
+    File: ./emacs.bind (Line 87)
+    File: ./xemacs.bind (Line 92)
+
+Duplicate bind found: C-x u
+    File: ./emacs.bind (Line 88)
+    File: ./xemacs.bind (Line 93)
+
+Duplicate bind found: C-x v h
+    File: ./emacs.bind (Line 89)
+    File: ./xemacs.bind (Line 94)
+
+Duplicate bind found: C-x v v
+    File: ./emacs.bind (Line 90)
+    File: ./xemacs.bind (Line 95)
+
+Duplicate bind found: C-x v u
+    File: ./emacs.bind (Line 91)
+    File: ./xemacs.bind (Line 96)
+
+Duplicate bind found: C-x v c
+    File: ./emacs.bind (Line 92)
+    File: ./xemacs.bind (Line 97)
+
+Duplicate bind found: C-x v i
+    File: ./emacs.bind (Line 93)
+    File: ./xemacs.bind (Line 98)
+
+Duplicate bind found: C-x bracketleft
+    File: ./emacs.bind (Line 94)
+    File: ./xemacs.bind (Line 100)
+
+Duplicate bind found: C-x bracketright
+    File: ./emacs.bind (Line 95)
+    File: ./xemacs.bind (Line 101)
+
+Duplicate bind found: C-x C-a
+    File: ./emacs.bind (Line 96)
+    File: ./xemacs.bind (Line 102)
+
+Duplicate bind found: C-x C-b
+    File: ./emacs.bind (Line 97)
+    File: ./xemacs.bind (Line 103)
+
+Duplicate bind found: C-x C-c
+    File: ./emacs.bind (Line 98)
+    File: ./xemacs.bind (Line 104)
+
+Duplicate bind found: C-x C-d
+    File: ./emacs.bind (Line 99)
+    File: ./xemacs.bind (Line 105)
+
+Duplicate bind found: C-x C-f
+    File: ./emacs.bind (Line 100)
+    File: ./xemacs.bind (Line 106)
+
+Duplicate bind found: C-x C-g
+    File: ./emacs.bind (Line 101)
+    File: ./xemacs.bind (Line 107)
+
+Duplicate bind found: C-x C-p
+    File: ./emacs.bind (Line 102)
+    File: ./xemacs.bind (Line 109)
+
+Duplicate bind found: C-x C-q
+    File: ./emacs.bind (Line 103)
+    File: ./xemacs.bind (Line 110)
+
+Duplicate bind found: C-x C-s
+    File: ./emacs.bind (Line 105)
+    File: ./xemacs.bind (Line 112)
+
+Duplicate bind found: C-x C-t
+    File: ./emacs.bind (Line 106)
+    File: ./xemacs.bind (Line 113)
+
+Duplicate bind found: C-Next
+    File: ./emacs.bind (Line 107)
+    File: ./cua.bind (Line 57)
+    File: ./xemacs.bind (Line 116)
+
+Duplicate bind found: C-Prior
+    File: ./emacs.bind (Line 108)
+    File: ./cua.bind (Line 59)
+    File: ./xemacs.bind (Line 117)
+
+Duplicate bind found: S-F7
+    File: ./emacs.bind (Line 109)
+    File: ./cua.bind (Line 119)
+    File: ./cua.bind (Line 215)
+    File: ./mac.bind (Line 280)
+    File: ./backup/mac.bind (Line 279)
+
+Duplicate bind found: S-F8
+    File: ./emacs.bind (Line 110)
+    File: ./cua.bind (Line 216)
+
+Duplicate bind found: C-x C-w
+    File: ./emacs.bind (Line 120)
+    File: ./xemacs.bind (Line 115)
+
+Duplicate bind found: M-x
+    File: ./emacs.bind (Line 145)
+    File: ./sciword.bind (Line 262)
+    File: ./math.bind (Line 39)
+    File: ./cua.bind (Line 121)
+    File: ./xemacs.bind (Line 142)
+    File: ./mac.bind (Line 200)
+    File: ./backup/mac.bind (Line 199)
+
+Duplicate bind found: C-M-o
+    File: ./emacs.bind (Line 146)
+    File: ./cua.bind (Line 122)
+    File: ./mac.bind (Line 282)
+    File: ./backup/mac.bind (Line 281)
+
+Duplicate bind found: M-equal
+    File: ./emacs.bind (Line 148)
+    File: ./sciword.bind (Line 217)
+    File: ./math.bind (Line 117)
+    File: ./cua.bind (Line 127)
+    File: ./backup/math_symboles.bind (Line 170)
+
+Duplicate bind found: M-plus
+    File: ./emacs.bind (Line 149)
+    File: ./cua.bind (Line 128)
+
+Duplicate bind found: M-minus
+    File: ./emacs.bind (Line 150)
+    File: ./sciword.bind (Line 218)
+    File: ./math.bind (Line 181)
+    File: ./cua.bind (Line 129)
+    File: ./backup/math_symboles.bind (Line 171)
+
+Duplicate bind found: M-Up
+    File: ./emacs.bind (Line 156)
+    File: ./sciword.bind (Line 235)
+    File: ./cua.bind (Line 135)
+    File: ./xemacs.bind (Line 149)
+
+Duplicate bind found: M-Down
+    File: ./emacs.bind (Line 157)
+    File: ./sciword.bind (Line 236)
+    File: ./cua.bind (Line 136)
+    File: ./xemacs.bind (Line 150)
+
+Duplicate bind found: M-Right
+    File: ./emacs.bind (Line 158)
+    File: ./sciword.bind (Line 237)
+    File: ./cua.bind (Line 137)
+    File: ./xemacs.bind (Line 151)
+
+Duplicate bind found: M-Left
+    File: ./emacs.bind (Line 159)
+    File: ./sciword.bind (Line 238)
+    File: ./cua.bind (Line 138)
+    File: ./xemacs.bind (Line 152)
+
+Duplicate bind found: C-Right
+    File: ./emacs.bind (Line 160)
+    File: ./cua.bind (Line 139)
+    File: ./xemacs.bind (Line 153)
+    File: ./mac.bind (Line 210)
+    File: ./backup/math_sequences.bind (Line 47)
+    File: ./backup/mac.bind (Line 209)
+
+Duplicate bind found: C-Left
+    File: ./emacs.bind (Line 161)
+    File: ./cua.bind (Line 140)
+    File: ./xemacs.bind (Line 154)
+    File: ./mac.bind (Line 212)
+    File: ./backup/math_sequences.bind (Line 46)
+    File: ./backup/mac.bind (Line 211)
+
+Duplicate bind found: C-Up
+    File: ./emacs.bind (Line 162)
+    File: ./sciword.bind (Line 196)
+    File: ./cua.bind (Line 141)
+    File: ./xemacs.bind (Line 155)
+    File: ./mac.bind (Line 217)
+    File: ./backup/math_sequences.bind (Line 39)
+    File: ./backup/mac.bind (Line 216)
+
+Duplicate bind found: C-Down
+    File: ./emacs.bind (Line 163)
+    File: ./sciword.bind (Line 199)
+    File: ./cua.bind (Line 142)
+    File: ./xemacs.bind (Line 156)
+    File: ./mac.bind (Line 214)
+    File: ./backup/math_sequences.bind (Line 40)
+    File: ./backup/mac.bind (Line 213)
+
+Duplicate bind found: Home
+    File: ./emacs.bind (Line 164)
+    File: ./site.bind (Line 35)
+    File: ./xemacs.bind (Line 159)
+
+Duplicate bind found: End
+    File: ./emacs.bind (Line 165)
+    File: ./site.bind (Line 36)
+    File: ./xemacs.bind (Line 160)
+
+Duplicate bind found: M-~S-less
+    File: ./emacs.bind (Line 166)
+    File: ./xemacs.bind (Line 163)
+
+Duplicate bind found: M-~S-greater
+    File: ./emacs.bind (Line 167)
+    File: ./xemacs.bind (Line 164)
+
+Duplicate bind found: C-~S-greater
+    File: ./emacs.bind (Line 169)
+    File: ./cua.bind (Line 148)
+    File: ./xemacs.bind (Line 172)
+    File: ./mac.bind (Line 288)
+    File: ./backup/mac.bind (Line 287)
+
+Duplicate bind found: C-~S-less
+    File: ./emacs.bind (Line 170)
+    File: ./cua.bind (Line 149)
+    File: ./xemacs.bind (Line 173)
+    File: ./mac.bind (Line 289)
+
+Duplicate bind found: C-~S-1
+    File: ./emacs.bind (Line 171)
+    File: ./cua.bind (Line 200)
+    File: ./xemacs.bind (Line 174)
+    File: ./mac.bind (Line 326)
+
+Duplicate bind found: C-~S-2
+    File: ./emacs.bind (Line 172)
+    File: ./cua.bind (Line 201)
+    File: ./xemacs.bind (Line 175)
+    File: ./mac.bind (Line 327)
+
+Duplicate bind found: C-~S-3
+    File: ./emacs.bind (Line 173)
+    File: ./cua.bind (Line 202)
+    File: ./xemacs.bind (Line 176)
+    File: ./mac.bind (Line 328)
+
+Duplicate bind found: C-~S-4
+    File: ./emacs.bind (Line 174)
+    File: ./cua.bind (Line 203)
+    File: ./xemacs.bind (Line 177)
+    File: ./mac.bind (Line 329)
+
+Duplicate bind found: C-~S-5
+    File: ./emacs.bind (Line 175)
+    File: ./cua.bind (Line 204)
+    File: ./xemacs.bind (Line 178)
+    File: ./mac.bind (Line 330)
+
+Duplicate bind found: C-~S-6
+    File: ./emacs.bind (Line 176)
+    File: ./cua.bind (Line 205)
+    File: ./xemacs.bind (Line 179)
+    File: ./mac.bind (Line 331)
+
+Duplicate bind found: C-~S-7
+    File: ./emacs.bind (Line 177)
+    File: ./cua.bind (Line 206)
+    File: ./xemacs.bind (Line 180)
+    File: ./mac.bind (Line 332)
+
+Duplicate bind found: C-~S-8
+    File: ./emacs.bind (Line 178)
+    File: ./cua.bind (Line 207)
+    File: ./xemacs.bind (Line 181)
+    File: ./mac.bind (Line 333)
+
+Duplicate bind found: C-~S-9
+    File: ./emacs.bind (Line 179)
+    File: ./cua.bind (Line 208)
+    File: ./xemacs.bind (Line 182)
+    File: ./mac.bind (Line 334)
+
+Duplicate bind found: C-M-~S-1
+    File: ./emacs.bind (Line 180)
+    File: ./xemacs.bind (Line 183)
+    File: ./mac.bind (Line 335)
+
+Duplicate bind found: C-M-~S-2
+    File: ./emacs.bind (Line 181)
+    File: ./xemacs.bind (Line 184)
+    File: ./mac.bind (Line 336)
+
+Duplicate bind found: C-M-~S-3
+    File: ./emacs.bind (Line 182)
+    File: ./xemacs.bind (Line 185)
+    File: ./mac.bind (Line 337)
+
+Duplicate bind found: C-M-~S-4
+    File: ./emacs.bind (Line 183)
+    File: ./xemacs.bind (Line 186)
+    File: ./mac.bind (Line 338)
+
+Duplicate bind found: C-M-~S-5
+    File: ./emacs.bind (Line 184)
+    File: ./xemacs.bind (Line 187)
+    File: ./mac.bind (Line 339)
+
+Duplicate bind found: C-M-~S-6
+    File: ./emacs.bind (Line 185)
+    File: ./xemacs.bind (Line 188)
+    File: ./mac.bind (Line 340)
+
+Duplicate bind found: C-M-~S-7
+    File: ./emacs.bind (Line 186)
+    File: ./xemacs.bind (Line 189)
+    File: ./mac.bind (Line 341)
+
+Duplicate bind found: C-M-~S-8
+    File: ./emacs.bind (Line 187)
+    File: ./xemacs.bind (Line 190)
+    File: ./mac.bind (Line 342)
+
+Duplicate bind found: C-M-~S-9
+    File: ./emacs.bind (Line 188)
+    File: ./xemacs.bind (Line 191)
+    File: ./mac.bind (Line 343)
+
+Duplicate bind found: S-Right
+    File: ./emacs.bind (Line 201)
+    File: ./cua.bind (Line 155)
+    File: ./xemacs.bind (Line 199)
+    File: ./mac.bind (Line 224)
+    File: ./backup/mac.bind (Line 223)
+
+Duplicate bind found: S-Left
+    File: ./emacs.bind (Line 202)
+    File: ./cua.bind (Line 156)
+    File: ./xemacs.bind (Line 200)
+    File: ./mac.bind (Line 226)
+    File: ./backup/mac.bind (Line 225)
+
+Duplicate bind found: S-C-F
+    File: ./emacs.bind (Line 203)
+    File: ./xemacs.bind (Line 201)
+
+Duplicate bind found: S-C-B
+    File: ./emacs.bind (Line 204)
+    File: ./xemacs.bind (Line 202)
+
+Duplicate bind found: S-Up
+    File: ./emacs.bind (Line 205)
+    File: ./cua.bind (Line 157)
+    File: ./xemacs.bind (Line 203)
+    File: ./mac.bind (Line 232)
+    File: ./backup/mac.bind (Line 231)
+
+Duplicate bind found: S-Down
+    File: ./emacs.bind (Line 206)
+    File: ./cua.bind (Line 158)
+    File: ./xemacs.bind (Line 204)
+    File: ./mac.bind (Line 234)
+    File: ./backup/mac.bind (Line 233)
+
+Duplicate bind found: S-C-Right
+    File: ./emacs.bind (Line 207)
+    File: ./cua.bind (Line 159)
+    File: ./xemacs.bind (Line 205)
+    File: ./mac.bind (Line 220)
+    File: ./backup/mac.bind (Line 219)
+
+Duplicate bind found: S-C-Left
+    File: ./emacs.bind (Line 208)
+    File: ./cua.bind (Line 160)
+    File: ./xemacs.bind (Line 206)
+    File: ./mac.bind (Line 222)
+    File: ./backup/mac.bind (Line 221)
+
+Duplicate bind found: S-C-A
+    File: ./emacs.bind (Line 209)
+    File: ./xemacs.bind (Line 211)
+
+Duplicate bind found: S-C-E
+    File: ./emacs.bind (Line 210)
+    File: ./xemacs.bind (Line 212)
+
+Duplicate bind found: S-C-Up
+    File: ./emacs.bind (Line 211)
+    File: ./cua.bind (Line 161)
+    File: ./xemacs.bind (Line 207)
+    File: ./mac.bind (Line 228)
+    File: ./backup/mac.bind (Line 227)
+
+Duplicate bind found: S-C-Down
+    File: ./emacs.bind (Line 212)
+    File: ./cua.bind (Line 162)
+    File: ./xemacs.bind (Line 208)
+    File: ./mac.bind (Line 230)
+    File: ./backup/mac.bind (Line 229)
+
+Duplicate bind found: S-Home
+    File: ./emacs.bind (Line 213)
+    File: ./cua.bind (Line 163)
+    File: ./xemacs.bind (Line 209)
+
+Duplicate bind found: S-End
+    File: ./emacs.bind (Line 214)
+    File: ./cua.bind (Line 164)
+    File: ./xemacs.bind (Line 210)
+
+Duplicate bind found: S-Prior
+    File: ./emacs.bind (Line 215)
+    File: ./cua.bind (Line 165)
+    File: ./xemacs.bind (Line 213)
+    File: ./mac.bind (Line 295)
+    File: ./backup/mac.bind (Line 293)
+
+Duplicate bind found: S-Next
+    File: ./emacs.bind (Line 216)
+    File: ./cua.bind (Line 166)
+    File: ./xemacs.bind (Line 214)
+    File: ./mac.bind (Line 296)
+    File: ./backup/mac.bind (Line 294)
+
+Duplicate bind found: S-C-Home
+    File: ./emacs.bind (Line 217)
+    File: ./cua.bind (Line 167)
+    File: ./xemacs.bind (Line 215)
+
+Duplicate bind found: S-C-End
+    File: ./emacs.bind (Line 218)
+    File: ./cua.bind (Line 168)
+    File: ./xemacs.bind (Line 216)
+
+Duplicate bind found: C-Delete
+    File: ./emacs.bind (Line 224)
+    File: ./cua.bind (Line 224)
+    File: ./xemacs.bind (Line 223)
+
+Duplicate bind found: M-d
+    File: ./emacs.bind (Line 225)
+    File: ./math.bind (Line 45)
+    File: ./xemacs.bind (Line 224)
+    File: ./mac.bind (Line 56)
+    File: ./backup/mac.bind (Line 56)
+
+Duplicate bind found: C-BackSpace
+    File: ./emacs.bind (Line 226)
+    File: ./cua.bind (Line 225)
+    File: ./xemacs.bind (Line 225)
+
+Duplicate bind found: M-Return
+    File: ./emacs.bind (Line 227)
+    File: ./cua.bind (Line 226)
+    File: ./xemacs.bind (Line 226)
+    File: ./mac.bind (Line 351)
+    File: ./backup/mac.bind (Line 349)
+
+Duplicate bind found: C-Return
+    File: ./emacs.bind (Line 228)
+    File: ./sciword.bind (Line 268)
+    File: ./cua.bind (Line 227)
+    File: ./xemacs.bind (Line 227)
+    File: ./mac.bind (Line 352)
+    File: ./backup/mac.bind (Line 350)
+
+Duplicate bind found: C-S-Return
+    File: ./emacs.bind (Line 229)
+    File: ./sciword.bind (Line 269)
+    File: ./cua.bind (Line 228)
+    File: ./xemacs.bind (Line 228)
+    File: ./mac.bind (Line 353)
+    File: ./backup/mac.bind (Line 351)
+
+Duplicate bind found: M-S-Right
+    File: ./emacs.bind (Line 230)
+    File: ./cua.bind (Line 98)
+    File: ./backup/math_arrows.bind (Line 13)
+
+Duplicate bind found: M-S-Left
+    File: ./emacs.bind (Line 231)
+    File: ./cua.bind (Line 99)
+    File: ./backup/math_arrows.bind (Line 15)
+
+Duplicate bind found: C-S-L
+    File: ./emacs.bind (Line 232)
+    File: ./cua.bind (Line 100)
+    File: ./xemacs.bind (Line 229)
+    File: ./mac.bind (Line 267)
+    File: ./backup/math_sequences.bind (Line 42)
+    File: ./backup/mac.bind (Line 266)
+
+Duplicate bind found: C-space
+    File: ./emacs.bind (Line 233)
+    File: ./sciword.bind (Line 267)
+    File: ./cua.bind (Line 230)
+    File: ./xemacs.bind (Line 230)
+
+Duplicate bind found: C-M-space
+    File: ./emacs.bind (Line 235)
+    File: ./cua.bind (Line 232)
+    File: ./xemacs.bind (Line 232)
+
+Duplicate bind found: S-C-space
+    File: ./emacs.bind (Line 236)
+    File: ./cua.bind (Line 233)
+    File: ./xemacs.bind (Line 233)
+
+Duplicate bind found: M-~S-slash
+    File: ./emacs.bind (Line 237)
+    File: ./xemacs.bind (Line 234)
+
+Duplicate bind found: C-period
+    File: ./emacs.bind (Line 238)
+    File: ./sciword.bind (Line 157)
+    File: ./cua.bind (Line 234)
+    File: ./xemacs.bind (Line 235)
+    File: ./mac.bind (Line 359)
+    File: ./backup/math_symboles.bind (Line 23)
+    File: ./backup/math_symboles.bind (Line 43)
+    File: ./backup/mac.bind (Line 357)
+
+Duplicate bind found: M-period
+    File: ./emacs.bind (Line 239)
+    File: ./cua.bind (Line 235)
+    File: ./xemacs.bind (Line 236)
+    File: ./mac.bind (Line 360)
+    File: ./backup/math_symboles.bind (Line 15)
+    File: ./backup/mac.bind (Line 358)
+
+Duplicate bind found: M-w
+    File: ./emacs.bind (Line 240)
+    File: ./xemacs.bind (Line 237)
+
+Duplicate bind found: Escape
+    File: ./emacs.bind (Line 241)
+    File: ./math.bind (Line 119)
+    File: ./cua.bind (Line 236)
+    File: ./xemacs.bind (Line 238)
+    File: ./mac.bind (Line 361)
+    File: ./backup/mac.bind (Line 359)
+
+Duplicate bind found: M-u
+    File: ./emacs.bind (Line 242)
+    File: ./math.bind (Line 42)
+    File: ./xemacs.bind (Line 239)
+
+Duplicate bind found: M-l
+    File: ./emacs.bind (Line 243)
+    File: ./math.bind (Line 50)
+    File: ./xemacs.bind (Line 240)
+    File: ./mac.bind (Line 66)
+    File: ./backup/mac.bind (Line 66)
+
+Duplicate bind found: S-KP_Right
+    File: ./emacs.bind (Line 248)
+    File: ./sciword.bind (Line 239)
+    File: ./cua.bind (Line 176)
+    File: ./xemacs.bind (Line 245)
+    File: ./mac.bind (Line 302)
+    File: ./backup/mac.bind (Line 300)
+
+Duplicate bind found: S-KP_Left
+    File: ./emacs.bind (Line 249)
+    File: ./sciword.bind (Line 240)
+    File: ./cua.bind (Line 177)
+    File: ./xemacs.bind (Line 246)
+    File: ./mac.bind (Line 303)
+    File: ./backup/mac.bind (Line 301)
+
+Duplicate bind found: S-KP_Up
+    File: ./emacs.bind (Line 250)
+    File: ./sciword.bind (Line 241)
+    File: ./cua.bind (Line 178)
+    File: ./xemacs.bind (Line 247)
+    File: ./mac.bind (Line 304)
+    File: ./backup/mac.bind (Line 302)
+
+Duplicate bind found: S-KP_Down
+    File: ./emacs.bind (Line 251)
+    File: ./sciword.bind (Line 242)
+    File: ./cua.bind (Line 179)
+    File: ./xemacs.bind (Line 248)
+    File: ./mac.bind (Line 305)
+    File: ./backup/mac.bind (Line 303)
+
+Duplicate bind found: S-C-KP_Right
+    File: ./emacs.bind (Line 252)
+    File: ./sciword.bind (Line 243)
+    File: ./cua.bind (Line 180)
+    File: ./xemacs.bind (Line 249)
+
+Duplicate bind found: S-C-KP_Left
+    File: ./emacs.bind (Line 253)
+    File: ./sciword.bind (Line 244)
+    File: ./cua.bind (Line 181)
+    File: ./xemacs.bind (Line 250)
+
+Duplicate bind found: S-C-KP_Up
+    File: ./emacs.bind (Line 254)
+    File: ./sciword.bind (Line 247)
+    File: ./cua.bind (Line 182)
+    File: ./xemacs.bind (Line 251)
+
+Duplicate bind found: S-C-KP_Down
+    File: ./emacs.bind (Line 255)
+    File: ./sciword.bind (Line 248)
+    File: ./cua.bind (Line 183)
+    File: ./xemacs.bind (Line 252)
+
+Duplicate bind found: S-KP_Home
+    File: ./emacs.bind (Line 256)
+    File: ./sciword.bind (Line 249)
+    File: ./cua.bind (Line 184)
+    File: ./xemacs.bind (Line 253)
+    File: ./mac.bind (Line 310)
+    File: ./backup/mac.bind (Line 308)
+
+Duplicate bind found: S-KP_End
+    File: ./emacs.bind (Line 257)
+    File: ./sciword.bind (Line 250)
+    File: ./cua.bind (Line 185)
+    File: ./xemacs.bind (Line 254)
+    File: ./mac.bind (Line 311)
+    File: ./backup/mac.bind (Line 309)
+
+Duplicate bind found: S-KP_Prior
+    File: ./emacs.bind (Line 258)
+    File: ./sciword.bind (Line 251)
+    File: ./cua.bind (Line 186)
+    File: ./xemacs.bind (Line 255)
+    File: ./mac.bind (Line 312)
+    File: ./backup/mac.bind (Line 310)
+
+Duplicate bind found: S-KP_Next
+    File: ./emacs.bind (Line 259)
+    File: ./sciword.bind (Line 252)
+    File: ./cua.bind (Line 187)
+    File: ./xemacs.bind (Line 256)
+    File: ./mac.bind (Line 313)
+    File: ./backup/mac.bind (Line 311)
+
+Duplicate bind found: S-C-KP_Home
+    File: ./emacs.bind (Line 260)
+    File: ./sciword.bind (Line 253)
+    File: ./cua.bind (Line 188)
+    File: ./xemacs.bind (Line 257)
+    File: ./mac.bind (Line 314)
+    File: ./backup/mac.bind (Line 312)
+
+Duplicate bind found: S-C-KP_End
+    File: ./emacs.bind (Line 261)
+    File: ./sciword.bind (Line 254)
+    File: ./cua.bind (Line 189)
+    File: ./xemacs.bind (Line 258)
+    File: ./mac.bind (Line 315)
+    File: ./backup/mac.bind (Line 313)
+
+Duplicate bind found: S-C-KP_Prior
+    File: ./emacs.bind (Line 262)
+    File: ./sciword.bind (Line 255)
+    File: ./cua.bind (Line 190)
+    File: ./xemacs.bind (Line 259)
+    File: ./mac.bind (Line 316)
+    File: ./backup/mac.bind (Line 314)
+
+Duplicate bind found: S-C-KP_Next
+    File: ./emacs.bind (Line 263)
+    File: ./sciword.bind (Line 256)
+    File: ./cua.bind (Line 191)
+    File: ./xemacs.bind (Line 260)
+    File: ./mac.bind (Line 317)
+    File: ./backup/mac.bind (Line 315)
+
+Duplicate bind found: M-h
+    File: ./emacs.bind (Line 265)
+    File: ./math.bind (Line 183)
+    File: ./mac.bind (Line 62)
+    File: ./backup/mac.bind (Line 62)
+
+Duplicate bind found: C-KP_Insert
+    File: ./emacs.bind (Line 266)
+    File: ./sciword.bind (Line 257)
+    File: ./cua.bind (Line 192)
+    File: ./xemacs.bind (Line 261)
+    File: ./mac.bind (Line 318)
+    File: ./backup/mac.bind (Line 316)
+
+Duplicate bind found: S-KP_Insert
+    File: ./emacs.bind (Line 267)
+    File: ./sciword.bind (Line 258)
+    File: ./cua.bind (Line 193)
+    File: ./xemacs.bind (Line 262)
+    File: ./mac.bind (Line 319)
+    File: ./backup/mac.bind (Line 317)
+
+Duplicate bind found: S-KP_Delete
+    File: ./emacs.bind (Line 268)
+    File: ./sciword.bind (Line 259)
+    File: ./cua.bind (Line 194)
+    File: ./xemacs.bind (Line 263)
+    File: ./mac.bind (Line 320)
+    File: ./backup/mac.bind (Line 318)
+
+Duplicate bind found: M-c Down
+    File: ./emacs.bind (Line 280)
+    File: ./menus.bind (Line 156)
+    File: ./xemacs.bind (Line 363)
+    File: ./backup/menus.bind (Line 154)
+
+Duplicate bind found: M-c Up
+    File: ./emacs.bind (Line 281)
+    File: ./menus.bind (Line 157)
+    File: ./xemacs.bind (Line 364)
+    File: ./backup/menus.bind (Line 155)
+
+Duplicate bind found: M-c Right
+    File: ./emacs.bind (Line 282)
+    File: ./menus.bind (Line 158)
+    File: ./xemacs.bind (Line 365)
+    File: ./backup/menus.bind (Line 156)
+
+Duplicate bind found: C-c
+    File: ./sciword.bind (Line 18)
+    File: ./cua.bind (Line 80)
+    File: ./mac.bind (Line 133)
+    File: ./backup/mac.bind (Line 130)
+
+Duplicate bind found: C-S-I
+    File: ./sciword.bind (Line 83)
+    File: ./cua.bind (Line 103)
+    File: ./mac.bind (Line 269)
+    File: ./backup/mac.bind (Line 268)
+
+Duplicate bind found: S-C-N
+    File: ./sciword.bind (Line 89)
+    File: ./backup/math_sequences.bind (Line 57)
+
+Duplicate bind found: C-r
+    File: ./sciword.bind (Line 98)
+    File: ./cua.bind (Line 45)
+    File: ./mac.bind (Line 174)
+    File: ./backup/mac.bind (Line 173)
+
+Duplicate bind found: C-S-v
+    File: ./sciword.bind (Line 109)
+    File: ./cua.bind (Line 83)
+    File: ./mac.bind (Line 187)
+    File: ./backup/mac.bind (Line 186)
+
+Duplicate bind found: C-M-v
+    File: ./sciword.bind (Line 110)
+    File: ./cua.bind (Line 84)
+    File: ./mac.bind (Line 191)
+    File: ./backup/mac.bind (Line 190)
+
+Duplicate bind found: C-x
+    File: ./sciword.bind (Line 113)
+    File: ./cua.bind (Line 81)
+    File: ./mac.bind (Line 199)
+    File: ./backup/mac.bind (Line 198)
+
+Duplicate bind found: C-z
+    File: ./sciword.bind (Line 114)
+    File: ./cua.bind (Line 86)
+    File: ./mac.bind (Line 202)
+    File: ./backup/mac.bind (Line 201)
+
+Duplicate bind found: C-M-a
+    File: ./sciword.bind (Line 117)
+    File: ./cua.bind (Line 90)
+    File: ./mac.bind (Line 127)
+    File: ./backup/mac.bind (Line 124)
+
+Duplicate bind found: C-0
+    File: ./sciword.bind (Line 131)
+    File: ./math.bind (Line 188)
+    File: ./mac.bind (Line 104)
+
+Duplicate bind found: C-bracketleft
+    File: ./sciword.bind (Line 135)
+    File: ./math.bind (Line 189)
+    File: ./backup/math_delim.bind (Line 4)
+
+Duplicate bind found: C-S-bar
+    File: ./sciword.bind (Line 142)
+    File: ./backup/math_sequences.bind (Line 195)
+    File: ./backup/math_delim.bind (Line 6)
+
+Duplicate bind found: C-comma
+    File: ./sciword.bind (Line 158)
+    File: ./mac.bind (Line 117)
+    File: ./backup/mac.bind (Line 114)
+
+Duplicate bind found: S-C-colon
+    File: ./sciword.bind (Line 159)
+    File: ./backup/math_symboles.bind (Line 24)
+
+Duplicate bind found: C-quoteleft
+    File: ./sciword.bind (Line 160)
+    File: ./backup/math_symboles.bind (Line 25)
+
+Duplicate bind found: S-C-asciitilde
+    File: ./sciword.bind (Line 161)
+    File: ./backup/math_symboles.bind (Line 26)
+    File: ./backup/math_symboles.bind (Line 33)
+
+Duplicate bind found: S-C-quotedbl
+    File: ./sciword.bind (Line 162)
+    File: ./backup/math_symboles.bind (Line 27)
+
+Duplicate bind found: C-apostrophe
+    File: ./sciword.bind (Line 163)
+    File: ./backup/math_symboles.bind (Line 28)
+
+Duplicate bind found: S-C-asciicircum
+    File: ./sciword.bind (Line 164)
+    File: ./backup/math_symboles.bind (Line 29)
+
+Duplicate bind found: C-minus
+    File: ./sciword.bind (Line 168)
+    File: ./sciword.bind (Line 219)
+    File: ./cua.bind (Line 96)
+    File: ./mac.bind (Line 105)
+    File: ./backup/mac.bind (Line 104)
+
+Duplicate bind found: F2
+    File: ./sciword.bind (Line 176)
+    File: ./cua.bind (Line 107)
+    File: ./mac.bind (Line 273)
+    File: ./backup/mac.bind (Line 272)
+
+Duplicate bind found: S-F2
+    File: ./sciword.bind (Line 177)
+    File: ./cua.bind (Line 210)
+
+Duplicate bind found: F3
+    File: ./sciword.bind (Line 178)
+    File: ./cua.bind (Line 108)
+
+Duplicate bind found: C-F4
+    File: ./sciword.bind (Line 180)
+    File: ./cua.bind (Line 109)
+    File: ./mac.bind (Line 274)
+    File: ./backup/mac.bind (Line 273)
+
+Duplicate bind found: M-F4
+    File: ./sciword.bind (Line 181)
+    File: ./cua.bind (Line 110)
+
+Duplicate bind found: F5
+    File: ./sciword.bind (Line 184)
+    File: ./cua.bind (Line 111)
+    File: ./mac.bind (Line 67)
+    File: ./backup/mac.bind (Line 67)
+
+Duplicate bind found: F7
+    File: ./sciword.bind (Line 186)
+    File: ./cua.bind (Line 118)
+    File: ./mac.bind (Line 279)
+    File: ./backup/mac.bind (Line 278)
+
+Duplicate bind found: M-apostrophe
+    File: ./sciword.bind (Line 195)
+    File: ./backup/math_sequences.bind (Line 185)
+    File: ./backup/math_symboles.bind (Line 172)
+
+Duplicate bind found: C-s apostrophe
+    File: ./sciword.bind (Line 214)
+    File: ./backup/math_symboles.bind (Line 159)
+
+Duplicate bind found: C-s equal
+    File: ./sciword.bind (Line 216)
+    File: ./backup/math_symboles.bind (Line 169)
+
+Duplicate bind found: S-M-less
+    File: ./sciword.bind (Line 222)
+    File: ./backup/math_symboles.bind (Line 12)
+
+Duplicate bind found: S-M-greater
+    File: ./sciword.bind (Line 223)
+    File: ./backup/math_symboles.bind (Line 13)
+
+Duplicate bind found: M-z s
+    File: ./hollywood.bind (Line 15)
+    File: ./broadway.bind (Line 15)
+    File: ./de/menus.bind (Line 151)
+
+Duplicate bind found: M-z n
+    File: ./hollywood.bind (Line 16)
+    File: ./broadway.bind (Line 16)
+
+Duplicate bind found: M-z i
+    File: ./hollywood.bind (Line 18)
+    File: ./de/menus.bind (Line 147)
+
+Duplicate bind found: M-z d
+    File: ./hollywood.bind (Line 19)
+    File: ./broadway.bind (Line 20)
+
+Duplicate bind found: M-z p
+    File: ./hollywood.bind (Line 20)
+    File: ./broadway.bind (Line 21)
+
+Duplicate bind found: M-z t
+    File: ./hollywood.bind (Line 23)
+    File: ./de/menus.bind (Line 152)
+
+Duplicate bind found: M-z S-A
+    File: ./hollywood.bind (Line 24)
+    File: ./broadway.bind (Line 24)
+
+Duplicate bind found: M-z S-T
+    File: ./hollywood.bind (Line 25)
+    File: ./broadway.bind (Line 25)
+
+Duplicate bind found: M-z r
+    File: ./hollywood.bind (Line 26)
+    File: ./broadway.bind (Line 26)
+    File: ./de/menus.bind (Line 150)
+
+Duplicate bind found: Tab
+    File: ./site.bind (Line 30)
+    File: ./xemacs.bind (Line 170)
+
+Duplicate bind found: C-Tab
+    File: ./site.bind (Line 31)
+    File: ./cua.bind (Line 58)
+
+Duplicate bind found: Prior
+    File: ./site.bind (Line 38)
+    File: ./xemacs.bind (Line 166)
+
+Duplicate bind found: Next
+    File: ./site.bind (Line 39)
+    File: ./xemacs.bind (Line 167)
+
+Duplicate bind found: Delete
+    File: ./site.bind (Line 41)
+    File: ./mac.bind (Line 86)
+    File: ./backup/mac.bind (Line 86)
+
+Duplicate bind found: M-f
+    File: ./math.bind (Line 37)
+    File: ./mac.bind (Line 60)
+
+Duplicate bind found: M-e
+    File: ./math.bind (Line 40)
+    File: ./mac.bind (Line 58)
+    File: ./backup/mac.bind (Line 58)
+
+Duplicate bind found: M-m
+    File: ./math.bind (Line 44)
+    File: ./backup/mac.bind (Line 160)
+
+Duplicate bind found: M-S-plus
+    File: ./math.bind (Line 116)
+    File: ./backup/math_symboles.bind (Line 42)
+
+Duplicate bind found: C-S-asterisk
+    File: ./math.bind (Line 126)
+    File: ./backup/math.bind (Line 80)
+
+Duplicate bind found: M-g a
+    File: ./math.bind (Line 132)
+    File: ./backup/greekkeys.bind (Line 3)
+
+Duplicate bind found: M-g b
+    File: ./math.bind (Line 133)
+    File: ./backup/greekkeys.bind (Line 4)
+
+Duplicate bind found: M-g c
+    File: ./math.bind (Line 134)
+    File: ./backup/greekkeys.bind (Line 5)
+
+Duplicate bind found: M-g d
+    File: ./math.bind (Line 135)
+    File: ./backup/greekkeys.bind (Line 6)
+
+Duplicate bind found: M-g e
+    File: ./math.bind (Line 136)
+    File: ./backup/greekkeys.bind (Line 7)
+
+Duplicate bind found: M-g f
+    File: ./math.bind (Line 137)
+    File: ./backup/greekkeys.bind (Line 8)
+
+Duplicate bind found: M-g g
+    File: ./math.bind (Line 138)
+    File: ./backup/greekkeys.bind (Line 9)
+
+Duplicate bind found: M-g h
+    File: ./math.bind (Line 139)
+    File: ./backup/greekkeys.bind (Line 10)
+
+Duplicate bind found: M-g i
+    File: ./math.bind (Line 140)
+    File: ./backup/greekkeys.bind (Line 11)
+
+Duplicate bind found: M-g j
+    File: ./math.bind (Line 141)
+    File: ./backup/greekkeys.bind (Line 12)
+
+Duplicate bind found: M-g k
+    File: ./math.bind (Line 142)
+    File: ./backup/greekkeys.bind (Line 13)
+
+Duplicate bind found: M-g l
+    File: ./math.bind (Line 143)
+    File: ./backup/greekkeys.bind (Line 14)
+
+Duplicate bind found: M-g m
+    File: ./math.bind (Line 144)
+    File: ./backup/greekkeys.bind (Line 15)
+
+Duplicate bind found: M-g n
+    File: ./math.bind (Line 145)
+    File: ./backup/greekkeys.bind (Line 16)
+
+Duplicate bind found: M-g o
+    File: ./math.bind (Line 146)
+    File: ./backup/greekkeys.bind (Line 17)
+
+Duplicate bind found: M-g p
+    File: ./math.bind (Line 147)
+    File: ./backup/greekkeys.bind (Line 18)
+
+Duplicate bind found: M-g q
+    File: ./math.bind (Line 148)
+    File: ./backup/greekkeys.bind (Line 19)
+
+Duplicate bind found: M-g r
+    File: ./math.bind (Line 149)
+    File: ./backup/greekkeys.bind (Line 20)
+
+Duplicate bind found: M-g s
+    File: ./math.bind (Line 150)
+    File: ./backup/greekkeys.bind (Line 21)
+
+Duplicate bind found: M-g t
+    File: ./math.bind (Line 151)
+    File: ./backup/greekkeys.bind (Line 22)
+
+Duplicate bind found: M-g u
+    File: ./math.bind (Line 152)
+    File: ./backup/greekkeys.bind (Line 23)
+
+Duplicate bind found: M-g v
+    File: ./math.bind (Line 153)
+    File: ./backup/greekkeys.bind (Line 24)
+
+Duplicate bind found: M-g w
+    File: ./math.bind (Line 154)
+    File: ./backup/greekkeys.bind (Line 25)
+
+Duplicate bind found: M-g x
+    File: ./math.bind (Line 155)
+    File: ./backup/greekkeys.bind (Line 26)
+
+Duplicate bind found: M-g y
+    File: ./math.bind (Line 156)
+    File: ./backup/greekkeys.bind (Line 27)
+
+Duplicate bind found: M-g z
+    File: ./math.bind (Line 157)
+    File: ./backup/greekkeys.bind (Line 28)
+
+Duplicate bind found: M-g S-D
+    File: ./math.bind (Line 159)
+    File: ./backup/greekkeys.bind (Line 31)
+
+Duplicate bind found: M-g S-E
+    File: ./math.bind (Line 160)
+    File: ./backup/greekkeys.bind (Line 32)
+
+Duplicate bind found: M-g S-F
+    File: ./math.bind (Line 161)
+    File: ./backup/greekkeys.bind (Line 33)
+
+Duplicate bind found: M-g S-G
+    File: ./math.bind (Line 162)
+    File: ./backup/greekkeys.bind (Line 34)
+
+Duplicate bind found: M-g S-I
+    File: ./math.bind (Line 163)
+    File: ./backup/greekkeys.bind (Line 35)
+
+Duplicate bind found: M-g S-J
+    File: ./math.bind (Line 164)
+    File: ./backup/greekkeys.bind (Line 36)
+
+Duplicate bind found: M-g S-L
+    File: ./math.bind (Line 165)
+    File: ./backup/greekkeys.bind (Line 37)
+
+Duplicate bind found: M-g S-O
+    File: ./math.bind (Line 166)
+    File: ./backup/greekkeys.bind (Line 38)
+
+Duplicate bind found: M-g S-P
+    File: ./math.bind (Line 167)
+    File: ./backup/greekkeys.bind (Line 39)
+
+Duplicate bind found: M-g S-Q
+    File: ./math.bind (Line 168)
+    File: ./backup/greekkeys.bind (Line 40)
+
+Duplicate bind found: M-g S-R
+    File: ./math.bind (Line 169)
+    File: ./backup/greekkeys.bind (Line 41)
+
+Duplicate bind found: M-g S-S
+    File: ./math.bind (Line 170)
+    File: ./backup/greekkeys.bind (Line 42)
+
+Duplicate bind found: M-g S-T
+    File: ./math.bind (Line 171)
+    File: ./backup/greekkeys.bind (Line 43)
+
+Duplicate bind found: M-g S-U
+    File: ./math.bind (Line 172)
+    File: ./backup/greekkeys.bind (Line 44)
+
+Duplicate bind found: M-g S-V
+    File: ./math.bind (Line 173)
+    File: ./backup/greekkeys.bind (Line 45)
+
+Duplicate bind found: M-g S-W
+    File: ./math.bind (Line 174)
+    File: ./backup/greekkeys.bind (Line 46)
+
+Duplicate bind found: M-g S-X
+    File: ./math.bind (Line 175)
+    File: ./backup/greekkeys.bind (Line 47)
+
+Duplicate bind found: M-g S-Y
+    File: ./math.bind (Line 176)
+    File: ./backup/greekkeys.bind (Line 48)
+
+Duplicate bind found: M-S-underscore
+    File: ./math.bind (Line 180)
+    File: ./backup/math_symboles.bind (Line 40)
+
+Duplicate bind found: C-S-bracketleft
+    File: ./math.bind (Line 190)
+    File: ./backup/math_delim.bind (Line 3)
+
+Duplicate bind found: C-S-comma
+    File: ./math.bind (Line 191)
+    File: ./backup/math_delim.bind (Line 5)
+
+Duplicate bind found: M-s t
+    File: ./menus.bind (Line 23)
+    File: ./de/menus.bind (Line 43)
+    File: ./backup/menus.bind (Line 23)
+    File: ./backup/math_symboles.bind (Line 139)
+
+Duplicate bind found: M-s S-S
+    File: ./menus.bind (Line 24)
+    File: ./de/menus.bind (Line 44)
+    File: ./backup/menus.bind (Line 24)
+    File: ./backup/math_symboles.bind (Line 137)
+
+Duplicate bind found: M-s s
+    File: ./menus.bind (Line 25)
+    File: ./de/menus.bind (Line 45)
+    File: ./backup/menus.bind (Line 25)
+    File: ./backup/math_symboles.bind (Line 136)
+    File: ./backup/math_symboles.bind (Line 181)
+
+Duplicate bind found: M-s n
+    File: ./menus.bind (Line 26)
+    File: ./de/menus.bind (Line 46)
+    File: ./backup/menus.bind (Line 26)
+    File: ./backup/math_symboles.bind (Line 129)
+    File: ./backup/math_symboles.bind (Line 199)
+
+Duplicate bind found: M-s l
+    File: ./menus.bind (Line 27)
+    File: ./de/menus.bind (Line 47)
+    File: ./backup/menus.bind (Line 27)
+    File: ./backup/math_symboles.bind (Line 127)
+    File: ./backup/math_symboles.bind (Line 193)
+
+Duplicate bind found: M-s S-L
+    File: ./menus.bind (Line 28)
+    File: ./de/menus.bind (Line 48)
+    File: ./backup/menus.bind (Line 28)
+    File: ./backup/math_symboles.bind (Line 128)
+
+Duplicate bind found: M-s h
+    File: ./menus.bind (Line 29)
+    File: ./de/menus.bind (Line 49)
+    File: ./backup/menus.bind (Line 29)
+    File: ./backup/math_decorations.bind (Line 5)
+    File: ./backup/math_symboles.bind (Line 122)
+
+Duplicate bind found: M-s S-H
+    File: ./menus.bind (Line 30)
+    File: ./de/menus.bind (Line 50)
+    File: ./backup/menus.bind (Line 30)
+
+Duplicate bind found: M-s ~S-1
+    File: ./menus.bind (Line 32)
+    File: ./backup/menus.bind (Line 32)
+
+Duplicate bind found: M-s ~S-2
+    File: ./menus.bind (Line 33)
+    File: ./backup/menus.bind (Line 33)
+
+Duplicate bind found: M-s ~S-3
+    File: ./menus.bind (Line 34)
+    File: ./backup/menus.bind (Line 34)
+
+Duplicate bind found: M-s ~S-4
+    File: ./menus.bind (Line 35)
+    File: ./backup/menus.bind (Line 35)
+
+Duplicate bind found: M-s ~S-5
+    File: ./menus.bind (Line 36)
+    File: ./backup/menus.bind (Line 36)
+
+Duplicate bind found: M-s ~S-6
+    File: ./menus.bind (Line 37)
+    File: ./backup/menus.bind (Line 37)
+
+Duplicate bind found: M-s ~S-7
+    File: ./menus.bind (Line 38)
+    File: ./backup/menus.bind (Line 38)
+
+Duplicate bind found: M-s ~S-8
+    File: ./menus.bind (Line 39)
+    File: ./backup/menus.bind (Line 39)
+
+Duplicate bind found: M-s ~S-9
+    File: ./menus.bind (Line 40)
+    File: ./backup/menus.bind (Line 40)
+
+Duplicate bind found: M-s ~S-0
+    File: ./menus.bind (Line 41)
+    File: ./backup/menus.bind (Line 41)
+
+Duplicate bind found: M-s ~S-plus
+    File: ./menus.bind (Line 43)
+    File: ./backup/menus.bind (Line 43)
+    File: ./backup/math_symboles.bind (Line 177)
+
+Duplicate bind found: M-s ~S-minus
+    File: ./menus.bind (Line 44)
+    File: ./backup/menus.bind (Line 44)
+    File: ./backup/math_decorations.bind (Line 9)
+
+Duplicate bind found: M-a l
+    File: ./menus.bind (Line 51)
+    File: ./de/menus.bind (Line 97)
+    File: ./backup/menus.bind (Line 51)
+
+Duplicate bind found: M-a r
+    File: ./menus.bind (Line 52)
+    File: ./de/menus.bind (Line 102)
+    File: ./backup/menus.bind (Line 52)
+
+Duplicate bind found: M-a c
+    File: ./menus.bind (Line 53)
+    File: ./de/menus.bind (Line 89)
+    File: ./backup/menus.bind (Line 53)
+
+Duplicate bind found: M-a j
+    File: ./menus.bind (Line 55)
+    File: ./backup/menus.bind (Line 55)
+
+Duplicate bind found: M-a e
+    File: ./menus.bind (Line 56)
+    File: ./de/menus.bind (Line 93)
+    File: ./backup/menus.bind (Line 56)
+
+Duplicate bind found: M-a i
+    File: ./menus.bind (Line 57)
+    File: ./de/menus.bind (Line 96)
+    File: ./backup/menus.bind (Line 57)
+
+Duplicate bind found: M-a s
+    File: ./menus.bind (Line 58)
+    File: ./de/menus.bind (Line 104)
+    File: ./backup/menus.bind (Line 58)
+
+Duplicate bind found: M-a o
+    File: ./menus.bind (Line 59)
+    File: ./backup/menus.bind (Line 59)
+
+Duplicate bind found: M-a d
+    File: ./menus.bind (Line 60)
+    File: ./de/menus.bind (Line 91)
+    File: ./backup/menus.bind (Line 60)
+
+Duplicate bind found: M-a f
+    File: ./menus.bind (Line 61)
+    File: ./de/menus.bind (Line 94)
+    File: ./backup/menus.bind (Line 61)
+
+Duplicate bind found: M-a 1
+    File: ./menus.bind (Line 68)
+    File: ./de/menus.bind (Line 70)
+    File: ./backup/menus.bind (Line 68)
+
+Duplicate bind found: M-a 2
+    File: ./menus.bind (Line 69)
+    File: ./de/menus.bind (Line 71)
+    File: ./backup/menus.bind (Line 69)
+
+Duplicate bind found: M-a 3
+    File: ./menus.bind (Line 70)
+    File: ./de/menus.bind (Line 72)
+    File: ./backup/menus.bind (Line 70)
+
+Duplicate bind found: M-a 4
+    File: ./menus.bind (Line 71)
+    File: ./de/menus.bind (Line 73)
+    File: ./backup/menus.bind (Line 71)
+
+Duplicate bind found: M-a 5
+    File: ./menus.bind (Line 72)
+    File: ./de/menus.bind (Line 74)
+    File: ./backup/menus.bind (Line 72)
+
+Duplicate bind found: M-a 6
+    File: ./menus.bind (Line 73)
+    File: ./de/menus.bind (Line 75)
+    File: ./backup/menus.bind (Line 73)
+
+Duplicate bind found: M-a 7
+    File: ./menus.bind (Line 74)
+    File: ./backup/menus.bind (Line 74)
+
+Duplicate bind found: M-a 8
+    File: ./menus.bind (Line 75)
+    File: ./backup/menus.bind (Line 75)
+
+Duplicate bind found: M-a 9
+    File: ./menus.bind (Line 76)
+    File: ./backup/menus.bind (Line 76)
+
+Duplicate bind found: M-a 0
+    File: ./menus.bind (Line 77)
+    File: ./de/menus.bind (Line 69)
+
+Duplicate bind found: M-p ~S-0
+    File: ./menus.bind (Line 84)
+    File: ./backup/menus.bind (Line 83)
+
+Duplicate bind found: M-p ~S-1
+    File: ./menus.bind (Line 85)
+    File: ./backup/menus.bind (Line 84)
+
+Duplicate bind found: M-p ~S-2
+    File: ./menus.bind (Line 86)
+    File: ./backup/menus.bind (Line 85)
+
+Duplicate bind found: M-p ~S-3
+    File: ./menus.bind (Line 87)
+    File: ./backup/menus.bind (Line 86)
+
+Duplicate bind found: M-p ~S-4
+    File: ./menus.bind (Line 88)
+    File: ./backup/menus.bind (Line 87)
+
+Duplicate bind found: M-p ~S-5
+    File: ./menus.bind (Line 89)
+    File: ./backup/menus.bind (Line 88)
+
+Duplicate bind found: M-p ~S-6
+    File: ./menus.bind (Line 90)
+    File: ./backup/menus.bind (Line 89)
+
+Duplicate bind found: M-p ~S-asterisk ~S-0
+    File: ./menus.bind (Line 91)
+    File: ./backup/menus.bind (Line 90)
+
+Duplicate bind found: M-p ~S-asterisk ~S-1
+    File: ./menus.bind (Line 92)
+    File: ./backup/menus.bind (Line 91)
+
+Duplicate bind found: M-p ~S-asterisk ~S-2
+    File: ./menus.bind (Line 93)
+    File: ./backup/menus.bind (Line 92)
+
+Duplicate bind found: M-p ~S-asterisk ~S-3
+    File: ./menus.bind (Line 94)
+    File: ./backup/menus.bind (Line 93)
+
+Duplicate bind found: M-p ~S-asterisk ~S-4
+    File: ./menus.bind (Line 95)
+    File: ./backup/menus.bind (Line 94)
+
+Duplicate bind found: M-p ~S-asterisk ~S-5
+    File: ./menus.bind (Line 96)
+    File: ./backup/menus.bind (Line 95)
+
+Duplicate bind found: M-p ~S-asterisk ~S-6
+    File: ./menus.bind (Line 97)
+    File: ./backup/menus.bind (Line 96)
+
+Duplicate bind found: M-p a
+    File: ./menus.bind (Line 98)
+    File: ./backup/menus.bind (Line 97)
+    File: ./backup/math_sequences.bind (Line 104)
+
+Duplicate bind found: M-p S-A
+    File: ./menus.bind (Line 99)
+    File: ./backup/menus.bind (Line 98)
+    File: ./backup/math_sequences.bind (Line 105)
+
+Duplicate bind found: M-p M-a
+    File: ./menus.bind (Line 100)
+    File: ./backup/menus.bind (Line 99)
+
+Duplicate bind found: M-p C-a
+    File: ./menus.bind (Line 101)
+    File: ./backup/menus.bind (Line 100)
+
+Duplicate bind found: M-p b
+    File: ./menus.bind (Line 102)
+    File: ./backup/menus.bind (Line 101)
+
+Duplicate bind found: M-p S-B
+    File: ./menus.bind (Line 103)
+    File: ./backup/menus.bind (Line 102)
+
+Duplicate bind found: M-p c
+    File: ./menus.bind (Line 104)
+    File: ./backup/menus.bind (Line 103)
+    File: ./backup/math_sequences.bind (Line 103)
+
+Duplicate bind found: M-p S-C
+    File: ./menus.bind (Line 105)
+    File: ./backup/menus.bind (Line 104)
+    File: ./backup/math_sequences.bind (Line 111)
+
+Duplicate bind found: M-p d
+    File: ./menus.bind (Line 106)
+    File: ./backup/menus.bind (Line 105)
+    File: ./backup/math_sequences.bind (Line 108)
+
+Duplicate bind found: M-p S-D
+    File: ./menus.bind (Line 107)
+    File: ./backup/menus.bind (Line 106)
+    File: ./backup/math_sequences.bind (Line 109)
+
+Duplicate bind found: M-p e
+    File: ./menus.bind (Line 108)
+    File: ./backup/menus.bind (Line 107)
+
+Duplicate bind found: M-p f
+    File: ./menus.bind (Line 109)
+    File: ./backup/menus.bind (Line 108)
+    File: ./backup/math_sequences.bind (Line 106)
+
+Duplicate bind found: M-p S-F
+    File: ./menus.bind (Line 110)
+    File: ./backup/menus.bind (Line 109)
+    File: ./backup/math_sequences.bind (Line 115)
+
+Duplicate bind found: M-p i
+    File: ./menus.bind (Line 111)
+    File: ./backup/menus.bind (Line 110)
+
+Duplicate bind found: M-p l
+    File: ./menus.bind (Line 112)
+    File: ./backup/menus.bind (Line 111)
+
+Duplicate bind found: M-p S-L
+    File: ./menus.bind (Line 113)
+    File: ./backup/menus.bind (Line 112)
+    File: ./backup/math_sequences.bind (Line 110)
+
+Duplicate bind found: M-p n
+    File: ./menus.bind (Line 114)
+    File: ./backup/menus.bind (Line 113)
+    File: ./backup/math_sequences.bind (Line 148)
+
+Duplicate bind found: M-p q
+    File: ./menus.bind (Line 115)
+    File: ./backup/menus.bind (Line 114)
+
+Duplicate bind found: M-p S-Q
+    File: ./menus.bind (Line 116)
+    File: ./backup/menus.bind (Line 115)
+
+Duplicate bind found: M-p r
+    File: ./menus.bind (Line 117)
+    File: ./backup/menus.bind (Line 116)
+
+Duplicate bind found: M-p S-R
+    File: ./menus.bind (Line 118)
+    File: ./backup/menus.bind (Line 117)
+
+Duplicate bind found: M-p s
+    File: ./menus.bind (Line 119)
+    File: ./backup/menus.bind (Line 118)
+
+Duplicate bind found: M-p t
+    File: ./menus.bind (Line 120)
+    File: ./backup/menus.bind (Line 119)
+
+Duplicate bind found: M-p space
+    File: ./menus.bind (Line 121)
+    File: ./backup/menus.bind (Line 120)
+
+Duplicate bind found: M-p v
+    File: ./menus.bind (Line 122)
+    File: ./backup/menus.bind (Line 121)
+
+Duplicate bind found: M-p Left
+    File: ./menus.bind (Line 124)
+    File: ./backup/menus.bind (Line 123)
+
+Duplicate bind found: M-p Right
+    File: ./menus.bind (Line 125)
+    File: ./backup/menus.bind (Line 124)
+
+Duplicate bind found: M-p Up
+    File: ./menus.bind (Line 126)
+    File: ./backup/menus.bind (Line 125)
+
+Duplicate bind found: M-p Down
+    File: ./menus.bind (Line 127)
+    File: ./backup/menus.bind (Line 126)
+
+Duplicate bind found: M-p Return
+    File: ./menus.bind (Line 130)
+    File: ./backup/menus.bind (Line 128)
+
+Duplicate bind found: M-p S-Return
+    File: ./menus.bind (Line 131)
+    File: ./backup/menus.bind (Line 129)
+
+Duplicate bind found: M-p S-at
+    File: ./menus.bind (Line 135)
+    File: ./backup/menus.bind (Line 133)
+
+Duplicate bind found: M-p S-dollar
+    File: ./menus.bind (Line 136)
+    File: ./backup/menus.bind (Line 134)
+
+Duplicate bind found: M-p S-numbersign
+    File: ./menus.bind (Line 137)
+    File: ./backup/menus.bind (Line 135)
+
+Duplicate bind found: M-c b
+    File: ./menus.bind (Line 144)
+    File: ./backup/menus.bind (Line 142)
+
+Duplicate bind found: M-c c
+    File: ./menus.bind (Line 145)
+    File: ./backup/menus.bind (Line 143)
+
+Duplicate bind found: M-c d
+    File: ./menus.bind (Line 146)
+    File: ./backup/menus.bind (Line 144)
+
+Duplicate bind found: M-c e
+    File: ./menus.bind (Line 147)
+    File: ./backup/menus.bind (Line 145)
+
+Duplicate bind found: M-c m
+    File: ./menus.bind (Line 148)
+    File: ./backup/menus.bind (Line 146)
+
+Duplicate bind found: M-c o
+    File: ./menus.bind (Line 149)
+    File: ./backup/menus.bind (Line 147)
+
+Duplicate bind found: M-c r
+    File: ./menus.bind (Line 150)
+    File: ./backup/menus.bind (Line 148)
+
+Duplicate bind found: M-c s
+    File: ./menus.bind (Line 151)
+    File: ./backup/menus.bind (Line 149)
+
+Duplicate bind found: M-c u
+    File: ./menus.bind (Line 153)
+    File: ./backup/menus.bind (Line 151)
+
+Duplicate bind found: M-c w
+    File: ./menus.bind (Line 154)
+    File: ./backup/menus.bind (Line 152)
+
+Duplicate bind found: M-c space
+    File: ./menus.bind (Line 160)
+    File: ./backup/menus.bind (Line 158)
+
+Duplicate bind found: M-k 1
+    File: ./menus.bind (Line 167)
+    File: ./backup/menus.bind (Line 165)
+
+Duplicate bind found: M-k 2
+    File: ./menus.bind (Line 168)
+    File: ./backup/menus.bind (Line 166)
+
+Duplicate bind found: M-k o
+    File: ./menus.bind (Line 169)
+    File: ./backup/menus.bind (Line 167)
+
+Duplicate bind found: M-k t
+    File: ./menus.bind (Line 170)
+    File: ./backup/menus.bind (Line 168)
+
+Duplicate bind found: M-k x
+    File: ./menus.bind (Line 171)
+    File: ./backup/menus.bind (Line 169)
+
+Duplicate bind found: C-S-N
+    File: ./cua.bind (Line 40)
+    File: ./mac.bind (Line 167)
+    File: ./backup/mac.bind (Line 166)
+
+Duplicate bind found: C-S-S
+    File: ./cua.bind (Line 44)
+    File: ./mac.bind (Line 178)
+    File: ./backup/mac.bind (Line 177)
+
+Duplicate bind found: C-M-t
+    File: ./cua.bind (Line 49)
+    File: ./mac.bind (Line 181)
+    File: ./backup/mac.bind (Line 180)
+
+Duplicate bind found: C-M-d
+    File: ./cua.bind (Line 50)
+    File: ./mac.bind (Line 140)
+    File: ./backup/mac.bind (Line 137)
+
+Duplicate bind found: C-S-R
+    File: ./cua.bind (Line 51)
+    File: ./mac.bind (Line 257)
+    File: ./backup/mac.bind (Line 256)
+
+Duplicate bind found: C-S-D
+    File: ./cua.bind (Line 52)
+    File: ./mac.bind (Line 141)
+    File: ./backup/math_sequences.bind (Line 54)
+    File: ./backup/mac.bind (Line 138)
+
+Duplicate bind found: C-S-T
+    File: ./cua.bind (Line 53)
+    File: ./mac.bind (Line 256)
+    File: ./backup/mac.bind (Line 255)
+
+Duplicate bind found: C-M-b
+    File: ./cua.bind (Line 62)
+    File: ./mac.bind (Line 130)
+    File: ./backup/mac.bind (Line 127)
+
+Duplicate bind found: C-S-P
+    File: ./cua.bind (Line 68)
+    File: ./mac.bind (Line 171)
+    File: ./backup/mac.bind (Line 170)
+
+Duplicate bind found: C-S-O
+    File: ./cua.bind (Line 69)
+    File: ./mac.bind (Line 255)
+    File: ./backup/mac.bind (Line 254)
+
+Duplicate bind found: C-S-M
+    File: ./cua.bind (Line 72)
+    File: ./mac.bind (Line 163)
+    File: ./backup/math_sequences.bind (Line 51)
+    File: ./backup/mac.bind (Line 159)
+
+Duplicate bind found: C-M-n
+    File: ./cua.bind (Line 73)
+    File: ./mac.bind (Line 164)
+    File: ./backup/math_sequences.bind (Line 181)
+    File: ./backup/mac.bind (Line 163)
+
+Duplicate bind found: C-S-f
+    File: ./cua.bind (Line 76)
+    File: ./mac.bind (Line 146)
+    File: ./backup/mac.bind (Line 143)
+
+Duplicate bind found: C-M-i
+    File: ./cua.bind (Line 78)
+    File: ./mac.bind (Line 156)
+    File: ./backup/math_sequences.bind (Line 182)
+
+Duplicate bind found: C-S-Z
+    File: ./cua.bind (Line 88)
+    File: ./mac.bind (Line 204)
+    File: ./backup/mac.bind (Line 203)
+
+Duplicate bind found: C-S-E
+    File: ./cua.bind (Line 93)
+    File: ./mac.bind (Line 261)
+    File: ./backup/math_symboles.bind (Line 167)
+    File: ./backup/mac.bind (Line 260)
+
+Duplicate bind found: C-S-underscore
+    File: ./cua.bind (Line 97)
+    File: ./mac.bind (Line 264)
+    File: ./backup/math_sequences.bind (Line 190)
+    File: ./backup/math_symboles.bind (Line 39)
+    File: ./backup/mac.bind (Line 263)
+
+Duplicate bind found: C-M-Up
+    File: ./cua.bind (Line 112)
+    File: ./mac.bind (Line 362)
+    File: ./backup/math_sequences.bind (Line 187)
+    File: ./backup/mac.bind (Line 360)
+
+Duplicate bind found: C-M-Down
+    File: ./cua.bind (Line 113)
+    File: ./mac.bind (Line 363)
+    File: ./backup/math_sequences.bind (Line 186)
+    File: ./backup/mac.bind (Line 361)
+
+Duplicate bind found: F11
+    File: ./cua.bind (Line 124)
+    File: ./backup/math_sequences.bind (Line 61)
+
+Duplicate bind found: M-0
+    File: ./cua.bind (Line 126)
+    File: ./backup/math_sequences.bind (Line 23)
+
+Duplicate bind found: C-Home
+    File: ./cua.bind (Line 143)
+    File: ./xemacs.bind (Line 161)
+
+Duplicate bind found: C-End
+    File: ./cua.bind (Line 144)
+    File: ./xemacs.bind (Line 162)
+
+Duplicate bind found: C-Insert
+    File: ./cua.bind (Line 171)
+    File: ./mac.bind (Line 297)
+    File: ./backup/mac.bind (Line 295)
+
+Duplicate bind found: S-Insert
+    File: ./cua.bind (Line 172)
+    File: ./mac.bind (Line 298)
+    File: ./backup/mac.bind (Line 296)
+
+Duplicate bind found: S-Delete
+    File: ./cua.bind (Line 173)
+    File: ./mac.bind (Line 299)
+    File: ./backup/mac.bind (Line 297)
+
+Duplicate bind found: S-F9
+    File: ./cua.bind (Line 217)
+    File: ./backup/math_sequences.bind (Line 63)
+
+Duplicate bind found: F9
+    File: ./cua.bind (Line 237)
+    File: ./backup/math_sequences.bind (Line 59)
+
+Duplicate bind found: M-v
+    File: ./xemacs.bind (Line 67)
+    File: ./mac.bind (Line 77)
+    File: ./backup/mac.bind (Line 77)
+
+Duplicate bind found: Cyrillic_GHE_bar
+    File: ./cyrkeys.bind (Line 15)
+    File: ./backup/cyrkeys.bind (Line 15)
+
+Duplicate bind found: Cyrillic_ghe_bar
+    File: ./cyrkeys.bind (Line 16)
+    File: ./backup/cyrkeys.bind (Line 16)
+
+Duplicate bind found: Cyrillic_ZHE_descender
+    File: ./cyrkeys.bind (Line 17)
+    File: ./backup/cyrkeys.bind (Line 17)
+
+Duplicate bind found: Cyrillic_zhe_descender
+    File: ./cyrkeys.bind (Line 18)
+    File: ./backup/cyrkeys.bind (Line 18)
+
+Duplicate bind found: Cyrillic_KA_descender
+    File: ./cyrkeys.bind (Line 19)
+    File: ./backup/cyrkeys.bind (Line 19)
+
+Duplicate bind found: Cyrillic_ka_descender
+    File: ./cyrkeys.bind (Line 20)
+    File: ./backup/cyrkeys.bind (Line 20)
+
+Duplicate bind found: Cyrillic_KA_vertstroke
+    File: ./cyrkeys.bind (Line 21)
+    File: ./backup/cyrkeys.bind (Line 21)
+
+Duplicate bind found: Cyrillic_ka_vertstroke
+    File: ./cyrkeys.bind (Line 22)
+    File: ./backup/cyrkeys.bind (Line 22)
+
+Duplicate bind found: Cyrillic_EN_descender
+    File: ./cyrkeys.bind (Line 23)
+    File: ./backup/cyrkeys.bind (Line 23)
+
+Duplicate bind found: Cyrillic_en_descender
+    File: ./cyrkeys.bind (Line 24)
+    File: ./backup/cyrkeys.bind (Line 24)
+
+Duplicate bind found: Cyrillic_U_straight
+    File: ./cyrkeys.bind (Line 25)
+    File: ./backup/cyrkeys.bind (Line 25)
+
+Duplicate bind found: Cyrillic_u_straight
+    File: ./cyrkeys.bind (Line 26)
+    File: ./backup/cyrkeys.bind (Line 26)
+
+Duplicate bind found: Cyrillic_U_straight_bar
+    File: ./cyrkeys.bind (Line 27)
+    File: ./backup/cyrkeys.bind (Line 27)
+
+Duplicate bind found: Cyrillic_u_straight_bar
+    File: ./cyrkeys.bind (Line 28)
+    File: ./backup/cyrkeys.bind (Line 28)
+
+Duplicate bind found: Cyrillic_HA_descender
+    File: ./cyrkeys.bind (Line 29)
+    File: ./backup/cyrkeys.bind (Line 29)
+
+Duplicate bind found: Cyrillic_ha_descender
+    File: ./cyrkeys.bind (Line 30)
+    File: ./backup/cyrkeys.bind (Line 30)
+
+Duplicate bind found: Cyrillic_CHE_descender
+    File: ./cyrkeys.bind (Line 31)
+    File: ./backup/cyrkeys.bind (Line 31)
+
+Duplicate bind found: Cyrillic_che_descender
+    File: ./cyrkeys.bind (Line 32)
+    File: ./backup/cyrkeys.bind (Line 32)
+
+Duplicate bind found: Cyrillic_CHE_vertstroke
+    File: ./cyrkeys.bind (Line 33)
+    File: ./backup/cyrkeys.bind (Line 33)
+
+Duplicate bind found: Cyrillic_che_vertstroke
+    File: ./cyrkeys.bind (Line 34)
+    File: ./backup/cyrkeys.bind (Line 34)
+
+Duplicate bind found: Cyrillic_SHHA
+    File: ./cyrkeys.bind (Line 35)
+    File: ./backup/cyrkeys.bind (Line 35)
+
+Duplicate bind found: Cyrillic_shha
+    File: ./cyrkeys.bind (Line 36)
+    File: ./backup/cyrkeys.bind (Line 36)
+
+Duplicate bind found: Cyrillic_SCHWA
+    File: ./cyrkeys.bind (Line 38)
+    File: ./backup/cyrkeys.bind (Line 38)
+
+Duplicate bind found: Cyrillic_schwa
+    File: ./cyrkeys.bind (Line 39)
+    File: ./backup/cyrkeys.bind (Line 39)
+
+Duplicate bind found: Cyrillic_I_macron
+    File: ./cyrkeys.bind (Line 40)
+    File: ./backup/cyrkeys.bind (Line 40)
+
+Duplicate bind found: Cyrillic_i_macron
+    File: ./cyrkeys.bind (Line 41)
+    File: ./backup/cyrkeys.bind (Line 41)
+
+Duplicate bind found: Cyrillic_O_bar
+    File: ./cyrkeys.bind (Line 42)
+    File: ./backup/cyrkeys.bind (Line 42)
+
+Duplicate bind found: Cyrillic_o_bar
+    File: ./cyrkeys.bind (Line 43)
+    File: ./backup/cyrkeys.bind (Line 43)
+
+Duplicate bind found: Cyrillic_U_macron
+    File: ./cyrkeys.bind (Line 44)
+    File: ./backup/cyrkeys.bind (Line 44)
+
+Duplicate bind found: Cyrillic_u_macron
+    File: ./cyrkeys.bind (Line 45)
+    File: ./backup/cyrkeys.bind (Line 45)
+
+Duplicate bind found: Serbian_dje
+    File: ./cyrkeys.bind (Line 47)
+    File: ./backup/cyrkeys.bind (Line 47)
+
+Duplicate bind found: Macedonia_gje
+    File: ./cyrkeys.bind (Line 48)
+    File: ./backup/cyrkeys.bind (Line 48)
+
+Duplicate bind found: Cyrillic_io
+    File: ./cyrkeys.bind (Line 49)
+    File: ./backup/cyrkeys.bind (Line 49)
+
+Duplicate bind found: Ukrainian_ie
+    File: ./cyrkeys.bind (Line 50)
+    File: ./backup/cyrkeys.bind (Line 50)
+
+Duplicate bind found: Ukranian_je
+    File: ./cyrkeys.bind (Line 51)
+    File: ./backup/cyrkeys.bind (Line 51)
+
+Duplicate bind found: Macedonia_dse
+    File: ./cyrkeys.bind (Line 52)
+    File: ./backup/cyrkeys.bind (Line 52)
+
+Duplicate bind found: Ukrainian_i
+    File: ./cyrkeys.bind (Line 53)
+    File: ./backup/cyrkeys.bind (Line 53)
+
+Duplicate bind found: Ukranian_i
+    File: ./cyrkeys.bind (Line 54)
+    File: ./backup/cyrkeys.bind (Line 54)
+
+Duplicate bind found: Ukrainian_yi
+    File: ./cyrkeys.bind (Line 55)
+    File: ./backup/cyrkeys.bind (Line 55)
+
+Duplicate bind found: Ukranian_yi
+    File: ./cyrkeys.bind (Line 56)
+    File: ./backup/cyrkeys.bind (Line 56)
+
+Duplicate bind found: Cyrillic_je
+    File: ./cyrkeys.bind (Line 57)
+    File: ./backup/cyrkeys.bind (Line 57)
+
+Duplicate bind found: Serbian_je
+    File: ./cyrkeys.bind (Line 58)
+    File: ./backup/cyrkeys.bind (Line 58)
+
+Duplicate bind found: Cyrillic_lje
+    File: ./cyrkeys.bind (Line 59)
+    File: ./backup/cyrkeys.bind (Line 59)
+
+Duplicate bind found: Serbian_lje
+    File: ./cyrkeys.bind (Line 60)
+    File: ./backup/cyrkeys.bind (Line 60)
+
+Duplicate bind found: Cyrillic_nje
+    File: ./cyrkeys.bind (Line 61)
+    File: ./backup/cyrkeys.bind (Line 61)
+
+Duplicate bind found: Serbian_nje
+    File: ./cyrkeys.bind (Line 62)
+    File: ./backup/cyrkeys.bind (Line 62)
+
+Duplicate bind found: Serbian_tshe
+    File: ./cyrkeys.bind (Line 63)
+    File: ./backup/cyrkeys.bind (Line 63)
+
+Duplicate bind found: Macedonia_kje
+    File: ./cyrkeys.bind (Line 64)
+    File: ./backup/cyrkeys.bind (Line 64)
+
+Duplicate bind found: Ukrainian_ghe_with_upturn
+    File: ./cyrkeys.bind (Line 65)
+    File: ./backup/cyrkeys.bind (Line 65)
+
+Duplicate bind found: Byelorussian_shortu
+    File: ./cyrkeys.bind (Line 66)
+    File: ./backup/cyrkeys.bind (Line 66)
+
+Duplicate bind found: Cyrillic_dzhe
+    File: ./cyrkeys.bind (Line 67)
+    File: ./backup/cyrkeys.bind (Line 67)
+
+Duplicate bind found: Serbian_dze
+    File: ./cyrkeys.bind (Line 68)
+    File: ./backup/cyrkeys.bind (Line 68)
+
+Duplicate bind found: numerosign
+    File: ./cyrkeys.bind (Line 69)
+    File: ./backup/cyrkeys.bind (Line 69)
+
+Duplicate bind found: Serbian_DJE
+    File: ./cyrkeys.bind (Line 70)
+    File: ./backup/cyrkeys.bind (Line 70)
+
+Duplicate bind found: Macedonia_GJE
+    File: ./cyrkeys.bind (Line 71)
+    File: ./backup/cyrkeys.bind (Line 71)
+
+Duplicate bind found: Cyrillic_IO
+    File: ./cyrkeys.bind (Line 72)
+    File: ./backup/cyrkeys.bind (Line 72)
+
+Duplicate bind found: Ukrainian_IE
+    File: ./cyrkeys.bind (Line 73)
+    File: ./backup/cyrkeys.bind (Line 73)
+
+Duplicate bind found: Ukranian_JE
+    File: ./cyrkeys.bind (Line 74)
+    File: ./backup/cyrkeys.bind (Line 74)
+
+Duplicate bind found: Macedonia_DSE
+    File: ./cyrkeys.bind (Line 75)
+    File: ./backup/cyrkeys.bind (Line 75)
+
+Duplicate bind found: Ukrainian_I
+    File: ./cyrkeys.bind (Line 76)
+    File: ./backup/cyrkeys.bind (Line 76)
+
+Duplicate bind found: Ukranian_I
+    File: ./cyrkeys.bind (Line 77)
+    File: ./backup/cyrkeys.bind (Line 77)
+
+Duplicate bind found: Ukrainian_YI
+    File: ./cyrkeys.bind (Line 78)
+    File: ./backup/cyrkeys.bind (Line 78)
+
+Duplicate bind found: Ukranian_YI
+    File: ./cyrkeys.bind (Line 79)
+    File: ./backup/cyrkeys.bind (Line 79)
+
+Duplicate bind found: Cyrillic_JE
+    File: ./cyrkeys.bind (Line 80)
+    File: ./backup/cyrkeys.bind (Line 80)
+
+Duplicate bind found: Serbian_JE
+    File: ./cyrkeys.bind (Line 81)
+    File: ./backup/cyrkeys.bind (Line 81)
+
+Duplicate bind found: Cyrillic_LJE
+    File: ./cyrkeys.bind (Line 82)
+    File: ./backup/cyrkeys.bind (Line 82)
+
+Duplicate bind found: Serbian_LJE
+    File: ./cyrkeys.bind (Line 83)
+    File: ./backup/cyrkeys.bind (Line 83)
+
+Duplicate bind found: Cyrillic_NJE
+    File: ./cyrkeys.bind (Line 84)
+    File: ./backup/cyrkeys.bind (Line 84)
+
+Duplicate bind found: Serbian_NJE
+    File: ./cyrkeys.bind (Line 85)
+    File: ./backup/cyrkeys.bind (Line 85)
+
+Duplicate bind found: Serbian_TSHE
+    File: ./cyrkeys.bind (Line 86)
+    File: ./backup/cyrkeys.bind (Line 86)
+
+Duplicate bind found: Macedonia_KJE
+    File: ./cyrkeys.bind (Line 87)
+    File: ./backup/cyrkeys.bind (Line 87)
+
+Duplicate bind found: Ukrainian_GHE_WITH_UPTURN
+    File: ./cyrkeys.bind (Line 88)
+    File: ./backup/cyrkeys.bind (Line 88)
+
+Duplicate bind found: Byelorussian_SHORTU
+    File: ./cyrkeys.bind (Line 89)
+    File: ./backup/cyrkeys.bind (Line 89)
+
+Duplicate bind found: Cyrillic_DZHE
+    File: ./cyrkeys.bind (Line 90)
+    File: ./backup/cyrkeys.bind (Line 90)
+
+Duplicate bind found: Serbian_DZE
+    File: ./cyrkeys.bind (Line 91)
+    File: ./backup/cyrkeys.bind (Line 91)
+
+Duplicate bind found: Cyrillic_yu
+    File: ./cyrkeys.bind (Line 92)
+    File: ./backup/cyrkeys.bind (Line 92)
+
+Duplicate bind found: Cyrillic_a
+    File: ./cyrkeys.bind (Line 93)
+    File: ./backup/cyrkeys.bind (Line 93)
+
+Duplicate bind found: Cyrillic_be
+    File: ./cyrkeys.bind (Line 94)
+    File: ./backup/cyrkeys.bind (Line 94)
+
+Duplicate bind found: Cyrillic_tse
+    File: ./cyrkeys.bind (Line 95)
+    File: ./backup/cyrkeys.bind (Line 95)
+
+Duplicate bind found: Cyrillic_de
+    File: ./cyrkeys.bind (Line 96)
+    File: ./backup/cyrkeys.bind (Line 96)
+
+Duplicate bind found: Cyrillic_ie
+    File: ./cyrkeys.bind (Line 97)
+    File: ./backup/cyrkeys.bind (Line 97)
+
+Duplicate bind found: Cyrillic_ef
+    File: ./cyrkeys.bind (Line 98)
+    File: ./backup/cyrkeys.bind (Line 98)
+
+Duplicate bind found: Cyrillic_ghe
+    File: ./cyrkeys.bind (Line 99)
+    File: ./backup/cyrkeys.bind (Line 99)
+
+Duplicate bind found: Cyrillic_ha
+    File: ./cyrkeys.bind (Line 100)
+    File: ./backup/cyrkeys.bind (Line 100)
+
+Duplicate bind found: Cyrillic_i
+    File: ./cyrkeys.bind (Line 101)
+    File: ./backup/cyrkeys.bind (Line 101)
+
+Duplicate bind found: Cyrillic_shorti
+    File: ./cyrkeys.bind (Line 102)
+    File: ./backup/cyrkeys.bind (Line 102)
+
+Duplicate bind found: Cyrillic_ka
+    File: ./cyrkeys.bind (Line 103)
+    File: ./backup/cyrkeys.bind (Line 103)
+
+Duplicate bind found: Cyrillic_el
+    File: ./cyrkeys.bind (Line 104)
+    File: ./backup/cyrkeys.bind (Line 104)
+
+Duplicate bind found: Cyrillic_em
+    File: ./cyrkeys.bind (Line 105)
+    File: ./backup/cyrkeys.bind (Line 105)
+
+Duplicate bind found: Cyrillic_en
+    File: ./cyrkeys.bind (Line 106)
+    File: ./backup/cyrkeys.bind (Line 106)
+
+Duplicate bind found: Cyrillic_o
+    File: ./cyrkeys.bind (Line 107)
+    File: ./backup/cyrkeys.bind (Line 107)
+
+Duplicate bind found: Cyrillic_pe
+    File: ./cyrkeys.bind (Line 108)
+    File: ./backup/cyrkeys.bind (Line 108)
+
+Duplicate bind found: Cyrillic_ya
+    File: ./cyrkeys.bind (Line 109)
+    File: ./backup/cyrkeys.bind (Line 109)
+
+Duplicate bind found: Cyrillic_er
+    File: ./cyrkeys.bind (Line 110)
+    File: ./backup/cyrkeys.bind (Line 110)
+
+Duplicate bind found: Cyrillic_es
+    File: ./cyrkeys.bind (Line 111)
+    File: ./backup/cyrkeys.bind (Line 111)
+
+Duplicate bind found: Cyrillic_te
+    File: ./cyrkeys.bind (Line 112)
+    File: ./backup/cyrkeys.bind (Line 112)
+
+Duplicate bind found: Cyrillic_u
+    File: ./cyrkeys.bind (Line 113)
+    File: ./backup/cyrkeys.bind (Line 113)
+
+Duplicate bind found: Cyrillic_zhe
+    File: ./cyrkeys.bind (Line 114)
+    File: ./backup/cyrkeys.bind (Line 114)
+
+Duplicate bind found: Cyrillic_ve
+    File: ./cyrkeys.bind (Line 115)
+    File: ./backup/cyrkeys.bind (Line 115)
+
+Duplicate bind found: Cyrillic_softsign
+    File: ./cyrkeys.bind (Line 116)
+    File: ./backup/cyrkeys.bind (Line 116)
+
+Duplicate bind found: Cyrillic_yeru
+    File: ./cyrkeys.bind (Line 117)
+    File: ./backup/cyrkeys.bind (Line 117)
+
+Duplicate bind found: Cyrillic_ze
+    File: ./cyrkeys.bind (Line 118)
+    File: ./backup/cyrkeys.bind (Line 118)
+
+Duplicate bind found: Cyrillic_sha
+    File: ./cyrkeys.bind (Line 119)
+    File: ./backup/cyrkeys.bind (Line 119)
+
+Duplicate bind found: Cyrillic_e
+    File: ./cyrkeys.bind (Line 120)
+    File: ./backup/cyrkeys.bind (Line 120)
+
+Duplicate bind found: Cyrillic_shcha
+    File: ./cyrkeys.bind (Line 121)
+    File: ./backup/cyrkeys.bind (Line 121)
+
+Duplicate bind found: Cyrillic_che
+    File: ./cyrkeys.bind (Line 122)
+    File: ./backup/cyrkeys.bind (Line 122)
+
+Duplicate bind found: Cyrillic_hardsign
+    File: ./cyrkeys.bind (Line 123)
+    File: ./backup/cyrkeys.bind (Line 123)
+
+Duplicate bind found: Cyrillic_YU
+    File: ./cyrkeys.bind (Line 124)
+    File: ./backup/cyrkeys.bind (Line 124)
+
+Duplicate bind found: Cyrillic_A
+    File: ./cyrkeys.bind (Line 125)
+    File: ./backup/cyrkeys.bind (Line 125)
+
+Duplicate bind found: Cyrillic_BE
+    File: ./cyrkeys.bind (Line 126)
+    File: ./backup/cyrkeys.bind (Line 126)
+
+Duplicate bind found: Cyrillic_TSE
+    File: ./cyrkeys.bind (Line 127)
+    File: ./backup/cyrkeys.bind (Line 127)
+
+Duplicate bind found: Cyrillic_DE
+    File: ./cyrkeys.bind (Line 128)
+    File: ./backup/cyrkeys.bind (Line 128)
+
+Duplicate bind found: Cyrillic_IE
+    File: ./cyrkeys.bind (Line 129)
+    File: ./backup/cyrkeys.bind (Line 129)
+
+Duplicate bind found: Cyrillic_EF
+    File: ./cyrkeys.bind (Line 130)
+    File: ./backup/cyrkeys.bind (Line 130)
+
+Duplicate bind found: Cyrillic_GHE
+    File: ./cyrkeys.bind (Line 131)
+    File: ./backup/cyrkeys.bind (Line 131)
+
+Duplicate bind found: Cyrillic_HA
+    File: ./cyrkeys.bind (Line 132)
+    File: ./backup/cyrkeys.bind (Line 132)
+
+Duplicate bind found: Cyrillic_I
+    File: ./cyrkeys.bind (Line 133)
+    File: ./backup/cyrkeys.bind (Line 133)
+
+Duplicate bind found: Cyrillic_SHORTI
+    File: ./cyrkeys.bind (Line 134)
+    File: ./backup/cyrkeys.bind (Line 134)
+
+Duplicate bind found: Cyrillic_KA
+    File: ./cyrkeys.bind (Line 135)
+    File: ./backup/cyrkeys.bind (Line 135)
+
+Duplicate bind found: Cyrillic_EL
+    File: ./cyrkeys.bind (Line 136)
+    File: ./backup/cyrkeys.bind (Line 136)
+
+Duplicate bind found: Cyrillic_EM
+    File: ./cyrkeys.bind (Line 137)
+    File: ./backup/cyrkeys.bind (Line 137)
+
+Duplicate bind found: Cyrillic_EN
+    File: ./cyrkeys.bind (Line 138)
+    File: ./backup/cyrkeys.bind (Line 138)
+
+Duplicate bind found: Cyrillic_O
+    File: ./cyrkeys.bind (Line 139)
+    File: ./backup/cyrkeys.bind (Line 139)
+
+Duplicate bind found: Cyrillic_PE
+    File: ./cyrkeys.bind (Line 140)
+    File: ./backup/cyrkeys.bind (Line 140)
+
+Duplicate bind found: Cyrillic_YA
+    File: ./cyrkeys.bind (Line 141)
+    File: ./backup/cyrkeys.bind (Line 141)
+
+Duplicate bind found: Cyrillic_ER
+    File: ./cyrkeys.bind (Line 142)
+    File: ./backup/cyrkeys.bind (Line 142)
+
+Duplicate bind found: Cyrillic_ES
+    File: ./cyrkeys.bind (Line 143)
+    File: ./backup/cyrkeys.bind (Line 143)
+
+Duplicate bind found: Cyrillic_TE
+    File: ./cyrkeys.bind (Line 144)
+    File: ./backup/cyrkeys.bind (Line 144)
+
+Duplicate bind found: Cyrillic_U
+    File: ./cyrkeys.bind (Line 145)
+    File: ./backup/cyrkeys.bind (Line 145)
+
+Duplicate bind found: Cyrillic_ZHE
+    File: ./cyrkeys.bind (Line 146)
+    File: ./backup/cyrkeys.bind (Line 146)
+
+Duplicate bind found: Cyrillic_VE
+    File: ./cyrkeys.bind (Line 147)
+    File: ./backup/cyrkeys.bind (Line 147)
+
+Duplicate bind found: Cyrillic_SOFTSIGN
+    File: ./cyrkeys.bind (Line 148)
+    File: ./backup/cyrkeys.bind (Line 148)
+
+Duplicate bind found: Cyrillic_YERU
+    File: ./cyrkeys.bind (Line 149)
+    File: ./backup/cyrkeys.bind (Line 149)
+
+Duplicate bind found: Cyrillic_ZE
+    File: ./cyrkeys.bind (Line 150)
+    File: ./backup/cyrkeys.bind (Line 150)
+
+Duplicate bind found: Cyrillic_SHA
+    File: ./cyrkeys.bind (Line 151)
+    File: ./backup/cyrkeys.bind (Line 151)
+
+Duplicate bind found: Cyrillic_E
+    File: ./cyrkeys.bind (Line 152)
+    File: ./backup/cyrkeys.bind (Line 152)
+
+Duplicate bind found: Cyrillic_SHCHA
+    File: ./cyrkeys.bind (Line 153)
+    File: ./backup/cyrkeys.bind (Line 153)
+
+Duplicate bind found: Cyrillic_CHE
+    File: ./cyrkeys.bind (Line 154)
+    File: ./backup/cyrkeys.bind (Line 154)
+
+Duplicate bind found: Cyrillic_HARDSIGN
+    File: ./cyrkeys.bind (Line 155)
+    File: ./backup/cyrkeys.bind (Line 155)
+
+Duplicate bind found: M-b
+    File: ./mac.bind (Line 54)
+    File: ./backup/mac.bind (Line 54)
+
+Duplicate bind found: M-o
+    File: ./mac.bind (Line 71)
+    File: ./backup/mac.bind (Line 71)
+
+Duplicate bind found: M-t
+    File: ./mac.bind (Line 75)
+    File: ./backup/mac.bind (Line 75)
+
+Duplicate bind found: M-Tab
+    File: ./mac.bind (Line 80)
+    File: ./backup/mac.bind (Line 80)
+
+Duplicate bind found: A-Tab
+    File: ./mac.bind (Line 81)
+    File: ./backup/mac.bind (Line 81)
+
+Duplicate bind found: M-S-BackTab
+    File: ./mac.bind (Line 83)
+    File: ./backup/mac.bind (Line 83)
+
+Duplicate bind found: A-S-BackTab
+    File: ./mac.bind (Line 84)
+    File: ./backup/mac.bind (Line 84)
+
+Duplicate bind found: C-S-equal
+    File: ./mac.bind (Line 108)
+    File: ./backup/mac.bind (Line 106)
+
+Duplicate bind found: C-equal
+    File: ./mac.bind (Line 109)
+    File: ./backup/math_sequences.bind (Line 188)
+    File: ./backup/math_symboles.bind (Line 30)
+
+Duplicate bind found: C-S-semicolon
+    File: ./mac.bind (Line 115)
+    File: ./backup/mac.bind (Line 112)
+
+Duplicate bind found: C-S-g
+    File: ./mac.bind (Line 151)
+    File: ./backup/mac.bind (Line 148)
+
+Duplicate bind found: C-S-w
+    File: ./mac.bind (Line 195)
+    File: ./backup/mac.bind (Line 194)
+
+Duplicate bind found: C-A-w
+    File: ./mac.bind (Line 197)
+    File: ./backup/mathcal.bind (Line 23)
+    File: ./backup/mac.bind (Line 196)
+
+Duplicate bind found: M-A-Down
+    File: ./mac.bind (Line 215)
+    File: ./backup/mac.bind (Line 214)
+
+Duplicate bind found: M-A-Up
+    File: ./mac.bind (Line 218)
+    File: ./backup/mac.bind (Line 217)
+
+Duplicate bind found: A-Right
+    File: ./mac.bind (Line 236)
+    File: ./backup/mac.bind (Line 235)
+
+Duplicate bind found: S-A-Right
+    File: ./mac.bind (Line 237)
+    File: ./backup/mac.bind (Line 236)
+
+Duplicate bind found: A-Left
+    File: ./mac.bind (Line 239)
+    File: ./backup/mac.bind (Line 238)
+
+Duplicate bind found: S-A-Left
+    File: ./mac.bind (Line 240)
+    File: ./backup/mac.bind (Line 239)
+
+Duplicate bind found: A-Down
+    File: ./mac.bind (Line 242)
+    File: ./backup/mac.bind (Line 241)
+
+Duplicate bind found: S-A-Down
+    File: ./mac.bind (Line 243)
+    File: ./backup/mac.bind (Line 242)
+
+Duplicate bind found: S-M-A-Down
+    File: ./mac.bind (Line 244)
+    File: ./backup/mac.bind (Line 243)
+
+Duplicate bind found: A-Up
+    File: ./mac.bind (Line 246)
+    File: ./backup/mac.bind (Line 245)
+
+Duplicate bind found: S-A-Up
+    File: ./mac.bind (Line 247)
+    File: ./backup/mac.bind (Line 246)
+
+Duplicate bind found: S-M-A-Up
+    File: ./mac.bind (Line 248)
+    File: ./backup/mac.bind (Line 247)
+
+Duplicate bind found: C-M-S-T
+    File: ./mac.bind (Line 258)
+    File: ./backup/mac.bind (Line 257)
+
+Duplicate bind found: C-M-S-D
+    File: ./mac.bind (Line 259)
+    File: ./backup/mac.bind (Line 258)
+
+Duplicate bind found: M-C-Right
+    File: ./mac.bind (Line 265)
+    File: ./backup/mac.bind (Line 264)
+
+Duplicate bind found: M-C-Left
+    File: ./mac.bind (Line 266)
+    File: ./backup/mac.bind (Line 265)
+
+Duplicate bind found: C-A-Up
+    File: ./mac.bind (Line 275)
+    File: ./backup/mac.bind (Line 274)
+
+Duplicate bind found: C-A-Down
+    File: ./mac.bind (Line 276)
+    File: ./backup/mac.bind (Line 275)
+
+Duplicate bind found: C-A-Prior
+    File: ./mac.bind (Line 277)
+    File: ./backup/mac.bind (Line 276)
+
+Duplicate bind found: C-A-Next
+    File: ./mac.bind (Line 278)
+    File: ./backup/mac.bind (Line 277)
+
+Duplicate bind found: S-M-KP_Right
+    File: ./mac.bind (Line 306)
+    File: ./backup/mac.bind (Line 304)
+
+Duplicate bind found: S-M-KP_Left
+    File: ./mac.bind (Line 307)
+    File: ./backup/mac.bind (Line 305)
+
+Duplicate bind found: S-M-KP_Up
+    File: ./mac.bind (Line 308)
+    File: ./backup/mac.bind (Line 306)
+
+Duplicate bind found: S-M-KP_Down
+    File: ./mac.bind (Line 309)
+    File: ./backup/mac.bind (Line 307)
+
+Duplicate bind found: A-Delete
+    File: ./mac.bind (Line 349)
+    File: ./backup/mac.bind (Line 347)
+
+Duplicate bind found: A-BackSpace
+    File: ./mac.bind (Line 350)
+    File: ./backup/mac.bind (Line 348)
+
+Duplicate bind found: A-space
+    File: ./mac.bind (Line 354)
+    File: ./backup/mac.bind (Line 352)
+
+Duplicate bind found: C-A-space
+    File: ./mac.bind (Line 356)
+    File: ./backup/mac.bind (Line 354)
+
+Duplicate bind found: S-A-space
+    File: ./mac.bind (Line 357)
+    File: ./backup/mac.bind (Line 355)
+
+Duplicate bind found: C-M-Right
+    File: ./mac.bind (Line 364)
+    File: ./backup/math_sequences.bind (Line 194)
+    File: ./backup/mac.bind (Line 362)
+
+Duplicate bind found: C-M-Left
+    File: ./mac.bind (Line 365)
+    File: ./backup/math_sequences.bind (Line 193)
+    File: ./backup/mac.bind (Line 363)
+
+Duplicate bind found: C-M-F
+    File: ./mac.bind (Line 368)
+    File: ./backup/mac.bind (Line 366)
+
+Duplicate bind found: KP_0
+    File: ./latinkeys.bind (Line 17)
+    File: ./backup/latinkeys.bind (Line 17)
+
+Duplicate bind found: KP_1
+    File: ./latinkeys.bind (Line 18)
+    File: ./backup/latinkeys.bind (Line 18)
+
+Duplicate bind found: KP_2
+    File: ./latinkeys.bind (Line 19)
+    File: ./backup/latinkeys.bind (Line 19)
+
+Duplicate bind found: KP_3
+    File: ./latinkeys.bind (Line 20)
+    File: ./backup/latinkeys.bind (Line 20)
+
+Duplicate bind found: KP_4
+    File: ./latinkeys.bind (Line 21)
+    File: ./backup/latinkeys.bind (Line 21)
+
+Duplicate bind found: KP_5
+    File: ./latinkeys.bind (Line 22)
+    File: ./backup/latinkeys.bind (Line 22)
+
+Duplicate bind found: KP_6
+    File: ./latinkeys.bind (Line 23)
+    File: ./backup/latinkeys.bind (Line 23)
+
+Duplicate bind found: KP_7
+    File: ./latinkeys.bind (Line 24)
+    File: ./backup/latinkeys.bind (Line 24)
+
+Duplicate bind found: KP_8
+    File: ./latinkeys.bind (Line 25)
+    File: ./backup/latinkeys.bind (Line 25)
+
+Duplicate bind found: KP_9
+    File: ./latinkeys.bind (Line 26)
+    File: ./backup/latinkeys.bind (Line 26)
+
+Duplicate bind found: KP_Decimal
+    File: ./latinkeys.bind (Line 27)
+    File: ./backup/latinkeys.bind (Line 27)
+
+Duplicate bind found: KP_Add
+    File: ./latinkeys.bind (Line 28)
+    File: ./backup/latinkeys.bind (Line 28)
+
+Duplicate bind found: KP_Divide
+    File: ./latinkeys.bind (Line 29)
+    File: ./backup/latinkeys.bind (Line 29)
+
+Duplicate bind found: KP_Multiply
+    File: ./latinkeys.bind (Line 30)
+    File: ./backup/latinkeys.bind (Line 30)
+
+Duplicate bind found: KP_Subtract
+    File: ./latinkeys.bind (Line 31)
+    File: ./backup/latinkeys.bind (Line 31)
+
+Duplicate bind found: space
+    File: ./latinkeys.bind (Line 35)
+    File: ./backup/latinkeys.bind (Line 35)
+
+Duplicate bind found: exclam
+    File: ./latinkeys.bind (Line 36)
+    File: ./backup/latinkeys.bind (Line 36)
+
+Duplicate bind found: quotedbl
+    File: ./latinkeys.bind (Line 37)
+    File: ./backup/latinkeys.bind (Line 37)
+
+Duplicate bind found: numbersign
+    File: ./latinkeys.bind (Line 38)
+    File: ./backup/latinkeys.bind (Line 38)
+
+Duplicate bind found: dollar
+    File: ./latinkeys.bind (Line 39)
+    File: ./backup/latinkeys.bind (Line 39)
+
+Duplicate bind found: percent
+    File: ./latinkeys.bind (Line 40)
+    File: ./backup/latinkeys.bind (Line 40)
+
+Duplicate bind found: ampersand
+    File: ./latinkeys.bind (Line 41)
+    File: ./backup/latinkeys.bind (Line 41)
+
+Duplicate bind found: apostrophe
+    File: ./latinkeys.bind (Line 42)
+    File: ./backup/latinkeys.bind (Line 42)
+
+Duplicate bind found: quoteright
+    File: ./latinkeys.bind (Line 43)
+    File: ./backup/latinkeys.bind (Line 43)
+
+Duplicate bind found: parenleft
+    File: ./latinkeys.bind (Line 44)
+    File: ./backup/latinkeys.bind (Line 44)
+
+Duplicate bind found: parenright
+    File: ./latinkeys.bind (Line 45)
+    File: ./backup/latinkeys.bind (Line 45)
+
+Duplicate bind found: asterisk
+    File: ./latinkeys.bind (Line 46)
+    File: ./backup/latinkeys.bind (Line 46)
+
+Duplicate bind found: plus
+    File: ./latinkeys.bind (Line 47)
+    File: ./backup/latinkeys.bind (Line 47)
+
+Duplicate bind found: comma
+    File: ./latinkeys.bind (Line 48)
+    File: ./backup/latinkeys.bind (Line 48)
+
+Duplicate bind found: minus
+    File: ./latinkeys.bind (Line 49)
+    File: ./backup/latinkeys.bind (Line 49)
+
+Duplicate bind found: period
+    File: ./latinkeys.bind (Line 50)
+    File: ./backup/latinkeys.bind (Line 50)
+
+Duplicate bind found: slash
+    File: ./latinkeys.bind (Line 51)
+    File: ./backup/latinkeys.bind (Line 51)
+
+Duplicate bind found: 0
+    File: ./latinkeys.bind (Line 52)
+    File: ./backup/latinkeys.bind (Line 52)
+
+Duplicate bind found: 1
+    File: ./latinkeys.bind (Line 53)
+    File: ./backup/latinkeys.bind (Line 53)
+
+Duplicate bind found: 2
+    File: ./latinkeys.bind (Line 54)
+    File: ./backup/latinkeys.bind (Line 54)
+
+Duplicate bind found: 3
+    File: ./latinkeys.bind (Line 55)
+    File: ./backup/latinkeys.bind (Line 55)
+
+Duplicate bind found: 4
+    File: ./latinkeys.bind (Line 56)
+    File: ./backup/latinkeys.bind (Line 56)
+
+Duplicate bind found: 5
+    File: ./latinkeys.bind (Line 57)
+    File: ./backup/latinkeys.bind (Line 57)
+
+Duplicate bind found: 6
+    File: ./latinkeys.bind (Line 58)
+    File: ./backup/latinkeys.bind (Line 58)
+
+Duplicate bind found: 7
+    File: ./latinkeys.bind (Line 59)
+    File: ./backup/latinkeys.bind (Line 59)
+
+Duplicate bind found: 8
+    File: ./latinkeys.bind (Line 60)
+    File: ./backup/latinkeys.bind (Line 60)
+
+Duplicate bind found: 9
+    File: ./latinkeys.bind (Line 61)
+    File: ./backup/latinkeys.bind (Line 61)
+
+Duplicate bind found: colon
+    File: ./latinkeys.bind (Line 62)
+    File: ./backup/latinkeys.bind (Line 62)
+
+Duplicate bind found: semicolon
+    File: ./latinkeys.bind (Line 63)
+    File: ./backup/latinkeys.bind (Line 63)
+
+Duplicate bind found: less
+    File: ./latinkeys.bind (Line 64)
+    File: ./backup/latinkeys.bind (Line 64)
+
+Duplicate bind found: equal
+    File: ./latinkeys.bind (Line 65)
+    File: ./backup/latinkeys.bind (Line 65)
+
+Duplicate bind found: greater
+    File: ./latinkeys.bind (Line 66)
+    File: ./backup/latinkeys.bind (Line 66)
+
+Duplicate bind found: question
+    File: ./latinkeys.bind (Line 67)
+    File: ./backup/latinkeys.bind (Line 67)
+
+Duplicate bind found: at
+    File: ./latinkeys.bind (Line 68)
+    File: ./backup/latinkeys.bind (Line 68)
+
+Duplicate bind found: A
+    File: ./latinkeys.bind (Line 69)
+    File: ./backup/latinkeys.bind (Line 69)
+
+Duplicate bind found: B
+    File: ./latinkeys.bind (Line 70)
+    File: ./backup/latinkeys.bind (Line 70)
+
+Duplicate bind found: C
+    File: ./latinkeys.bind (Line 71)
+    File: ./backup/latinkeys.bind (Line 71)
+
+Duplicate bind found: D
+    File: ./latinkeys.bind (Line 72)
+    File: ./backup/latinkeys.bind (Line 72)
+
+Duplicate bind found: E
+    File: ./latinkeys.bind (Line 73)
+    File: ./backup/latinkeys.bind (Line 73)
+
+Duplicate bind found: F
+    File: ./latinkeys.bind (Line 74)
+    File: ./backup/latinkeys.bind (Line 74)
+
+Duplicate bind found: G
+    File: ./latinkeys.bind (Line 75)
+    File: ./backup/latinkeys.bind (Line 75)
+
+Duplicate bind found: H
+    File: ./latinkeys.bind (Line 76)
+    File: ./backup/latinkeys.bind (Line 76)
+
+Duplicate bind found: I
+    File: ./latinkeys.bind (Line 77)
+    File: ./backup/latinkeys.bind (Line 77)
+
+Duplicate bind found: J
+    File: ./latinkeys.bind (Line 78)
+    File: ./backup/latinkeys.bind (Line 78)
+
+Duplicate bind found: K
+    File: ./latinkeys.bind (Line 79)
+    File: ./backup/latinkeys.bind (Line 79)
+
+Duplicate bind found: L
+    File: ./latinkeys.bind (Line 80)
+    File: ./backup/latinkeys.bind (Line 80)
+
+Duplicate bind found: M
+    File: ./latinkeys.bind (Line 81)
+    File: ./backup/latinkeys.bind (Line 81)
+
+Duplicate bind found: N
+    File: ./latinkeys.bind (Line 82)
+    File: ./backup/latinkeys.bind (Line 82)
+
+Duplicate bind found: O
+    File: ./latinkeys.bind (Line 83)
+    File: ./backup/latinkeys.bind (Line 83)
+
+Duplicate bind found: P
+    File: ./latinkeys.bind (Line 84)
+    File: ./backup/latinkeys.bind (Line 84)
+
+Duplicate bind found: Q
+    File: ./latinkeys.bind (Line 85)
+    File: ./backup/latinkeys.bind (Line 85)
+
+Duplicate bind found: R
+    File: ./latinkeys.bind (Line 86)
+    File: ./backup/latinkeys.bind (Line 86)
+
+Duplicate bind found: S
+    File: ./latinkeys.bind (Line 87)
+    File: ./backup/latinkeys.bind (Line 87)
+
+Duplicate bind found: T
+    File: ./latinkeys.bind (Line 88)
+    File: ./backup/latinkeys.bind (Line 88)
+
+Duplicate bind found: U
+    File: ./latinkeys.bind (Line 89)
+    File: ./backup/latinkeys.bind (Line 89)
+
+Duplicate bind found: V
+    File: ./latinkeys.bind (Line 90)
+    File: ./backup/latinkeys.bind (Line 90)
+
+Duplicate bind found: W
+    File: ./latinkeys.bind (Line 91)
+    File: ./backup/latinkeys.bind (Line 91)
+
+Duplicate bind found: X
+    File: ./latinkeys.bind (Line 92)
+    File: ./backup/latinkeys.bind (Line 92)
+
+Duplicate bind found: Y
+    File: ./latinkeys.bind (Line 93)
+    File: ./backup/latinkeys.bind (Line 93)
+
+Duplicate bind found: Z
+    File: ./latinkeys.bind (Line 94)
+    File: ./backup/latinkeys.bind (Line 94)
+
+Duplicate bind found: bracketleft
+    File: ./latinkeys.bind (Line 95)
+    File: ./backup/latinkeys.bind (Line 95)
+
+Duplicate bind found: backslash
+    File: ./latinkeys.bind (Line 96)
+    File: ./backup/latinkeys.bind (Line 96)
+
+Duplicate bind found: bracketright
+    File: ./latinkeys.bind (Line 97)
+    File: ./backup/latinkeys.bind (Line 97)
+
+Duplicate bind found: asciicircum
+    File: ./latinkeys.bind (Line 98)
+    File: ./backup/latinkeys.bind (Line 98)
+
+Duplicate bind found: underscore
+    File: ./latinkeys.bind (Line 99)
+    File: ./backup/latinkeys.bind (Line 99)
+
+Duplicate bind found: grave
+    File: ./latinkeys.bind (Line 100)
+    File: ./backup/latinkeys.bind (Line 100)
+
+Duplicate bind found: quoteleft
+    File: ./latinkeys.bind (Line 101)
+    File: ./backup/latinkeys.bind (Line 101)
+
+Duplicate bind found: a
+    File: ./latinkeys.bind (Line 102)
+    File: ./backup/latinkeys.bind (Line 102)
+
+Duplicate bind found: b
+    File: ./latinkeys.bind (Line 103)
+    File: ./backup/latinkeys.bind (Line 103)
+
+Duplicate bind found: c
+    File: ./latinkeys.bind (Line 104)
+    File: ./backup/latinkeys.bind (Line 104)
+
+Duplicate bind found: d
+    File: ./latinkeys.bind (Line 105)
+    File: ./backup/latinkeys.bind (Line 105)
+
+Duplicate bind found: e
+    File: ./latinkeys.bind (Line 106)
+    File: ./backup/latinkeys.bind (Line 106)
+
+Duplicate bind found: f
+    File: ./latinkeys.bind (Line 107)
+    File: ./backup/latinkeys.bind (Line 107)
+
+Duplicate bind found: g
+    File: ./latinkeys.bind (Line 108)
+    File: ./backup/latinkeys.bind (Line 108)
+
+Duplicate bind found: h
+    File: ./latinkeys.bind (Line 109)
+    File: ./backup/latinkeys.bind (Line 109)
+
+Duplicate bind found: i
+    File: ./latinkeys.bind (Line 110)
+    File: ./backup/latinkeys.bind (Line 110)
+
+Duplicate bind found: j
+    File: ./latinkeys.bind (Line 111)
+    File: ./backup/latinkeys.bind (Line 111)
+
+Duplicate bind found: k
+    File: ./latinkeys.bind (Line 112)
+    File: ./backup/latinkeys.bind (Line 112)
+
+Duplicate bind found: l
+    File: ./latinkeys.bind (Line 113)
+    File: ./backup/latinkeys.bind (Line 113)
+
+Duplicate bind found: m
+    File: ./latinkeys.bind (Line 114)
+    File: ./backup/latinkeys.bind (Line 114)
+
+Duplicate bind found: n
+    File: ./latinkeys.bind (Line 115)
+    File: ./backup/latinkeys.bind (Line 115)
+
+Duplicate bind found: o
+    File: ./latinkeys.bind (Line 116)
+    File: ./backup/latinkeys.bind (Line 116)
+
+Duplicate bind found: p
+    File: ./latinkeys.bind (Line 117)
+    File: ./backup/latinkeys.bind (Line 117)
+
+Duplicate bind found: q
+    File: ./latinkeys.bind (Line 118)
+    File: ./backup/latinkeys.bind (Line 118)
+
+Duplicate bind found: r
+    File: ./latinkeys.bind (Line 119)
+    File: ./backup/latinkeys.bind (Line 119)
+
+Duplicate bind found: s
+    File: ./latinkeys.bind (Line 120)
+    File: ./backup/latinkeys.bind (Line 120)
+
+Duplicate bind found: t
+    File: ./latinkeys.bind (Line 121)
+    File: ./backup/latinkeys.bind (Line 121)
+
+Duplicate bind found: u
+    File: ./latinkeys.bind (Line 122)
+    File: ./backup/latinkeys.bind (Line 122)
+
+Duplicate bind found: v
+    File: ./latinkeys.bind (Line 123)
+    File: ./backup/latinkeys.bind (Line 123)
+
+Duplicate bind found: w
+    File: ./latinkeys.bind (Line 124)
+    File: ./backup/latinkeys.bind (Line 124)
+
+Duplicate bind found: x
+    File: ./latinkeys.bind (Line 125)
+    File: ./backup/latinkeys.bind (Line 125)
+
+Duplicate bind found: y
+    File: ./latinkeys.bind (Line 126)
+    File: ./backup/latinkeys.bind (Line 126)
+
+Duplicate bind found: z
+    File: ./latinkeys.bind (Line 127)
+    File: ./backup/latinkeys.bind (Line 127)
+
+Duplicate bind found: braceleft
+    File: ./latinkeys.bind (Line 128)
+    File: ./backup/latinkeys.bind (Line 128)
+
+Duplicate bind found: bar
+    File: ./latinkeys.bind (Line 129)
+    File: ./backup/latinkeys.bind (Line 129)
+
+Duplicate bind found: braceright
+    File: ./latinkeys.bind (Line 130)
+    File: ./backup/latinkeys.bind (Line 130)
+
+Duplicate bind found: asciitilde
+    File: ./latinkeys.bind (Line 131)
+    File: ./backup/latinkeys.bind (Line 131)
+
+Duplicate bind found: exclamdown
+    File: ./latinkeys.bind (Line 133)
+    File: ./backup/latinkeys.bind (Line 133)
+
+Duplicate bind found: cent
+    File: ./latinkeys.bind (Line 134)
+    File: ./backup/latinkeys.bind (Line 134)
+
+Duplicate bind found: sterling
+    File: ./latinkeys.bind (Line 135)
+    File: ./backup/latinkeys.bind (Line 135)
+
+Duplicate bind found: currency
+    File: ./latinkeys.bind (Line 136)
+    File: ./backup/latinkeys.bind (Line 136)
+
+Duplicate bind found: yen
+    File: ./latinkeys.bind (Line 137)
+    File: ./backup/latinkeys.bind (Line 137)
+
+Duplicate bind found: brokenbar
+    File: ./latinkeys.bind (Line 138)
+    File: ./backup/latinkeys.bind (Line 138)
+
+Duplicate bind found: section
+    File: ./latinkeys.bind (Line 139)
+    File: ./backup/latinkeys.bind (Line 139)
+
+Duplicate bind found: diaeresis
+    File: ./latinkeys.bind (Line 140)
+    File: ./backup/latinkeys.bind (Line 140)
+
+Duplicate bind found: copyright
+    File: ./latinkeys.bind (Line 141)
+    File: ./backup/latinkeys.bind (Line 141)
+
+Duplicate bind found: ordfeminine
+    File: ./latinkeys.bind (Line 142)
+    File: ./backup/latinkeys.bind (Line 142)
+
+Duplicate bind found: guillemotleft
+    File: ./latinkeys.bind (Line 143)
+    File: ./backup/latinkeys.bind (Line 143)
+
+Duplicate bind found: notsign
+    File: ./latinkeys.bind (Line 144)
+    File: ./backup/latinkeys.bind (Line 144)
+
+Duplicate bind found: hyphen
+    File: ./latinkeys.bind (Line 145)
+    File: ./backup/latinkeys.bind (Line 145)
+
+Duplicate bind found: registered
+    File: ./latinkeys.bind (Line 146)
+    File: ./backup/latinkeys.bind (Line 146)
+
+Duplicate bind found: macron
+    File: ./latinkeys.bind (Line 147)
+    File: ./backup/latinkeys.bind (Line 147)
+
+Duplicate bind found: degree
+    File: ./latinkeys.bind (Line 148)
+    File: ./backup/latinkeys.bind (Line 148)
+
+Duplicate bind found: plusminus
+    File: ./latinkeys.bind (Line 149)
+    File: ./backup/latinkeys.bind (Line 149)
+
+Duplicate bind found: twosuperior
+    File: ./latinkeys.bind (Line 150)
+    File: ./backup/latinkeys.bind (Line 150)
+
+Duplicate bind found: threesuperior
+    File: ./latinkeys.bind (Line 151)
+    File: ./backup/latinkeys.bind (Line 151)
+
+Duplicate bind found: acute
+    File: ./latinkeys.bind (Line 152)
+    File: ./backup/latinkeys.bind (Line 152)
+
+Duplicate bind found: mu
+    File: ./latinkeys.bind (Line 153)
+    File: ./backup/latinkeys.bind (Line 153)
+
+Duplicate bind found: paragraph
+    File: ./latinkeys.bind (Line 154)
+    File: ./backup/latinkeys.bind (Line 154)
+
+Duplicate bind found: periodcentered
+    File: ./latinkeys.bind (Line 155)
+    File: ./backup/latinkeys.bind (Line 155)
+
+Duplicate bind found: cedilla
+    File: ./latinkeys.bind (Line 156)
+    File: ./backup/latinkeys.bind (Line 156)
+
+Duplicate bind found: onesuperior
+    File: ./latinkeys.bind (Line 157)
+    File: ./backup/latinkeys.bind (Line 157)
+
+Duplicate bind found: masculine
+    File: ./latinkeys.bind (Line 158)
+    File: ./backup/latinkeys.bind (Line 158)
+
+Duplicate bind found: guillemotright
+    File: ./latinkeys.bind (Line 159)
+    File: ./backup/latinkeys.bind (Line 159)
+
+Duplicate bind found: onequarter
+    File: ./latinkeys.bind (Line 160)
+    File: ./backup/latinkeys.bind (Line 160)
+
+Duplicate bind found: onehalf
+    File: ./latinkeys.bind (Line 161)
+    File: ./backup/latinkeys.bind (Line 161)
+
+Duplicate bind found: threequarters
+    File: ./latinkeys.bind (Line 162)
+    File: ./backup/latinkeys.bind (Line 162)
+
+Duplicate bind found: questiondown
+    File: ./latinkeys.bind (Line 163)
+    File: ./backup/latinkeys.bind (Line 163)
+
+Duplicate bind found: Agrave
+    File: ./latinkeys.bind (Line 164)
+    File: ./backup/latinkeys.bind (Line 164)
+
+Duplicate bind found: Aacute
+    File: ./latinkeys.bind (Line 165)
+    File: ./backup/latinkeys.bind (Line 165)
+
+Duplicate bind found: Acircumflex
+    File: ./latinkeys.bind (Line 166)
+    File: ./backup/latinkeys.bind (Line 166)
+
+Duplicate bind found: Atilde
+    File: ./latinkeys.bind (Line 167)
+    File: ./backup/latinkeys.bind (Line 167)
+
+Duplicate bind found: Adiaeresis
+    File: ./latinkeys.bind (Line 168)
+    File: ./backup/latinkeys.bind (Line 168)
+
+Duplicate bind found: Aring
+    File: ./latinkeys.bind (Line 169)
+    File: ./backup/latinkeys.bind (Line 169)
+
+Duplicate bind found: AE
+    File: ./latinkeys.bind (Line 170)
+    File: ./backup/latinkeys.bind (Line 170)
+
+Duplicate bind found: Ccedilla
+    File: ./latinkeys.bind (Line 171)
+    File: ./backup/latinkeys.bind (Line 171)
+
+Duplicate bind found: Egrave
+    File: ./latinkeys.bind (Line 172)
+    File: ./backup/latinkeys.bind (Line 172)
+
+Duplicate bind found: Eacute
+    File: ./latinkeys.bind (Line 173)
+    File: ./backup/latinkeys.bind (Line 173)
+
+Duplicate bind found: Ecircumflex
+    File: ./latinkeys.bind (Line 174)
+    File: ./backup/latinkeys.bind (Line 174)
+
+Duplicate bind found: Ediaeresis
+    File: ./latinkeys.bind (Line 175)
+    File: ./backup/latinkeys.bind (Line 175)
+
+Duplicate bind found: Igrave
+    File: ./latinkeys.bind (Line 176)
+    File: ./backup/latinkeys.bind (Line 176)
+
+Duplicate bind found: Iacute
+    File: ./latinkeys.bind (Line 177)
+    File: ./backup/latinkeys.bind (Line 177)
+
+Duplicate bind found: Icircumflex
+    File: ./latinkeys.bind (Line 178)
+    File: ./backup/latinkeys.bind (Line 178)
+
+Duplicate bind found: Idiaeresis
+    File: ./latinkeys.bind (Line 179)
+    File: ./backup/latinkeys.bind (Line 179)
+
+Duplicate bind found: ETH
+    File: ./latinkeys.bind (Line 180)
+    File: ./backup/latinkeys.bind (Line 180)
+
+Duplicate bind found: Eth
+    File: ./latinkeys.bind (Line 181)
+    File: ./backup/latinkeys.bind (Line 181)
+
+Duplicate bind found: Ntilde
+    File: ./latinkeys.bind (Line 182)
+    File: ./backup/latinkeys.bind (Line 182)
+
+Duplicate bind found: Ograve
+    File: ./latinkeys.bind (Line 183)
+    File: ./backup/latinkeys.bind (Line 183)
+
+Duplicate bind found: Oacute
+    File: ./latinkeys.bind (Line 184)
+    File: ./backup/latinkeys.bind (Line 184)
+
+Duplicate bind found: Ocircumflex
+    File: ./latinkeys.bind (Line 185)
+    File: ./backup/latinkeys.bind (Line 185)
+
+Duplicate bind found: Otilde
+    File: ./latinkeys.bind (Line 186)
+    File: ./backup/latinkeys.bind (Line 186)
+
+Duplicate bind found: Odiaeresis
+    File: ./latinkeys.bind (Line 187)
+    File: ./backup/latinkeys.bind (Line 187)
+
+Duplicate bind found: multiply
+    File: ./latinkeys.bind (Line 188)
+    File: ./backup/latinkeys.bind (Line 188)
+
+Duplicate bind found: Ooblique
+    File: ./latinkeys.bind (Line 189)
+    File: ./backup/latinkeys.bind (Line 189)
+
+Duplicate bind found: Oslash
+    File: ./latinkeys.bind (Line 190)
+    File: ./backup/latinkeys.bind (Line 190)
+
+Duplicate bind found: Ugrave
+    File: ./latinkeys.bind (Line 191)
+    File: ./backup/latinkeys.bind (Line 191)
+
+Duplicate bind found: Uacute
+    File: ./latinkeys.bind (Line 192)
+    File: ./backup/latinkeys.bind (Line 192)
+
+Duplicate bind found: Ucircumflex
+    File: ./latinkeys.bind (Line 193)
+    File: ./backup/latinkeys.bind (Line 193)
+
+Duplicate bind found: Udiaeresis
+    File: ./latinkeys.bind (Line 194)
+    File: ./backup/latinkeys.bind (Line 194)
+
+Duplicate bind found: Yacute
+    File: ./latinkeys.bind (Line 195)
+    File: ./backup/latinkeys.bind (Line 195)
+
+Duplicate bind found: THORN
+    File: ./latinkeys.bind (Line 196)
+    File: ./backup/latinkeys.bind (Line 196)
+
+Duplicate bind found: Thorn
+    File: ./latinkeys.bind (Line 197)
+    File: ./backup/latinkeys.bind (Line 197)
+
+Duplicate bind found: ssharp
+    File: ./latinkeys.bind (Line 198)
+    File: ./backup/latinkeys.bind (Line 198)
+
+Duplicate bind found: agrave
+    File: ./latinkeys.bind (Line 199)
+    File: ./backup/latinkeys.bind (Line 199)
+
+Duplicate bind found: aacute
+    File: ./latinkeys.bind (Line 200)
+    File: ./backup/latinkeys.bind (Line 200)
+
+Duplicate bind found: acircumflex
+    File: ./latinkeys.bind (Line 201)
+    File: ./backup/latinkeys.bind (Line 201)
+
+Duplicate bind found: atilde
+    File: ./latinkeys.bind (Line 202)
+    File: ./backup/latinkeys.bind (Line 202)
+
+Duplicate bind found: adiaeresis
+    File: ./latinkeys.bind (Line 203)
+    File: ./backup/latinkeys.bind (Line 203)
+
+Duplicate bind found: aring
+    File: ./latinkeys.bind (Line 204)
+    File: ./backup/latinkeys.bind (Line 204)
+
+Duplicate bind found: ae
+    File: ./latinkeys.bind (Line 205)
+    File: ./backup/latinkeys.bind (Line 205)
+
+Duplicate bind found: ccedilla
+    File: ./latinkeys.bind (Line 206)
+    File: ./backup/latinkeys.bind (Line 206)
+
+Duplicate bind found: egrave
+    File: ./latinkeys.bind (Line 207)
+    File: ./backup/latinkeys.bind (Line 207)
+
+Duplicate bind found: eacute
+    File: ./latinkeys.bind (Line 208)
+    File: ./backup/latinkeys.bind (Line 208)
+
+Duplicate bind found: ecircumflex
+    File: ./latinkeys.bind (Line 209)
+    File: ./backup/latinkeys.bind (Line 209)
+
+Duplicate bind found: ediaeresis
+    File: ./latinkeys.bind (Line 210)
+    File: ./backup/latinkeys.bind (Line 210)
+
+Duplicate bind found: igrave
+    File: ./latinkeys.bind (Line 211)
+    File: ./backup/latinkeys.bind (Line 211)
+
+Duplicate bind found: iacute
+    File: ./latinkeys.bind (Line 212)
+    File: ./backup/latinkeys.bind (Line 212)
+
+Duplicate bind found: icircumflex
+    File: ./latinkeys.bind (Line 213)
+    File: ./backup/latinkeys.bind (Line 213)
+
+Duplicate bind found: idiaeresis
+    File: ./latinkeys.bind (Line 214)
+    File: ./backup/latinkeys.bind (Line 214)
+
+Duplicate bind found: eth
+    File: ./latinkeys.bind (Line 215)
+    File: ./backup/latinkeys.bind (Line 215)
+
+Duplicate bind found: ntilde
+    File: ./latinkeys.bind (Line 216)
+    File: ./backup/latinkeys.bind (Line 216)
+
+Duplicate bind found: ograve
+    File: ./latinkeys.bind (Line 217)
+    File: ./backup/latinkeys.bind (Line 217)
+
+Duplicate bind found: oacute
+    File: ./latinkeys.bind (Line 218)
+    File: ./backup/latinkeys.bind (Line 218)
+
+Duplicate bind found: ocircumflex
+    File: ./latinkeys.bind (Line 219)
+    File: ./backup/latinkeys.bind (Line 219)
+
+Duplicate bind found: otilde
+    File: ./latinkeys.bind (Line 220)
+    File: ./backup/latinkeys.bind (Line 220)
+
+Duplicate bind found: odiaeresis
+    File: ./latinkeys.bind (Line 221)
+    File: ./backup/latinkeys.bind (Line 221)
+
+Duplicate bind found: division
+    File: ./latinkeys.bind (Line 222)
+    File: ./backup/latinkeys.bind (Line 222)
+
+Duplicate bind found: oslash
+    File: ./latinkeys.bind (Line 223)
+    File: ./backup/latinkeys.bind (Line 223)
+
+Duplicate bind found: ooblique
+    File: ./latinkeys.bind (Line 224)
+    File: ./backup/latinkeys.bind (Line 224)
+
+Duplicate bind found: ugrave
+    File: ./latinkeys.bind (Line 225)
+    File: ./backup/latinkeys.bind (Line 225)
+
+Duplicate bind found: uacute
+    File: ./latinkeys.bind (Line 226)
+    File: ./backup/latinkeys.bind (Line 226)
+
+Duplicate bind found: ucircumflex
+    File: ./latinkeys.bind (Line 227)
+    File: ./backup/latinkeys.bind (Line 227)
+
+Duplicate bind found: udiaeresis
+    File: ./latinkeys.bind (Line 228)
+    File: ./backup/latinkeys.bind (Line 228)
+
+Duplicate bind found: yacute
+    File: ./latinkeys.bind (Line 229)
+    File: ./backup/latinkeys.bind (Line 229)
+
+Duplicate bind found: thorn
+    File: ./latinkeys.bind (Line 230)
+    File: ./backup/latinkeys.bind (Line 230)
+
+Duplicate bind found: ydiaeresis
+    File: ./latinkeys.bind (Line 231)
+    File: ./backup/latinkeys.bind (Line 231)
+
+Duplicate bind found: Aogonek
+    File: ./latinkeys.bind (Line 235)
+    File: ./backup/latinkeys.bind (Line 235)
+
+Duplicate bind found: bbreve
+    File: ./latinkeys.bind (Line 236)
+    File: ./backup/latinkeys.bind (Line 236)
+
+Duplicate bind found: Lstroke
+    File: ./latinkeys.bind (Line 237)
+    File: ./backup/latinkeys.bind (Line 237)
+
+Duplicate bind found: Lcaron
+    File: ./latinkeys.bind (Line 238)
+    File: ./backup/latinkeys.bind (Line 238)
+
+Duplicate bind found: Sacute
+    File: ./latinkeys.bind (Line 239)
+    File: ./backup/latinkeys.bind (Line 239)
+
+Duplicate bind found: Scaron
+    File: ./latinkeys.bind (Line 240)
+    File: ./backup/latinkeys.bind (Line 240)
+
+Duplicate bind found: Scedilla
+    File: ./latinkeys.bind (Line 241)
+    File: ./backup/latinkeys.bind (Line 241)
+
+Duplicate bind found: Tcaron
+    File: ./latinkeys.bind (Line 242)
+    File: ./backup/latinkeys.bind (Line 242)
+
+Duplicate bind found: Zacute
+    File: ./latinkeys.bind (Line 243)
+    File: ./backup/latinkeys.bind (Line 243)
+
+Duplicate bind found: Zcaron
+    File: ./latinkeys.bind (Line 244)
+    File: ./backup/latinkeys.bind (Line 244)
+
+Duplicate bind found: Zabovedot
+    File: ./latinkeys.bind (Line 245)
+    File: ./backup/latinkeys.bind (Line 245)
+
+Duplicate bind found: aogonek
+    File: ./latinkeys.bind (Line 246)
+    File: ./backup/latinkeys.bind (Line 246)
+
+Duplicate bind found: ogonek
+    File: ./latinkeys.bind (Line 247)
+    File: ./backup/latinkeys.bind (Line 247)
+
+Duplicate bind found: lstroke
+    File: ./latinkeys.bind (Line 248)
+    File: ./backup/latinkeys.bind (Line 248)
+
+Duplicate bind found: lcaron
+    File: ./latinkeys.bind (Line 249)
+    File: ./backup/latinkeys.bind (Line 249)
+
+Duplicate bind found: sacute
+    File: ./latinkeys.bind (Line 250)
+    File: ./backup/latinkeys.bind (Line 250)
+
+Duplicate bind found: caron
+    File: ./latinkeys.bind (Line 251)
+    File: ./backup/latinkeys.bind (Line 251)
+
+Duplicate bind found: scaron
+    File: ./latinkeys.bind (Line 252)
+    File: ./backup/latinkeys.bind (Line 252)
+
+Duplicate bind found: scedilla
+    File: ./latinkeys.bind (Line 253)
+    File: ./backup/latinkeys.bind (Line 253)
+
+Duplicate bind found: tcaron
+    File: ./latinkeys.bind (Line 254)
+    File: ./backup/latinkeys.bind (Line 254)
+
+Duplicate bind found: zacute
+    File: ./latinkeys.bind (Line 255)
+    File: ./backup/latinkeys.bind (Line 255)
+
+Duplicate bind found: doubleacute
+    File: ./latinkeys.bind (Line 256)
+    File: ./backup/latinkeys.bind (Line 256)
+
+Duplicate bind found: zcaron
+    File: ./latinkeys.bind (Line 257)
+    File: ./backup/latinkeys.bind (Line 257)
+
+Duplicate bind found: zabovedot
+    File: ./latinkeys.bind (Line 258)
+    File: ./backup/latinkeys.bind (Line 258)
+
+Duplicate bind found: Racute
+    File: ./latinkeys.bind (Line 259)
+    File: ./backup/latinkeys.bind (Line 259)
+
+Duplicate bind found: Abreve
+    File: ./latinkeys.bind (Line 260)
+    File: ./backup/latinkeys.bind (Line 260)
+
+Duplicate bind found: Lacute
+    File: ./latinkeys.bind (Line 261)
+    File: ./backup/latinkeys.bind (Line 261)
+
+Duplicate bind found: Cacute
+    File: ./latinkeys.bind (Line 262)
+    File: ./backup/latinkeys.bind (Line 262)
+
+Duplicate bind found: Ccaron
+    File: ./latinkeys.bind (Line 263)
+    File: ./backup/latinkeys.bind (Line 263)
+
+Duplicate bind found: Eogonek
+    File: ./latinkeys.bind (Line 264)
+    File: ./backup/latinkeys.bind (Line 264)
+
+Duplicate bind found: Ecaron
+    File: ./latinkeys.bind (Line 265)
+    File: ./backup/latinkeys.bind (Line 265)
+
+Duplicate bind found: Dcaron
+    File: ./latinkeys.bind (Line 266)
+    File: ./backup/latinkeys.bind (Line 266)
+
+Duplicate bind found: Dstroke
+    File: ./latinkeys.bind (Line 267)
+    File: ./backup/latinkeys.bind (Line 267)
+
+Duplicate bind found: Nacute
+    File: ./latinkeys.bind (Line 268)
+    File: ./backup/latinkeys.bind (Line 268)
+
+Duplicate bind found: Ncaron
+    File: ./latinkeys.bind (Line 269)
+    File: ./backup/latinkeys.bind (Line 269)
+
+Duplicate bind found: Odoubleacute
+    File: ./latinkeys.bind (Line 270)
+    File: ./backup/latinkeys.bind (Line 270)
+
+Duplicate bind found: Rcaron
+    File: ./latinkeys.bind (Line 271)
+    File: ./backup/latinkeys.bind (Line 271)
+
+Duplicate bind found: Uring
+    File: ./latinkeys.bind (Line 272)
+    File: ./backup/latinkeys.bind (Line 272)
+
+Duplicate bind found: Udoubleacute
+    File: ./latinkeys.bind (Line 273)
+    File: ./backup/latinkeys.bind (Line 273)
+
+Duplicate bind found: Tcedilla
+    File: ./latinkeys.bind (Line 274)
+    File: ./backup/latinkeys.bind (Line 274)
+
+Duplicate bind found: racute
+    File: ./latinkeys.bind (Line 275)
+    File: ./backup/latinkeys.bind (Line 275)
+
+Duplicate bind found: abreve
+    File: ./latinkeys.bind (Line 276)
+    File: ./backup/latinkeys.bind (Line 276)
+
+Duplicate bind found: lacute
+    File: ./latinkeys.bind (Line 277)
+    File: ./backup/latinkeys.bind (Line 277)
+
+Duplicate bind found: cacute
+    File: ./latinkeys.bind (Line 278)
+    File: ./backup/latinkeys.bind (Line 278)
+
+Duplicate bind found: ccaron
+    File: ./latinkeys.bind (Line 279)
+    File: ./backup/latinkeys.bind (Line 279)
+
+Duplicate bind found: eogonek
+    File: ./latinkeys.bind (Line 280)
+    File: ./backup/latinkeys.bind (Line 280)
+
+Duplicate bind found: ecaron
+    File: ./latinkeys.bind (Line 281)
+    File: ./backup/latinkeys.bind (Line 281)
+
+Duplicate bind found: dcaron
+    File: ./latinkeys.bind (Line 282)
+    File: ./backup/latinkeys.bind (Line 282)
+
+Duplicate bind found: dstroke
+    File: ./latinkeys.bind (Line 283)
+    File: ./backup/latinkeys.bind (Line 283)
+
+Duplicate bind found: nacute
+    File: ./latinkeys.bind (Line 284)
+    File: ./backup/latinkeys.bind (Line 284)
+
+Duplicate bind found: ncaron
+    File: ./latinkeys.bind (Line 285)
+    File: ./backup/latinkeys.bind (Line 285)
+
+Duplicate bind found: odoubleacute
+    File: ./latinkeys.bind (Line 286)
+    File: ./backup/latinkeys.bind (Line 286)
+
+Duplicate bind found: udoubleacute
+    File: ./latinkeys.bind (Line 287)
+    File: ./backup/latinkeys.bind (Line 287)
+
+Duplicate bind found: rcaron
+    File: ./latinkeys.bind (Line 288)
+    File: ./backup/latinkeys.bind (Line 288)
+
+Duplicate bind found: uring
+    File: ./latinkeys.bind (Line 289)
+    File: ./backup/latinkeys.bind (Line 289)
+
+Duplicate bind found: tcedilla
+    File: ./latinkeys.bind (Line 290)
+    File: ./backup/latinkeys.bind (Line 290)
+
+Duplicate bind found: aabovedot
+    File: ./latinkeys.bind (Line 291)
+    File: ./backup/latinkeys.bind (Line 291)
+
+Duplicate bind found: Hstroke
+    File: ./latinkeys.bind (Line 295)
+    File: ./backup/latinkeys.bind (Line 295)
+
+Duplicate bind found: Hcircumflex
+    File: ./latinkeys.bind (Line 296)
+    File: ./backup/latinkeys.bind (Line 296)
+
+Duplicate bind found: Iabovedot
+    File: ./latinkeys.bind (Line 297)
+    File: ./backup/latinkeys.bind (Line 297)
+
+Duplicate bind found: Gbreve
+    File: ./latinkeys.bind (Line 298)
+    File: ./backup/latinkeys.bind (Line 298)
+
+Duplicate bind found: Jcircumflex
+    File: ./latinkeys.bind (Line 299)
+    File: ./backup/latinkeys.bind (Line 299)
+
+Duplicate bind found: hstroke
+    File: ./latinkeys.bind (Line 300)
+    File: ./backup/latinkeys.bind (Line 300)
+
+Duplicate bind found: hcircumflex
+    File: ./latinkeys.bind (Line 301)
+    File: ./backup/latinkeys.bind (Line 301)
+
+Duplicate bind found: idotless
+    File: ./latinkeys.bind (Line 302)
+    File: ./backup/latinkeys.bind (Line 302)
+
+Duplicate bind found: gbreve
+    File: ./latinkeys.bind (Line 303)
+    File: ./backup/latinkeys.bind (Line 303)
+
+Duplicate bind found: jcircumflex
+    File: ./latinkeys.bind (Line 304)
+    File: ./backup/latinkeys.bind (Line 304)
+
+Duplicate bind found: Cabovedot
+    File: ./latinkeys.bind (Line 305)
+    File: ./backup/latinkeys.bind (Line 305)
+
+Duplicate bind found: Ccircumflex
+    File: ./latinkeys.bind (Line 306)
+    File: ./backup/latinkeys.bind (Line 306)
+
+Duplicate bind found: Gabovedot
+    File: ./latinkeys.bind (Line 307)
+    File: ./backup/latinkeys.bind (Line 307)
+
+Duplicate bind found: Gcircumflex
+    File: ./latinkeys.bind (Line 308)
+    File: ./backup/latinkeys.bind (Line 308)
+
+Duplicate bind found: Ubreve
+    File: ./latinkeys.bind (Line 309)
+    File: ./backup/latinkeys.bind (Line 309)
+
+Duplicate bind found: Scircumflex
+    File: ./latinkeys.bind (Line 310)
+    File: ./backup/latinkeys.bind (Line 310)
+
+Duplicate bind found: cabovedot
+    File: ./latinkeys.bind (Line 311)
+    File: ./backup/latinkeys.bind (Line 311)
+
+Duplicate bind found: ccircumflex
+    File: ./latinkeys.bind (Line 312)
+    File: ./backup/latinkeys.bind (Line 312)
+
+Duplicate bind found: gabovedot
+    File: ./latinkeys.bind (Line 313)
+    File: ./backup/latinkeys.bind (Line 313)
+
+Duplicate bind found: gcircumflex
+    File: ./latinkeys.bind (Line 314)
+    File: ./backup/latinkeys.bind (Line 314)
+
+Duplicate bind found: ubreve
+    File: ./latinkeys.bind (Line 315)
+    File: ./backup/latinkeys.bind (Line 315)
+
+Duplicate bind found: scircumflex
+    File: ./latinkeys.bind (Line 316)
+    File: ./backup/latinkeys.bind (Line 316)
+
+Duplicate bind found: kra
+    File: ./latinkeys.bind (Line 320)
+    File: ./backup/latinkeys.bind (Line 320)
+
+Duplicate bind found: kappa
+    File: ./latinkeys.bind (Line 321)
+    File: ./backup/latinkeys.bind (Line 321)
+
+Duplicate bind found: Rcedilla
+    File: ./latinkeys.bind (Line 322)
+    File: ./backup/latinkeys.bind (Line 322)
+
+Duplicate bind found: Itilde
+    File: ./latinkeys.bind (Line 323)
+    File: ./backup/latinkeys.bind (Line 323)
+
+Duplicate bind found: Lcedilla
+    File: ./latinkeys.bind (Line 324)
+    File: ./backup/latinkeys.bind (Line 324)
+
+Duplicate bind found: Emacron
+    File: ./latinkeys.bind (Line 325)
+    File: ./backup/latinkeys.bind (Line 325)
+
+Duplicate bind found: Gcedilla
+    File: ./latinkeys.bind (Line 326)
+    File: ./backup/latinkeys.bind (Line 326)
+
+Duplicate bind found: Tslash
+    File: ./latinkeys.bind (Line 327)
+    File: ./backup/latinkeys.bind (Line 327)
+
+Duplicate bind found: rcedilla
+    File: ./latinkeys.bind (Line 328)
+    File: ./backup/latinkeys.bind (Line 328)
+
+Duplicate bind found: itilde
+    File: ./latinkeys.bind (Line 329)
+    File: ./backup/latinkeys.bind (Line 329)
+
+Duplicate bind found: lcedilla
+    File: ./latinkeys.bind (Line 330)
+    File: ./backup/latinkeys.bind (Line 330)
+
+Duplicate bind found: emacron
+    File: ./latinkeys.bind (Line 331)
+    File: ./backup/latinkeys.bind (Line 331)
+
+Duplicate bind found: gcedilla
+    File: ./latinkeys.bind (Line 332)
+    File: ./backup/latinkeys.bind (Line 332)
+
+Duplicate bind found: tslash
+    File: ./latinkeys.bind (Line 333)
+    File: ./backup/latinkeys.bind (Line 333)
+
+Duplicate bind found: ENG
+    File: ./latinkeys.bind (Line 334)
+    File: ./backup/latinkeys.bind (Line 334)
+
+Duplicate bind found: eng
+    File: ./latinkeys.bind (Line 335)
+    File: ./backup/latinkeys.bind (Line 335)
+
+Duplicate bind found: Amacron
+    File: ./latinkeys.bind (Line 336)
+    File: ./backup/latinkeys.bind (Line 336)
+
+Duplicate bind found: Iogonek
+    File: ./latinkeys.bind (Line 337)
+    File: ./backup/latinkeys.bind (Line 337)
+
+Duplicate bind found: Eabovedot
+    File: ./latinkeys.bind (Line 338)
+    File: ./backup/latinkeys.bind (Line 338)
+
+Duplicate bind found: Imacron
+    File: ./latinkeys.bind (Line 339)
+    File: ./backup/latinkeys.bind (Line 339)
+
+Duplicate bind found: Ncedilla
+    File: ./latinkeys.bind (Line 340)
+    File: ./backup/latinkeys.bind (Line 340)
+
+Duplicate bind found: Omacron
+    File: ./latinkeys.bind (Line 341)
+    File: ./backup/latinkeys.bind (Line 341)
+
+Duplicate bind found: Kcedilla
+    File: ./latinkeys.bind (Line 342)
+    File: ./backup/latinkeys.bind (Line 342)
+
+Duplicate bind found: Uogonek
+    File: ./latinkeys.bind (Line 343)
+    File: ./backup/latinkeys.bind (Line 343)
+
+Duplicate bind found: Utilde
+    File: ./latinkeys.bind (Line 344)
+    File: ./backup/latinkeys.bind (Line 344)
+
+Duplicate bind found: Umacron
+    File: ./latinkeys.bind (Line 345)
+    File: ./backup/latinkeys.bind (Line 345)
+
+Duplicate bind found: amacron
+    File: ./latinkeys.bind (Line 346)
+    File: ./backup/latinkeys.bind (Line 346)
+
+Duplicate bind found: iogonek
+    File: ./latinkeys.bind (Line 347)
+    File: ./backup/latinkeys.bind (Line 347)
+
+Duplicate bind found: eabovedot
+    File: ./latinkeys.bind (Line 348)
+    File: ./backup/latinkeys.bind (Line 348)
+
+Duplicate bind found: imacron
+    File: ./latinkeys.bind (Line 349)
+    File: ./backup/latinkeys.bind (Line 349)
+
+Duplicate bind found: ncedilla
+    File: ./latinkeys.bind (Line 350)
+    File: ./backup/latinkeys.bind (Line 350)
+
+Duplicate bind found: omacron
+    File: ./latinkeys.bind (Line 351)
+    File: ./backup/latinkeys.bind (Line 351)
+
+Duplicate bind found: kcedilla
+    File: ./latinkeys.bind (Line 352)
+    File: ./backup/latinkeys.bind (Line 352)
+
+Duplicate bind found: uogonek
+    File: ./latinkeys.bind (Line 353)
+    File: ./backup/latinkeys.bind (Line 353)
+
+Duplicate bind found: utilde
+    File: ./latinkeys.bind (Line 354)
+    File: ./backup/latinkeys.bind (Line 354)
+
+Duplicate bind found: umacron
+    File: ./latinkeys.bind (Line 355)
+    File: ./backup/latinkeys.bind (Line 355)
+
+Duplicate bind found: Babovedot
+    File: ./latinkeys.bind (Line 359)
+    File: ./backup/latinkeys.bind (Line 359)
+
+Duplicate bind found: babovedot
+    File: ./latinkeys.bind (Line 360)
+    File: ./backup/latinkeys.bind (Line 360)
+
+Duplicate bind found: Dabovedot
+    File: ./latinkeys.bind (Line 361)
+    File: ./backup/latinkeys.bind (Line 361)
+
+Duplicate bind found: Wgrave
+    File: ./latinkeys.bind (Line 362)
+    File: ./backup/latinkeys.bind (Line 362)
+
+Duplicate bind found: Wacute
+    File: ./latinkeys.bind (Line 363)
+    File: ./backup/latinkeys.bind (Line 363)
+
+Duplicate bind found: dabovedot
+    File: ./latinkeys.bind (Line 364)
+    File: ./backup/latinkeys.bind (Line 364)
+
+Duplicate bind found: Ygrave
+    File: ./latinkeys.bind (Line 365)
+    File: ./backup/latinkeys.bind (Line 365)
+
+Duplicate bind found: Fabovedot
+    File: ./latinkeys.bind (Line 366)
+    File: ./backup/latinkeys.bind (Line 366)
+
+Duplicate bind found: fabovedot
+    File: ./latinkeys.bind (Line 367)
+    File: ./backup/latinkeys.bind (Line 367)
+
+Duplicate bind found: Mabovedot
+    File: ./latinkeys.bind (Line 368)
+    File: ./backup/latinkeys.bind (Line 368)
+
+Duplicate bind found: mabovedot
+    File: ./latinkeys.bind (Line 369)
+    File: ./backup/latinkeys.bind (Line 369)
+
+Duplicate bind found: Pabovedot
+    File: ./latinkeys.bind (Line 370)
+    File: ./backup/latinkeys.bind (Line 370)
+
+Duplicate bind found: wgrave
+    File: ./latinkeys.bind (Line 371)
+    File: ./backup/latinkeys.bind (Line 371)
+
+Duplicate bind found: pabovedot
+    File: ./latinkeys.bind (Line 372)
+    File: ./backup/latinkeys.bind (Line 372)
+
+Duplicate bind found: wacute
+    File: ./latinkeys.bind (Line 373)
+    File: ./backup/latinkeys.bind (Line 373)
+
+Duplicate bind found: Sabovedot
+    File: ./latinkeys.bind (Line 374)
+    File: ./backup/latinkeys.bind (Line 374)
+
+Duplicate bind found: ygrave
+    File: ./latinkeys.bind (Line 375)
+    File: ./backup/latinkeys.bind (Line 375)
+
+Duplicate bind found: Wdiaeresis
+    File: ./latinkeys.bind (Line 376)
+    File: ./backup/latinkeys.bind (Line 376)
+
+Duplicate bind found: wdiaeresis
+    File: ./latinkeys.bind (Line 377)
+    File: ./backup/latinkeys.bind (Line 377)
+
+Duplicate bind found: sabovedot
+    File: ./latinkeys.bind (Line 378)
+    File: ./backup/latinkeys.bind (Line 378)
+
+Duplicate bind found: Wcircumflex
+    File: ./latinkeys.bind (Line 379)
+    File: ./backup/latinkeys.bind (Line 379)
+
+Duplicate bind found: Tabovedot
+    File: ./latinkeys.bind (Line 380)
+    File: ./backup/latinkeys.bind (Line 380)
+
+Duplicate bind found: Ycircumflex
+    File: ./latinkeys.bind (Line 381)
+    File: ./backup/latinkeys.bind (Line 381)
+
+Duplicate bind found: wcircumflex
+    File: ./latinkeys.bind (Line 382)
+    File: ./backup/latinkeys.bind (Line 382)
+
+Duplicate bind found: tabovedot
+    File: ./latinkeys.bind (Line 383)
+    File: ./backup/latinkeys.bind (Line 383)
+
+Duplicate bind found: ycircumflex
+    File: ./latinkeys.bind (Line 384)
+    File: ./backup/latinkeys.bind (Line 384)
+
+Duplicate bind found: OE
+    File: ./latinkeys.bind (Line 388)
+    File: ./backup/latinkeys.bind (Line 388)
+
+Duplicate bind found: oe
+    File: ./latinkeys.bind (Line 389)
+    File: ./backup/latinkeys.bind (Line 389)
+
+Duplicate bind found: Ydiaeresis
+    File: ./latinkeys.bind (Line 390)
+    File: ./backup/latinkeys.bind (Line 390)
+
+Duplicate bind found: M-s 8
+    File: ./de/menus.bind (Line 59)
+    File: ./backup/math_symboles.bind (Line 201)
+
+Duplicate bind found: M-s 0
+    File: ./de/menus.bind (Line 61)
+    File: ./backup/math_symboles.bind (Line 108)
+
+Duplicate bind found: M-a Left
+    File: ./de/menus.bind (Line 110)
+    File: ./backup/math_arrows.bind (Line 4)
+
+Duplicate bind found: M-a Right
+    File: ./de/menus.bind (Line 111)
+    File: ./backup/math_arrows.bind (Line 2)
+
+Duplicate bind found: M-a Up
+    File: ./de/menus.bind (Line 112)
+    File: ./backup/math_arrows.bind (Line 3)
+
+Duplicate bind found: M-a Down
+    File: ./de/menus.bind (Line 113)
+    File: ./backup/math_arrows.bind (Line 5)
+
+Duplicate bind found: M-s S-V
+    File: ./backup/math_decorations.bind (Line 11)
+    File: ./backup/math_symboles.bind (Line 144)
+
+Duplicate bind found: M-s S-U
+    File: ./backup/math_decorations.bind (Line 12)
+    File: ./backup/math_symboles.bind (Line 142)
+
+Duplicate bind found: M-s v
+    File: ./backup/math_decorations.bind (Line 13)
+    File: ./backup/math_symboles.bind (Line 143)
+
+Duplicate bind found: C-s backslash
+    File: ./backup/math_sequences.bind (Line 180)
+    File: ./backup/math_symboles.bind (Line 61)
+
+Duplicate bind found: C-S-plus
+    File: ./backup/math_sequences.bind (Line 189)
+    File: ./backup/math_symboles.bind (Line 41)
+
+Duplicate bind found: M-S-asciicircum
+    File: ./backup/math_symboles.bind (Line 37)
+    File: ./backup/math_symboles.bind (Line 38)
+
+Duplicate bind found: M-s m
+    File: ./backup/math_symboles.bind (Line 63)
+    File: ./backup/math_symboles.bind (Line 187)
+
+Duplicate bind found: M-s d
+    File: ./backup/math_symboles.bind (Line 114)
+    File: ./backup/math_symboles.bind (Line 188)
+
+Duplicate bind found: M-s e
+    File: ./backup/math_symboles.bind (Line 116)
+    File: ./backup/math_symboles.bind (Line 183)
+
+Duplicate bind found: M-s f
+    File: ./backup/math_symboles.bind (Line 118)
+    File: ./backup/math_symboles.bind (Line 180)
+
+Duplicate bind found: M-s i
+    File: ./backup/math_symboles.bind (Line 123)
+    File: ./backup/math_symboles.bind (Line 186)
+
+Duplicate bind found: M-s S-N
+    File: ./backup/math_symboles.bind (Line 130)
+    File: ./backup/math_symboles.bind (Line 200)
+
+Duplicate bind found: M-s p
+    File: ./backup/math_symboles.bind (Line 132)
+    File: ./backup/math_symboles.bind (Line 191)
+
+Duplicate bind found: M-s r
+    File: ./backup/math_symboles.bind (Line 135)
+    File: ./backup/math_symboles.bind (Line 192)
+
+Duplicate bind found: M-s u
+    File: ./backup/math_symboles.bind (Line 141)
+    File: ./backup/math_symboles.bind (Line 185)
+
+Duplicate bind found: M-s x
+    File: ./backup/math_symboles.bind (Line 149)
+    File: ./backup/math_symboles.bind (Line 182)
+
+Duplicate bind found: M-s y
+    File: ./backup/math_symboles.bind (Line 151)
+    File: ./backup/math_symboles.bind (Line 190)
+

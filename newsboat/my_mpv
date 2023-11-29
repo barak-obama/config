@@ -1,0 +1,12 @@
+
+cd /Users/obama/.newsboat
+
+command=$(python3 ./check_if_downloaded.py $1)
+
+echo $command
+
+bash << EOF
+
+$command
+
+EOF

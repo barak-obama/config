@@ -1,0 +1,94 @@
+# -*- text -*-
+
+# file math.bind
+# This file is part of LyX, the document processor.
+# Licence details can be found in the file COPYING.
+
+# author John Weiss
+# author Alejandro Aguilar Sierra
+# author Lars Gullik Bjønnes
+# author Jean-Marc Lasgouttes
+# author John Levon
+# author André Pönitz
+# author Michael Gerz
+# author Martin Vermeer
+
+# Full author contact details are available in file CREDITS.
+
+# This file provides math mode keys.  Most were suggested by John Weiss
+# and modified by Alejandro Aguilar Sierra to be used with different
+# keyboard layouts.
+#
+# This file is automatically included from the main bind file.
+#
+# DO NOT CHANGE THIS BINDING FILE! It will be replaced
+# with every new install of LyX and your changes will be lost.
+# Instead, copy it to ~/.lyx/bind/math.bind and modify that copy.
+
+# Note that the order of these is important.  If you put the bindings
+# that need "period" and "parenleft" first, they flood the minibuffer
+# and make the keybinding hints impossible to read.  That's why they're
+# at the end.
+
+# These are defined for the math menu:
+
+Format 4
+
+\bind "M-s t n"		"math-mutate none"
+\bind "M-s t t"		"math-mutate dump"
+\bind "M-s t a"		"math-mutate align"
+\bind "M-s t i"		"math-mutate simple"
+\bind "M-s t d"		"math-mutate equation"
+\bind "M-s t e"		"math-mutate eqnarray"
+\bind "M-s t m"		"math-mutate multline"
+
+\bind "M-s c i"		"tabular-feature append-column"
+\bind "M-s c d"		"tabular-feature delete-column"
+\bind "M-s c c"		"tabular-feature copy-column"
+\bind "M-s c s"		"tabular-feature swap-column"
+\bind "M-s c a"		"tabular-feature add-vline-left"
+\bind "M-s c e"		"tabular-feature delete-vline-left"
+\bind "M-s c z"		"tabular-feature add-vline-right"
+\bind "M-s c x"		"tabular-feature delete-vline-right"
+
+\bind "M-s w i"		"tabular-feature append-row"
+\bind "M-s w d"		"tabular-feature delete-row"
+\bind "M-s w c"		"tabular-feature copy-row"
+\bind "M-s w s"		"tabular-feature swap-row"
+\bind "M-s w a"		"tabular-feature add-hline-above"
+\bind "M-s w e"		"tabular-feature delete-hline-above"
+\bind "M-s w z"		"tabular-feature add-hline-below"
+\bind "M-s w x"		"tabular-feature delete-hline-below"
+
+\bind "M-s w t"		"tabular-feature valign-top"
+\bind "M-s w m"		"tabular-feature valign-middle"
+\bind "M-s w b"		"tabular-feature valign-bottom"
+\bind "M-s c l"		"tabular-feature align-left"
+\bind "M-s c m"		"tabular-feature align-center"
+\bind "M-s c r"		"tabular-feature align-right"
+
+# Decoration accents
+
+\bind_file math_decorations.bind
+
+# These do pairs of: () {} [] <> ||
+
+\bind_file math_delim.bind
+
+\bind "M-s space"	"math-space"
+# math-macros
+\bind "C-S-asterisk"	"math-macro-unfold"
+
+#arrows
+
+\bind_file math_arrows.bind
+
+# Basic Symboles
+
+\bind_file math_symboles.bind
+
+# A sequence of commands
+
+\bind_file math_sequences.bind
+
+\bind_file mathcal.bind

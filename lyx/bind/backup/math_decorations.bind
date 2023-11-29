@@ -1,0 +1,17 @@
+# The accent-circumflex is 'h' for 'hat', which is what most math
+# folks call it verbally.
+
+\bind "M-s ~S-quotedbl"		"math-insert \ddot"
+\bind "M-s h"			"math-insert \hat"
+\bind "M-s ~C-~M-~S-backslash"	"math-insert \grave"
+\bind "M-s ~S-slash"		"math-insert \acute"
+\bind "M-s ~C-~M-~S-ampersand"	"math-insert \tilde"
+\bind "M-s ~S-minus"		"math-insert \bar"
+\bind "M-s ~S-period"		"math-insert \dot"
+\bind "M-s S-V"			"math-insert \check"
+\bind "M-s S-U"			"math-insert \breve"
+\bind "M-s v"			"math-insert \vec"
+\bind "M-s ~S-underscore"	"math-insert \underbar"
+
+\bind "M-s b"			"math-insert \overline"
+\bind "M-s ~S-apostrophe"	"math-insert \prime"

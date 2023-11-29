@@ -1,0 +1,250 @@
+# -*- text -*-
+
+# file math.bind
+# This file is part of LyX, the document processor.
+# Licence details can be found in the file COPYING.
+
+# author John Weiss
+# author Alejandro Aguilar Sierra
+# author Lars Gullik Bjønnes
+# author Jean-Marc Lasgouttes
+# author John Levon
+# author André Pönitz
+# author Michael Gerz
+# author Martin Vermeer
+
+# Full author contact details are available in file CREDITS.
+
+# This file provides math mode keys.  Most were suggested by John Weiss
+# and modified by Alejandro Aguilar Sierra to be used with different
+# keyboard layouts.
+#
+# This file is automatically included from the main bind file.
+#
+# DO NOT CHANGE THIS BINDING FILE! It will be replaced
+# with every new install of LyX and your changes will be lost.
+# Instead, copy it to ~/.lyx/bind/math.bind and modify that copy.
+
+# Note that the order of these is important.  If you put the bindings
+# that need "period" and "parenleft" first, they flood the minibuffer
+# and make the keybinding hints impossible to read.  That's why they're
+# at the end.
+
+# These are defined for the math menu:
+
+Format 4
+
+\bind "C-S-M"   "math-display"
+
+\bind "M-f"		"math-insert \frac"
+#\bind "M-s"		"math-insert \sqrt"
+
+\bind "M-u"		"math-insert \sum"
+\bind "M-i"		"math-insert \int"
+\bind "M-m"		"math-mode" # produces mathematical text
+
+\bind "M-y"		"math-insert \oint"
+#\bind "M-p"		"math-insert \partial"
+\bind "M-r"		"math-insert \root"
+\bind "M-l"		"math-limits"
+\bind "M-S-L l"	"math-limits limits"
+\bind "M-S-L n"	"math-limits nolimits"
+\bind "M-S-L space"	"math-limits empty"
+
+
+\bind "M-m n"		"math-number-toggle"
+\bind "M-m S-N"		"math-number-line-toggle"
+\bind "M-m 8"		"math-insert \infty"
+
+#\bind "M-m t n"		"math-mutate none"
+#\bind "M-m t t"		"math-mutate dump"
+#\bind "M-m t a"		"math-mutate align"
+#\bind "M-m t i"		"math-mutate simple"
+#\bind "M-m t d"		"math-mutate equation"
+#\bind "M-m t e"		"math-mutate eqnarray"
+#\bind "M-m t m"		"math-mutate multline"
+
+\bind "M-m c i"		"tabular-feature append-column"
+\bind "M-m c d"		"tabular-feature delete-column"
+\bind "M-m c c"		"tabular-feature copy-column"
+\bind "M-m c s"		"tabular-feature swap-column"
+\bind "M-m c a"		"tabular-feature add-vline-left"
+\bind "M-m c e"		"tabular-feature delete-vline-left"
+\bind "M-m c z"		"tabular-feature add-vline-right"
+\bind "M-m c x"		"tabular-feature delete-vline-right"
+
+\bind "M-m w i"		"tabular-feature append-row"
+\bind "M-m w d"		"tabular-feature delete-row"
+\bind "M-m w c"		"tabular-feature copy-row"
+\bind "M-m w s"		"tabular-feature swap-row"
+\bind "M-m w a"		"tabular-feature add-hline-above"
+\bind "M-m w e"		"tabular-feature delete-hline-above"
+\bind "M-m w z"		"tabular-feature add-hline-below"
+\bind "M-m w x"		"tabular-feature delete-hline-below"
+
+\bind "M-m w t"		"tabular-feature valign-top"
+\bind "M-m w m"		"tabular-feature valign-middle"
+\bind "M-m w b"		"tabular-feature valign-bottom"
+\bind "M-m c l"		"tabular-feature align-left"
+\bind "M-m c m"		"tabular-feature align-center"
+\bind "M-m c r"		"tabular-feature align-right"
+
+# Decoration accents
+
+# The accent-circumflex is 'h' for 'hat', which is what most math
+# folks call it verbally.
+
+\bind "M-m ~S-quotedbl"		"math-insert \ddot"
+\bind "M-m h"			"math-insert \hat"
+\bind "M-m ~C-~M-~S-backslash"	"math-insert \grave"
+\bind "M-m ~S-slash"		"math-insert \acute"
+\bind "M-m ~C-~M-~S-ampersand"	"math-insert \tilde"
+\bind "M-m ~S-minus"		"math-insert \\bar"
+\bind "M-m ~S-period"		"math-insert \dot"
+\bind "M-m S-V"			"math-insert \check"
+\bind "M-m S-U"			"math-insert \breve"
+\bind "M-m v"			"math-insert \vec"
+\bind "M-m ~S-underscore"	"math-insert \underbar"
+
+\bind "M-m b"			"math-insert \overline"
+\bind "M-m ~S-apostrophe"	"math-insert \prime"
+
+# Note: it's easy to insert binary relations like \pm, \mp, \neq, \geq,
+# and \leq just by typing them. However it's easier to remember these:
+
+\bind "M-S-plus"	"math-insert \pm"
+\bind "M-equal"	"math-insert \neq"
+
+\bind "Escape"		"escape"
+\bind "M-m space"	"math-space"
+# FIXME: find another shortcut for cell-split as C-Tab is used for buffer-next
+# in 'cua.bind'.
+#\bind "C-Tab"		"cell-split"
+
+# math-macros
+\bind "C-S-asterisk"	"math-macro-unfold"
+# Defined in cua.bind as command-alternative to specialchar-insert hyphenation
+#\bind "C-minus"	"math-macro-fold"
+
+# This should be handled properly by some "get the next key" method
+
+\bind "A-g a"		"math-insert \alpha"
+\bind "A-g b"		"math-insert \beta"
+\bind "A-g c"		"math-insert \chi"
+\bind "A-g d"		"math-insert \delta"
+\bind "A-g e"		"math-insert \varepsilon"
+\bind "A-g f"		"math-insert \phi"
+\bind "A-g g"		"math-insert \gamma"
+\bind "A-g h"		"math-insert \eta"
+\bind "A-g i"		"math-insert \iota"
+\bind "A-g j"		"math-insert \varphi"
+\bind "A-g k"		"math-insert \kappa"
+\bind "A-g l"		"math-insert \lambda"
+\bind "A-g m"		"math-insert \mu"
+\bind "A-g n"		"math-insert \nu"
+\bind "A-g o"		"math-insert \omega"
+\bind "A-g p"		"math-insert \pi"
+\bind "A-g q"		"math-insert \vartheta"
+\bind "A-g r"		"math-insert \rho"
+\bind "A-g s"		"math-insert \sigma"
+\bind "A-g t"		"math-insert \tau"
+\bind "A-g u"		"math-insert \upsilon"
+\bind "A-g v"		"math-insert \theta"
+\bind "A-g w"		"math-insert \omega"
+\bind "A-g x"		"math-insert \xi"
+\bind "A-g y"		"math-insert \psi"
+\bind "A-g z"		"math-insert \zeta"
+
+\bind "A-g S-D"	"math-insert \Delta"
+\bind "A-g S-E"	"math-insert \epsilon"
+\bind "A-g S-F"	"math-insert \Phi"
+\bind "A-g S-G"	"math-insert \Gamma"
+\bind "A-g S-I"	"math-insert \iota"
+\bind "A-g S-J"	"math-insert \epsilon"
+\bind "A-g S-L"	"math-insert \Lambda"
+\bind "A-g S-O"	"math-insert \Omega"
+\bind "A-g S-P"	"math-insert \Pi"
+\bind "A-g S-Q"	"math-insert \vartheta"
+\bind "A-g S-R"	"math-insert \varrho"
+\bind "A-g S-S"	"math-insert \Sigma"
+\bind "A-g S-T"	"math-insert \varsigma"
+\bind "A-g S-U"	"math-insert \Upsilon"
+\bind "A-g S-V"	"math-insert \Theta"
+\bind "A-g S-W"	"math-insert \Omega"
+\bind "A-g S-X"	"math-insert \Xi"
+\bind "A-g S-Y"	"math-insert \Psi"
+
+
+# Few Decoration
+\bind "M-S-underscore" "math-insert \\overline"
+\bind "M-minus"		"math-insert \\bar"
+\bind "M-grave" "math-insert \\tilde"
+\bind "M-h"			"math-insert \\hat"
+
+
+# These do pairs of: () {} [] <> ||
+
+\bind "C-0"	"math-delim ( )"
+\bind "C-bracketleft" "math-delim [ ]"
+\bind "C-S-bracketleft"	"math-delim { }"
+\bind "C-S-comma"		"math-delim < >" # produces < >
+\bind "C-S-period"		"math-delim > <" # produces > <
+\bind "C-backslash"	"math-delim | |"
+\bind "C-S-backslash" "math-insert \\left\\Vert \\right\\Vert"
+
+
+\bind "C-M-n"   "command-sequence math-display; math-number-toggle;"
+
+#\bind "M-p Left"        "layout-paragraph align-left"
+#\bind "M-p Right"       " "
+\bind "M-p p"           "layout Proof"
+\bind "M-p f"           "layout BeginFrame"
+
+\bind "M-p d"           "layout Definition"
+\bind "M-p S-L"         "layout Lemma"
+\bind "M-p S-C"         "layout Claim"
+\bind "M-p S-T"         "layout Theorem"
+\bind "M-p S-P"         "layout Proposition"
+\bind "M-p S-E"         "layout Example"
+\bind "M-p S-F"         "layout Fact"
+\bind "M-p S-N"         "layout Note"
+
+\bind "M-p C-d"         "layout Definition*"
+\bind "M-p C-l"         "layout Lemma*"
+\bind "M-p C-c"         "layout Claim*"
+\bind "M-p C-t"         "layout Theorem*"
+\bind "M-p C-p"         "layout Proposition*"
+\bind "M-p C-e"         "layout Example*"
+\bind "M-p C-f"         "layout Fact*"
+\bind "M-p C-n"         "layout Note*"
+
+\bind "M-p C-S-S"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; "
+\bind "M-p C-S-D"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Definition;"
+\bind "M-p C-S-L"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Lemma;"
+\bind "M-p C-S-C"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Claim;"
+\bind "M-p C-S-T"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Theorem;"
+\bind "M-p C-S-P"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Proposition;"
+\bind "M-p C-S-E"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Example;"
+\bind "M-p C-S-F"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Fact;"
+\bind "M-p C-S-N"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Note;"
+
+\bind "M-p M-S-S"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; "
+\bind "M-p M-S-D"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Definition*;"
+\bind "M-p M-S-L"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Lemma*;"
+\bind "M-p M-S-C"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Claim*;"
+\bind "M-p M-S-T"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Theorem*;"
+\bind "M-p M-S-P"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Proposition*;"
+\bind "M-p M-S-E"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Example*;"
+\bind "M-p M-S-F"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Fact*;"
+\bind "M-p M-S-N"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Note*;"
+
+
+\bind "M-b b" "math-insert \\mathbb"
+\bind "M-b S-r" "command-sequence math-insert \\mathbb; self-insert R; char-forward;" 
+\bind "M-b n" "command-sequence math-insert \\mathbb; self-insert N; char-forward;"
+\bind "M-b c" "command-sequence math-insert \\mathbb; self-insert C; char-forward;"
+\bind "M-b q" "command-sequence math-insert \\mathbb; self-insert Q; char-forward;"
+\bind "M-b z" "command-sequence math-insert \\mathbb; self-insert Z; char-forward;"
+\bind "M-b f" "command-sequence math-insert \\mathbb; self-insert F; char-forward;"
+\bind "M-b r n" "command-sequence math-insert \\mathbb; self-insert R; char-forward; math-superscript; self-insert n; char-forward;"
+\bind "M-b r m" "command-sequence math-insert \\mathbb; self-insert R; char-forward; math-superscript; self-insert m; char-forward;"

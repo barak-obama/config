@@ -1,0 +1,105 @@
+#! /usr/local/bin/python
+
+import sys, os, tempfile, argparse, subprocess, json
+
+
+
+DEFAULT_TASKS_FILE = os.path.abspath(os.path.expanduser("~/.config/skhd/scripts/browse_tasks.json"))
+DEFAULT_TASKS = dict()
+
+def default_task_generator(type, task):
+    
+    func = lambda: ()
+    if type == 'python':
+        python_code = task
+        func = lambda: exec(python_code)
+    elif type == "dir":
+        dir = task
+        func = lambda: chose_dir(dir)
+    else:
+        script = task
+        print(script)
+        func = lambda: print(run_command(script))
+
+    return func
+    
+
+
+def get_default_taks():
+    tasks = dict()
+    with open(DEFAULT_TASKS_FILE) as json_file:
+        data = json.load(json_file)
+    
+        for entry in data:
+            code = entry["display"]
+            tasks[code] = default_task_generator(entry['type'], entry['task'])
+
+    return tasks
+
+
+def run_command(command):
+    process = subprocess.Popen(command,
+                     stdout=subprocess.PIPE,
+                     stderr=subprocess.PIPE, shell=True, executable='/bin/zsh')
+    stdout, stderr = process.communicate()
+    return stdout.decode("utf-8"), stderr.decode("utf-8")
+
+def open_file(file):
+    run_command("open \"" + file + "\"")
+
+def chose_dir(path):
+    print(path)
+    os.chdir(path)
+    browse()
+
+def is_executable(file):
+    return os.access(file, os.X_OK)
+
+def clacifay_paths(choice):
+    if os.path.isfile(choice):
+        if is_executable(choice):
+            return choice, lambda : run_command(choice)
+        return choice, lambda: open_file(choice)
+    elif os.path.isdir(choice):
+        return choice + "\\", lambda: chose_dir(choice)
+
+def filter_options(path):
+    return True
+
+def get_option_list():
+    dirlist = os.listdir()
+    options = { name: action for (name, action) in [clacifay_paths(option) for option in sorted(dirlist) if not option.startswith('.')]}
+    return options | DEFAULT_TASKS
+
+def choose_option(options):
+    temp = tempfile.NamedTemporaryFile()
+    with open(temp.name, 'w') as tmp_file:
+        tmp_file.write("\n".join(options))
+    return run_command("choose < %s" % temp.name)
+
+def filter():
+    pass
+
+def browse():
+    options = get_option_list()
+    option, err = choose_option(options.keys())
+    if err:
+        print(err)
+    options[option]()
+
+
+
+if __name__ == "__main__":
+
+    print(sys.argv[1:])
+    DEFAULT_TASKS = get_default_taks()
+    print(DEFAULT_TASKS)
+    parser=argparse.ArgumentParser()
+    parser.add_argument("base_folder", help="The Folder to Start The Browsing from")
+    parser.add_argument('-f','--filter', action='append', help="Optional filters")
+    args = parser.parse_args()
+    base_folder = args.base_folder
+    chose_dir(os.path.abspath(os.path.expanduser(base_folder)))
+
+
+

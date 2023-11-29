@@ -1,0 +1,25 @@
+#! /bin/bash
+base_url="/Users/obama/.config/Übersicht/widgets/xkcd.widget"
+
+json_tmp="${base_url}/.xkcd_tmp.json"
+max_id=$(curl --silent https://xkcd.com/info.0.json | /opt/homebrew/bin/jq ".num")
+
+
+old_json=$(cat "${base_url}/xkcd.json")
+old_num=$(echo $old_json | /opt/homebrew/bin/jq ".num")
+old_img_path="${base_url}/xkcd_${old_num}.png"
+
+new_num=$(jot -r 1 1 ${max_id})
+curl --silent https://xkcd.com/${new_num}/info.0.json > "$json_tmp"
+
+new_img_url=$(cat "$json_tmp" | /opt/homebrew/bin/jq -r ".img") 
+new_img_path="/xkcd.widget/xkcd_${new_num}.png"
+curl --silent $new_img_url >  "${base_url}/xkcd_${new_num}.png"
+
+cat "${json_tmp}" | /opt/homebrew/bin/jq ".img=\"${new_img_path}\"" > "${base_url}/xkcd.json"
+
+
+rm "$old_img_path"
+rm "${json_tmp}"
+
+"$base_url"/refresh

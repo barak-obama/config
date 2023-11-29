@@ -1,0 +1,31 @@
+#!/bin/sh
+
+while sleep 2
+do
+    headphones="Obama’s Beats Flex"
+    default="MacBook Pro Speakers"
+
+    switchAndRewind() {
+        echo $1 > /tmp/audioSwitcherSavedState.txt
+        if [ "$(/opt/homebrew/bin/SwitchAudioSource -c)" != "$2" ]
+        then
+            sleep 1
+            /opt/homebrew/bin/SwitchAudioSource -t output -s "$2"
+            /opt/homebrew/bin/SwitchAudioSource -t input -s "$2"
+        fi
+    }
+
+    if ! cat /tmp/audioSwitcherSavedState.txt > /dev/null
+    then
+        # If there is no state file
+        /opt/homebrew/bin/SwitchAudioSource -a | grep "$headphones" 2> /dev/null && # check if the headphones exists
+            echo "connected" > /tmp/audioSwitcherSavedState.txt || # if there is, write that
+            echo "disconnected" > /tmp/audioSwitcherSavedState.txt # if not, write that
+    elif [ "$(cat /tmp/audioSwitcherSavedState.txt)" == "disconnected" ] && /opt/homebrew/bin/SwitchAudioSource -a | (grep "$headphones" > /dev/null) # If the state file says "disconnected" and the headphones are connected, swich to them
+    then
+        switchAndRewind "connected" "$headphones"
+    elif [ "$(cat /tmp/audioSwitcherSavedState.txt)" == "connected" ] && ! /opt/homebrew/bin/SwitchAudioSource -a | (grep "$headphones" > /dev/null) # If the state file says "connected" but the headphones are disconnected, swich to them
+    then
+        switchAndRewind "disconnected" "$default"
+    fi
+done

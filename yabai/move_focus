@@ -1,0 +1,51 @@
+#!/bin/bash
+
+# yabai -m window --focus --swap east  2> /dev/null || ( yabai -m window --focus --display east  && ( yabai -m display --focus east  ; ~/.config/yabai/move_to_left   ))
+
+dir=$1
+
+if [ $dir = "east" ] ; then
+    comaper="min_by(.x).id"
+    insert_dir="west"
+elif [ $dir = "west" ] ; then
+    comaper="max_by(.x).id"
+    insert_dir="east"
+elif [ $dir = "north" ] ; then
+    comaper="max_by(.y).id"
+    insert_dir="south"
+elif [ $dir = "west" ] ; then
+    comaper="min_by(.y).id"
+    insert_dir="east"
+fi
+
+
+yabai -m query --windows --window $dir > /dev/null 2>&1 && { 
+  yabai -m window --focus $dir
+} || {
+
+    yabai -m query --displays --display $dir 1> /dev/null || exit 1
+
+    space=$( yabai -m query --spaces --display $(yabai -m query --displays --display $dir | jq ".index" ) | jq ".[] | select(.[\"is-visible\"])" )
+    # spcae= $(yabai -m query --spaces --display $(yabai -m query --displays --display $dir | jq ".index" ) | jq ".[] | select(.[\"is-visible\"])")
+    
+    
+    
+    space_index=$( echo $space | jq --jsonargs ".index")
+    possible_windows=$(yabai -m query --windows --space $space_index | jq '[.[] | select(."is-visible" == true) | { id , x: .frame.x , y: .frame.y, title, app}]' )
+    
+    if [[ $possible_windows = "[]" ]]; then
+        yabai -m space --focus $space_index
+    else
+        window_id=$(echo $possible_windows | jq "$comaper")
+        yabai -m window --focus $window_id
+        
+    fi
+    
+} 
+
+
+# yabai -m window --focus $dir  2> /dev/null || {
+#     yabai -m display --focus $dir  && {
+#          yabai -m window --focus $insert_dir  2> /dev/null
+#     }
+# }

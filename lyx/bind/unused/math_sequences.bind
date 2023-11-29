@@ -1,0 +1,198 @@
+
+
+
+\bind "M-q x"              "command-sequence self-insert x; math-subscript; self-insert 1; char-forward; self-insert ,; self-insert x; math-subscript; math-insert 2; char-forward; self-insert ,; math-insert \ldots; self-insert ,; self-insert x; math-subscript; self-insert n; char-forward;"
+\bind "M-q S-X"            "command-sequence self-insert X; math-subscript; self-insert 1; char-forward; self-insert ,; self-insert X; math-subscript; math-insert 2; char-forward; self-insert ,; math-insert \ldots; self-insert ,; self-insert X; math-subscript; self-insert n; char-forward;"
+\bind "M-q y"              "command-sequence self-insert y; math-subscript; self-insert 1; char-forward; self-insert ,; self-insert y; math-subscript; math-insert 2; char-forward; self-insert ,; math-insert \ldots; self-insert ,; self-insert y; math-subscript; self-insert n; char-forward;"
+\bind "M-q S-Y"            "command-sequence self-insert Y; math-subscript; self-insert 1; char-forward; self-insert ,; self-insert Y; math-subscript; math-insert 2; char-forward; self-insert ,; math-insert \ldots; self-insert ,; self-insert Y; math-subscript; self-insert n; char-forward;"
+\bind "M-q a"              "command-sequence self-insert a; math-subscript; self-insert 1; char-forward; self-insert ,; self-insert a; math-subscript; math-insert 2; char-forward; self-insert ,; math-insert \ldots; self-insert ,; self-insert a; math-subscript; self-insert n; char-forward;"
+\bind "M-q S-A"            "command-sequence self-insert A; math-subscript; self-insert 1; char-forward; self-insert ,; self-insert A; math-subscript; math-insert 2; char-forward; self-insert ,; math-insert \ldots; self-insert ,; self-insert A; math-subscript; self-insert n; char-forward;"
+
+# maybe I have gone too far, but ... sub/super scripts!
+
+\bind "M-C-0"              "command-sequence math-superscript; self-insert 0; char-forward;"
+\bind "M-C-1"              "command-sequence math-superscript; self-insert 1; char-forward;"
+# 2 does not work. I found no reason for it. :-(
+\bind "M-C-2"              "command-sequence math-superscript; self-insert 2; char-forward;"
+\bind "M-C-3"              "command-sequence math-superscript; self-insert 3; char-forward;"
+\bind "M-C-4"              "command-sequence math-superscript; self-insert 4; char-forward;"
+\bind "M-C-5"              "command-sequence math-superscript; self-insert 5; char-forward;"
+\bind "M-C-6"              "command-sequence math-superscript; self-insert 6; char-forward;"
+\bind "M-C-7"              "command-sequence math-superscript; self-insert 7; char-forward;"
+\bind "M-C-8"              "command-sequence math-superscript; self-insert 8; char-forward;"
+\bind "M-C-9"              "command-sequence math-superscript; self-insert 9; char-forward;"
+
+
+\bind "M-0"                "command-sequence math-subscript; self-insert 0; char-forward;"
+\bind "M-1"                "command-sequence math-subscript; self-insert 1; char-forward;"
+\bind "M-2"                "command-sequence math-subscript; self-insert 2; char-forward;"
+\bind "M-3"                "command-sequence math-subscript; self-insert 3; char-forward;"
+\bind "M-4"                "command-sequence math-subscript; self-insert 4; char-forward;"
+\bind "M-5"                "command-sequence math-subscript; self-insert 5; char-forward;"
+\bind "M-6"                "command-sequence math-subscript; self-insert 6; char-forward;"
+\bind "M-7"                "command-sequence math-subscript; self-insert 7; char-forward;"
+\bind "M-8"                "command-sequence math-subscript; self-insert 8; char-forward;"
+\bind "M-9"                "command-sequence math-subscript; self-insert 9; char-forward;"
+
+
+
+# Fourth: Other function keys. 
+# leave super/subscript and go to sub/supscript
+\bind "C-S-L"              "command-sequence char-forward; math-subscript;"
+\bind "C-S-H"              "command-sequence char-forward; math-superscript;"
+\bind "C-S-Down"           "command-sequence char-forward; math-subscript;"
+\bind "C-S-Up"             "command-sequence char-forward; math-superscript;"
+
+#\bind "C-S-M"              "command-sequence math-mode; math-mutate equation;"
+#\bind "M-m"                "command-sequence math-mode; math-mutate eqnarray;"
+#\bind "M-S-M"              "command-sequence math-mode; math-mutate align;"
+\bind "C-S-D"              "command-sequence math-mode; math-mutate eqnarray;"
+\bind "S-space"            "math-mode"
+\bind "S-C-N"              "math-nonumber"
+
+\bind "F9"                 "buffer-view dvi"
+\bind "F10"                "buffer-view ps"
+\bind "F11"                "buffer-view pdf"
+\bind "F12"                "buffer-view pdf2"
+\bind "S-F9"               "buffer-update dvi"
+\bind "S-F10"              "buffer-update ps"
+\bind "S-F11"              "buffer-update pdf"
+\bind "S-F12"              "buffer-update pdf2"
+\bind "C-F9"               "buffer-export latex"
+\bind "C-F10"              "buffer-export ps"
+\bind "C-F11"              "buffer-export pdf"
+\bind "C-F12"              "buffer-export pdf2"
+
+# tabular manipulation
+\bind "S-M-Insert"        "tabular-feature append-row"
+\bind "S-M-Delete"        "tabular-feature delete-row"
+\bind "S-C-Insert"        "tabular-feature append-column"
+\bind "S-C-Delete"        "tabular-feature delete-column"
+
+# Note: (in sciword.bind)
+# Other math:      M-m
+# Font:            M-s
+# Paragraph style: M-p
+# Character style: M-c
+
+# Good bindings are:
+# M-p q     quote
+# M-p i     itemize
+# M-p e     enumerate
+# M-p t     title
+# M-p 1,2,3,4,5  section etc.
+
+# shortcuts for definition (D), lemma (L), Claim (C), Theorem (T), 
+# Proposition (P), Fact (F) and Note (N)
+# Shigt-D/L/C etc    usual 
+# Ctrl-D/L/C  etc    unnumbered
+# Ctrl-Shift-D/L/C   break current environemtn, insert a protected blank
+#                    and start a new environment.
+# Alt-Shift-D/L/C etc combination of M and C.
+#
+# left, center, right
+#\bind "M-p Left"        "layout-paragraph align-left"
+#\bind "M-p Right"       " "
+\bind "M-p p"           "layout Proof"
+\bind "M-p f"           "layout BeginFrame"
+
+\bind "M-p d"           "layout Definition"
+\bind "M-p S-L"         "layout Lemma"
+\bind "M-p S-C"         "layout Claim"
+\bind "M-p S-T"         "layout Theorem"
+\bind "M-p S-P"         "layout Proposition"
+\bind "M-p S-E"         "layout Example"
+\bind "M-p S-F"         "layout Fact"
+\bind "M-p S-N"         "layout Note"
+
+\bind "M-p C-d"         "layout Definition*"
+\bind "M-p C-l"         "layout Lemma*"
+\bind "M-p C-c"         "layout Claim*"
+\bind "M-p C-t"         "layout Theorem*"
+\bind "M-p C-p"         "layout Proposition*"
+\bind "M-p C-e"         "layout Example*"
+\bind "M-p C-f"         "layout Fact*"
+\bind "M-p C-n"         "layout Note*"
+
+\bind "M-p C-S-S"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; "
+\bind "M-p C-S-D"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Definition;"
+\bind "M-p C-S-L"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Lemma;"
+\bind "M-p C-S-C"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Claim;"
+\bind "M-p C-S-T"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Theorem;"
+\bind "M-p C-S-P"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Proposition;"
+\bind "M-p C-S-E"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Example;"
+\bind "M-p C-S-F"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Fact;"
+\bind "M-p C-S-N"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Note;"
+
+\bind "M-p M-S-S"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; "
+\bind "M-p M-S-D"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Definition*;"
+\bind "M-p M-S-L"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Lemma*;"
+\bind "M-p M-S-C"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Claim*;"
+\bind "M-p M-S-T"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Theorem*;"
+\bind "M-p M-S-P"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Proposition*;"
+\bind "M-p M-S-E"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Example*;"
+\bind "M-p M-S-F"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Fact*;"
+\bind "M-p M-S-N"       "command-sequence break-paragraph-keep-layout; layout Standard; protected-space-insert; break-paragraph; layout Note*;"
+
+
+# text conversion macros
+# convert things into ERT.
+#\bind "M-t e"          "command-sequence word-select; cut; ert-insert; self-insert \; paste; self-insert {}; inset-toggle;"
+\bind "M-t e"          "command-sequence word-select; cut; ert-insert; paste; inset-toggle;"
+
+## This file is automatically generated by lyx
+## All modifications will be lost
+
+Format 4
+
+\unbind "C-minus" "math-insert \\rightarrow"
+\unbind "C-s S-exclam" "math-insert \\Rightarrow"
+\unbind "C-s minus" "math-insert \\cdots"
+#\unbind "C-s backslash" "math-insert \\ddots"
+\unbind "C-s x" "math-insert \\times"
+\unbind "C-S-space" "space-insert thin"
+\unbind "C-n" "buffer-new"
+\unbind "M-apostrophe" "command-sequence math-superscrupt; math-insert \\prime;"
+\unbind "C-S-plus" "math-insert \\vec"
+\unbind "C-S-underscore" "math-insert \\bar"
+\unbind "M-S-Left" "math-insert \\Leftarrow"
+\unbind "C-w" "buffer-close"
+\unbind "M-S-less" "math-insert \\leq"
+
+\bind "C-S-s" "math-insert \\mathbb"
+\bind "C-S-space" "language hebrew"
+\bind "S-asterisk" "math-insert \\cdot"
+\bind "C-s backslash" "math-insert \\setminus"
+\bind "C-M-n up" "command-sequence math-superscript; self-insert n; char-forward;"
+\bind "C-n down" "command-sequence math-subscript; self-insert n; char-forward;"
+\bind "C-M-i" "command-sequence math-subscript; self-insert i; char-forward;"
+\bind "C-M-j" "command-sequence math-subscript; self-insert j; char-forward;"
+
+\bind "M-apostrophe" "command-sequence math-superscript; math-insert \\prime; char-forward;"
+\bind "C-M-Down" "math-insert \\underset"
+\bind "C-M-Up" "math-insert \\overset"
+\bind "C-equal" "math-insert \\ne"
+\bind "C-S-plus" "buffer-zoom-in"
+\bind "C-S-underscore" "buffer-zoom-out"
+\bind "C-M-minus" "command-sequence math-superscript; self-insert -1; char-forward;"
+\bind "C-M-x" "math-insert \\times"
+\bind "C-M-Left" "math-insert \\Leftarrow"
+\bind "C-M-Right" "math-insert \\Rightarrow"
+\bind "C-S-bar" "math-insert \\mid"
+\bind "M-s b b" "math-insert \\mathbb"
+\bind "M-s j" "command-sequence math-insert \\mathcal{O} ; char-forward ; char-forward ; math-insert _{\\mathbb{}} ; down ; char-forward"
+\bind "C-S-r" "command-sequence math-insert \\mathbb; self-insert R; char-forward;"
+\bind "C-S-n" "command-sequence math-insert \\mathbb; self-insert N; char-forward;"
+\bind "C-S-c" "command-sequence math-insert \\mathbb; self-insert C; char-forward;"
+\bind "C-S-q" "command-sequence math-insert \\mathbb; self-insert Q; char-forward;"
+\bind "C-S-z" "command-sequence math-insert \\mathbb; self-insert Z; char-forward;"
+\bind "C-w c a b" "math-insert C\\left[a,b\\right]"
+\bind "C-w r n" "command-sequence math-insert \\mathbb; self-insert R; char-forward; math-superscript; self-insert n; char-forward;"
+\bind "C-w r m" "command-sequence math-insert \\mathbb; self-insert R; char-forward; math-superscript; self-insert m; char-forward;"
+\bind "C-w s" "math-insert \\left\\{ a_{1},...,a_{n}\\right\\}"
+\bind "C-w l k" "command-sequence  math-insert \\left(\\nicefrac{L}{K}\\right); char-forward; char-forward; char-forward; char-forward;"
+\bind "C-S-question" "math-insert \\nicefrac"
+\bind "C-M-m" "command-sequence math-subscript; self-insert m; char-forward;"
+\bind "M-z" "math-insert Z"
+\bind "M-S-less" "math-insert \\trianglelefteq"
+\bind "M-S-asterisk" "math-insert \\ast"

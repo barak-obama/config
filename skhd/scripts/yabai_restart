@@ -1,0 +1,5 @@
+yabai --restart-service
+skhd --restart-service
+/usr/bin/env osascript <<EOF
+	display notification "Restarting Yabai" with title "Yabai"
+EOF

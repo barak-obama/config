@@ -1,0 +1,29 @@
+[
+    {
+        "display": "⏎",
+        "type": "dir",
+        "task": ".."
+    },
+    {
+        "display": "exit",
+        "type": "python",
+        "task": "exit()"
+    },
+    {
+        "display": "",
+        "type": "python",
+        "task": "exit()"
+    },
+    {
+        "display": "Open In Finder",
+        "type": "script",
+        "task": "/Users/obama/.config/skhd/scripts/browse_tasks/open_in_finder"
+    },
+    {
+        "display": "Open All",
+        "type": "script",
+        "task": "/Users/obama/.config/skhd/scripts/browse_tasks/open_all"
+    }
+
+
+]
