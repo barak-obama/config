@@ -18,11 +18,12 @@ if (window.location.hostname === "www.instagram.com") {
         }
 
         if (window.location.pathname.contains("/reels/")) {
-            const reelsFeed = document.querySelector(reelsFeedSelector);
+            window.location.pathname = "/";
+            // const reelsFeed = document.querySelector(reelsFeedSelector);
 
-            if (reelsFeed) {
-                reelsFeed.remove();
-            }
+            // if (reelsFeed) {
+            //     reelsFeed.remove();
+            // }
         }
 
         
