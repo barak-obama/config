@@ -1,6 +1,6 @@
-if (window.location.hostname === "www.m.facebook.com") {
+if (window.location.hostname === "m.facebook.com") {
 
-    if (window.location.pathname.contains("/reel")) {
+    if (window.location.pathname.includes("/reel")) {
                 window.location.pathname = "/";
         //         // const reelsFeed = document.querySelector(reelsFeedSelector);
     
