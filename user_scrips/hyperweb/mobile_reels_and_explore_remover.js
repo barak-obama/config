@@ -17,7 +17,7 @@ if (window.location.hostname === "www.instagram.com") {
             reelsButton.remove()
         }
 
-        if (window.location.pathname.contains("/reels/")) {
+        if (window.location.pathname.includes("/reels/")) {
             window.location.pathname = "/";
             // const reelsFeed = document.querySelector(reelsFeedSelector);
 
