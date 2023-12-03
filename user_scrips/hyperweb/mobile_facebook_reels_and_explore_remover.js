@@ -1,5 +1,5 @@
 if (window.location.hostname === "m.facebook.com") {
-
+    console.log("in reels")
     if (window.location.pathname.includes("/reel")) {
                 window.location.pathname = "/";
         //         // const reelsFeed = document.querySelector(reelsFeedSelector);
