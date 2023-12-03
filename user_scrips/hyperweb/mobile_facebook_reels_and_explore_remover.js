@@ -1,4 +1,4 @@
-if (window.location.hostname === "www.facebook.com") {
+if (window.location.hostname === "www.m.facebook.com") {
 
     if (window.location.pathname.contains("/reel")) {
                 window.location.pathname = "/";
