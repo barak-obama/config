@@ -1,7 +1,7 @@
 if (window.location.hostname === "m.facebook.com") {
 
     const reels_observer = new MutationObserver((mutations, obs) => {
-        const reelsButton = document.querySelector(reelsButtonSelector);
+        console.log("test")
 
         
         if (window.location.pathname.includes("/reel")) {
@@ -16,7 +16,5 @@ if (window.location.hostname === "m.facebook.com") {
         childList: true,
         subtree: true
     });
-
-
-
+    
 }
