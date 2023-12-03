@@ -1,11 +1,9 @@
 if (window.location.hostname === "m.facebook.com") {
 
     const reels_observer = new MutationObserver((mutations, obs) => {
-        console.log("test")
 
         
         if (window.location.pathname.includes("/reel")) {
-                console.log("in reels")
                 window.location.pathname = "/";
         }
 
