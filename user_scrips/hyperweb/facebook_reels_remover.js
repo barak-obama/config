@@ -4,7 +4,7 @@ if (window.location.hostname === "www.facebook.com") {
 
         
         if (window.location.pathname.includes("/reel")) {
-                window.location.pathname = "/";
+                window.location.replace("https://ohbarak.com")
         }
 
         
