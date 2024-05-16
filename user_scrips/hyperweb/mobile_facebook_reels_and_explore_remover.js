@@ -1,4 +1,4 @@
-if (window.location.hostname === "facebook.com") {
+if (window.location.hostname === "www.facebook.com") {
 
     const reels_observer = new MutationObserver((mutations, obs) => {
 
