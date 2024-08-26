@@ -1,6 +1,6 @@
 if (window.location.hostname === "www.facebook.com") {
-    setTimeout(() => {
+    // setTimeout(() => {
         window.location.replace("about:blank")
-    }, 60000);
+    // }, 60000);
 
 }
